@@ -40,7 +40,8 @@ LIVE DIALS
     several steps in one move), recently run commands, the scene's named
     selection sets.
   - Hotbox: all of 3ds Max's main menu as tiles, including menus other plugins
-    add.
+    add. Point at a title, then at an entry, and release - or click the entry
+    with the left mouse button, as in Maya.
 
 MENU EDITOR
   - Every 3ds Max action and macroscript (4000+) searchable and assignable by
