@@ -1,0 +1,19 @@
+name: Question
+description: How do I...? Something unclear in the documentation?
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: The [QuickStart](https://github.com/looki666/MarkingForge/blob/main/docs/MarkingForge_QuickStart.pdf) and the [Reference](https://github.com/looki666/MarkingForge/blob/main/docs/MarkingForge_Reference.pdf) answer most questions.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: MarkingForge and 3ds Max versions
+      placeholder: "MarkingForge 1.0.0, 3ds Max 2027"

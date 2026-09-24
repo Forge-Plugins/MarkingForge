@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation (QuickStart, Guide, Reference)
+    url: https://github.com/looki666/MarkingForge#documentation
+    about: Most questions are answered in the QuickStart and the Reference - "Problems and solutions" is chapter 17.
+  - name: Private support by e-mail (forgeplugins@gmail.com)
+    url: https://github.com/looki666/MarkingForge#reporting-a-bug-or-asking-for-a-feature
+    about: For licence or purchase matters, or anything you would rather not post publicly.
