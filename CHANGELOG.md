@@ -83,7 +83,9 @@ HELP AND SUPPORT
   - MarkingForge > Report a bug... copies the 3ds Max and plugin details to the
     clipboard and opens an e-mail; works even when the plugin failed to load.
   - MarkingForge > Suggest a feature... for ideas and requests.
-  - Support, bug reports and feature requests: forgeplugins@gmail.com
+  - Bug reports and feature requests: https://github.com/looki666/MarkingForge/issues
+    (forms that ask for exactly what is needed); support by e-mail:
+    forgeplugins@gmail.com
 
 EXPERIMENTAL FEATURES (switch on in the editor or the MarkingForge menu)
   - On by default: multiple picks in one gesture (a chain run as one undo),
