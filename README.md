@@ -1,6 +1,6 @@
 # MarkingForge
 
-**Marking menus for Autodesk 3ds Max 2027.** Hold a key, flick the mouse, done.
+**Marking menus for Autodesk 3ds Max 2024-27.** Hold a key, flick the mouse, done.
 
 ![The dial follows the sub-object level](images/MarkingForge_context.gif)
 
