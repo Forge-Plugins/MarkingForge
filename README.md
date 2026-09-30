@@ -64,7 +64,7 @@ public issue; send those by e-mail.
 
 ## Author
 
-More plugins by the author: https://www.artstation.com/loki
+More plugins by the author: https://forgeplugins.tech
 
 MarkingForge and its documentation are (c) the author, all rights reserved.
 Autodesk and 3ds Max are registered trademarks of Autodesk, Inc. MarkingForge is not
