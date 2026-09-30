@@ -2,6 +2,14 @@
 
 **Marking menus for Autodesk 3ds Max 2025-2027.** Hold a key, flick the mouse, done.
 
+> [!IMPORTANT]
+> $${\color{red}\textsf{REAL MARKING MENUS - A QUICK GESTURE NEEDS NO DIAL}}$$
+>
+> The command is chosen by the **direction** of the movement, not by clicking an item.
+> Press the key and flick the mouse towards the command in one quick movement - the
+> command runs and **the dial is not even drawn**. The dial appears only when you hold
+> the key and wait, to remind you where things are.
+
 ![The dial follows the sub-object level](images/MarkingForge_context.gif)
 
 MarkingForge brings marking menus - the radial menus Maya users know - to 3ds Max.
