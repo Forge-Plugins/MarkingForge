@@ -4,6 +4,27 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.1 - maintenance
+-------------------------------------------------------------------------------
+  - Editor 0.7.2: controls wrap when panes narrow; long contents remain scrollable.
+  - Printable cheat sheets use saved menus and freshly exported keyboard bindings,
+    include all keys and assigned mouse buttons, and identify unsaved editor changes.
+  - Hotbox and search commands leave your selection alone; only dial entries act
+    on the object under the cursor.
+  - Shortcuts: "Set shortcut..." opens a small window - press the keys there.
+    Shift combinations work, Backspace removes the shortcut, and neither the
+    dials nor 3ds Max react to the keys while it is open, so a key that already
+    opens a dial can be recorded; it moves to the dial you are editing.
+  - Detect configuration changes made while the editor or chain dialog is open.
+  - Reject stale shortcut exports and preserve unrelated shortcut records.
+  - Preserve context predicates and explicit per-dial colours; Cancel discards edits.
+  - Taps and the Hotbox follow the same context variants as the dials.
+  - Correct search cancellation, value state, list picks and command history.
+  - Preserve complete menu structure when saving menus into a scene.
+  - Handle installer copy exceptions through rollback and protect studio settings.
+  - Reject malformed action table IDs and unsupported nested context rules.
+  - Read current caddy diagnostics and preserve unreadable usage statistics.
+
 1.0.0 - first release
 -------------------------------------------------------------------------------
 Marking menus, a hotbox and gesture sliders for Autodesk 3ds Max 2027.
@@ -95,8 +116,9 @@ EXPERIMENTAL FEATURES (switch on in the editor or the MarkingForge menu)
   - Off by default: value sliders, type-to-search, menus carried by scenes.
 
 KNOWN LIMITATIONS
-  - Each 3ds Max version has its own download: MarkingForge is available for
-    3ds Max 2025-2027; 3ds Max 2024 and earlier may follow if enough users ask.
+  - This download is for 3ds Max 2027. MarkingForge is available for 3ds Max
+    2025-2027, each version with its own download; 3ds Max 2024 and earlier
+    may follow if enough users ask for them.
   - A mouse binding requires a modifier key (a bare button would take the button
     away from 3ds Max). 3ds Max uses several modifier + button combinations for
     navigation and quad menus - choose a free one.
