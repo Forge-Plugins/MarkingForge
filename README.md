@@ -46,7 +46,7 @@ Release notes: [CHANGELOG.md](CHANGELOG.md)
 
 ## Requirements
 
-Autodesk 3ds Max 2027, Windows 10/11 64-bit.
+Autodesk 3ds Max 2024-27, Windows 10/11 64-bit.
 
 ## Reporting a bug or asking for a feature
 
