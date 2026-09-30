@@ -95,7 +95,8 @@ EXPERIMENTAL FEATURES (switch on in the editor or the MarkingForge menu)
   - Off by default: value sliders, type-to-search, menus carried by scenes.
 
 KNOWN LIMITATIONS
-  - 3ds Max 2027 only. Other versions need their own build.
+  - Each 3ds Max version has its own download: MarkingForge is available for
+    3ds Max 2025-2027; 3ds Max 2024 and earlier may follow if enough users ask.
   - A mouse binding requires a modifier key (a bare button would take the button
     away from 3ds Max). 3ds Max uses several modifier + button combinations for
     navigation and quad menus - choose a free one.

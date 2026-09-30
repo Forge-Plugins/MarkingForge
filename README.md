@@ -1,6 +1,6 @@
 # MarkingForge
 
-**Marking menus for Autodesk 3ds Max 2024-27.** Hold a key, flick the mouse, done.
+**Marking menus for Autodesk 3ds Max 2025-2027.** Hold a key, flick the mouse, done.
 
 ![The dial follows the sub-object level](images/MarkingForge_context.gif)
 
@@ -46,7 +46,8 @@ Release notes: [CHANGELOG.md](CHANGELOG.md)
 
 ## Requirements
 
-Autodesk 3ds Max 2024-27, Windows 10/11 64-bit.
+Autodesk 3ds Max 2025, 2026 or 2027, Windows 10/11 64-bit. Each 3ds Max version has its own
+download; 3ds Max 2024 and earlier may follow if enough users ask for them.
 
 ## Reporting a bug or asking for a feature
 
