@@ -4,6 +4,23 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.8 - a script library and an easier editor
+-------------------------------------------------------------------------------
+  - Script library: "Script library..." under the directions and under the
+    list offers 25 ready-made scripts - pivot to bottom, drop to the ground,
+    reset XForm, select n-gons, select holes, weld close vertices, auto smooth,
+    smoothing on/off, grey clay material, see-through, copy and paste
+    transform and more. Each one was run in 3ds Max on a test scene before it
+    went into the list; pick one and it goes on the dial with its caption.
+  - The editor's panes have their own colours - the dials, the dial's
+    contents, the list under it and the catalogue no longer run into one.
+  - The button under the directions says "Edit script..." when the direction
+    already runs a script, as the list's bar does.
+  - The list's buttons sit in two rows, as the directions' do: what is in the
+    list above, editing the selected row below.
+  - New document: the Editor Guide - your first dial from an empty slot, and
+    every part of the editor step by step.
+
 1.0.7 - the centre always cancels
 -------------------------------------------------------------------------------
   - Releasing at the very centre of the dial (the small dot) always cancels,

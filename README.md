@@ -42,7 +42,8 @@ The plugin itself is sold separately; there is no source code here.
 
 | Document | What it covers |
 |---|---|
-| [QuickStart](docs/MarkingForge_QuickStart.pdf) | 17 tutorials and five tricks - start here |
+| [QuickStart](docs/MarkingForge_QuickStart.pdf) | 18 tutorials and five tricks - start here |
+| [Editor Guide](docs/MarkingForge_Editor_Guide.pdf) | your first dial and every part of the menu editor, step by step |
 | [Installation and Configuration Guide](docs/MarkingForge_Installation_Guide.pdf) | installing, updating, shortcuts, the 24 dials |
 | [Reference](docs/MarkingForge_Reference.pdf) | every option, gesture and command; tips; problems and solutions |
 | [Shortcut Card](docs/MarkingForge_Shortcut_Card.pdf) | the 24 dials on one printable page |
