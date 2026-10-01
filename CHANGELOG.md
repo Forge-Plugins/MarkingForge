@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.5 - clean exit, quick gestures counted, two dial entries fixed
+-------------------------------------------------------------------------------
+  - Closing 3ds Max no longer ends in an error. At exit MarkingForge touched its
+    dial window after 3ds Max had already destroyed it, and Windows stopped the
+    process on the spot - without a message, but also without the rest of the
+    shutdown, so plugins stopped after MarkingForge never got to finish.
+  - Quick gestures count in the editor's "Usage" column. Only held dials were
+    counted before, so the column missed the way a marking menu is used most.
+  - "-> Editable Spline" works on a Line. A Line used to stay a Line; it is now
+    converted like every other shape.
+  - "+ Normalize Spline" adds the current Normalize Spline modifier. The old one
+    it asked for can no longer be created, so the entry failed with an error.
+
 1.0.4 - a flick does what the dial shows
 -------------------------------------------------------------------------------
   - A quick gesture (and a tap) reads its context where it BEGAN: the variant,
