@@ -4,6 +4,20 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.7 - the centre always cancels
+-------------------------------------------------------------------------------
+  - Releasing at the very centre of the dial (the small dot) always cancels,
+    also when several picks wait in a queue. Before, going a little past the
+    ring and back to the centre to give up queued that command, the centre
+    turned green and the release ran it.
+  - "Multiple picks in one gesture" is off by default. Switch it on in
+    MarkingForge > Experimental features; the queue then runs from the dashed
+    circle round the centre, and the dot in the middle still cancels.
+  - Settings... on a script item takes a second version "with parameters" -
+    the command with its caddy, say. An ordinary release runs one of the two
+    and releasing past the ring runs the other, as for 3ds Max's commands.
+    Scripts that have one are marked "[+ with parameters]" in the editor.
+
 1.0.6 - the list under the dial can be edited
 -------------------------------------------------------------------------------
   - A row of the list under the dial is edited like a direction: select it and
