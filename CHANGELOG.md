@@ -4,6 +4,55 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.4 - a flick does what the dial shows
+-------------------------------------------------------------------------------
+  - A quick gesture (and a tap) reads its context where it BEGAN: the variant,
+    the window and the object under the cursor are those at the moment the key
+    was pressed - exactly what the held dial would have shown. Before, they were
+    read where the flick ended, so a flick from an object into empty space, or
+    onto another object, could pick another variant and act on another object.
+  - While the command of a quick gesture opens a window, another dial does not
+    start inside it - as for every other way of running a command.
+
+1.0.3 - hotbox follows the menu bar
+-------------------------------------------------------------------------------
+  - The hotbox follows 3ds Max's menu bar: a menu added after start-up (by a
+    plugin, a script or a workspace change) shows up without restarting
+    3ds Max. A hotbox open while 3ds Max rebuilds its menus closes safely.
+  - The hotbox opens faster: entry widths are measured once per menu change,
+    not at every opening.
+
+1.0.2 - final review
+-------------------------------------------------------------------------------
+  - Pinned dial: Enter or a click no longer runs a second command when the
+    dial's key is still held afterwards.
+  - Releasing over a submenu tile or a broken (red) entry is a cancel: the
+    selection is no longer changed and no empty undo entry is left.
+  - Selecting the object under the cursor is part of undo. The Undo and
+    Selection-sets dials no longer select it first.
+  - Context rules that count the selection ("one", "many") treat the object
+    under the cursor as the selection it is about to become.
+  - Hotbox: an open list is no longer replaced by another menu when the cursor
+    crosses a title lying under it; a submenu row is no longer a click target
+    that closes the hotbox.
+  - Lists under a dial: lower rows no longer flip the settings choice, the
+    centre is not painted as "cancel" while a row is lit, and a list made
+    longer in the editor is no longer clipped inside a submenu.
+  - Shortcuts: Apply keeps extra keys a dial has in 3ds Max's Hotkey Editor,
+    keys are compared regardless of modifier order, unapplied shortcuts are
+    offered for applying on close, Undo restores into the active shortcut
+    file, and a missing shortcut file is detected instead of wiping your
+    other shortcuts.
+  - Editor: editing a script or value item keeps its colours and settings;
+    loading a preset says it replaces the default menu; changing a shortcut
+    keeps you in the variant or submenu you were editing.
+  - Type-to-search runs outside the keyboard hook; the "Set shortcut" key
+    capture stops safely in every case.
+  - Uninstalling: the guidance keeps the folder with your shortcut file; a
+    file in use is renamed so 3ds Max does not load it. Studio deployment
+    checks the layout before installing and restores the previous version
+    reliably.
+
 1.0.1 - maintenance
 -------------------------------------------------------------------------------
   - Editor 0.7.2: controls wrap when panes narrow; long contents remain scrollable.
