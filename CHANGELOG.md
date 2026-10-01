@@ -4,6 +4,43 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.9 - sets of one dial, a bigger centre, submenus
+-------------------------------------------------------------------------------
+  - Sets: one dial can keep several named contents - "Modelling", "UV",
+    "Retopo" - and switch between them in place. In the editor: "Sets of
+    this dial" under the slot list (New set..., Show this set, Rename...,
+    Delete set). On the dial: "Add 'Next set >' to the dial" puts a row that
+    switches to the next set. Under a key: Customize > Hotkey Editor,
+    category MarkingForge, "Menu 1 - next set" ... "Menu 24 - next set".
+  - One dial in a file: "Save dial..." and "Load dial..." save and load a
+    single dial (.mfdial) - as a new set or in place of what it shows.
+    Scripts in a file from somebody else are removed unless you keep them.
+  - The editor draws the dial you are editing beside the form. Click a wedge
+    to select that direction; double-click a submenu to step inside.
+  - New dial wizard: which dial, eight commands typed by name (3ds Max
+    commands and the ready-made scripts), done - as a new set, so what the
+    dial showed is kept.
+  - "From a template..." next to "Add a variant..." adds any context variant
+    of the built-in dials - Editable Poly and Edit Poly by level, splines,
+    cameras, lights - with its condition.
+  - The centre that cancels is twice as large (36 px instead of 18).
+  - The dotted settings rim sits 30 px beyond the farthest caption instead of
+    at the edge of the window, so a short move past the captions reaches it.
+  - Dial keys stopped working after some work in panels and menus until the
+    viewport was clicked: 3ds Max's menu bar had taken the keyboard after a
+    lone Alt. MarkingForge now disarms that while a dial is open and hands
+    the keyboard back when the menu bar takes it right after a dial key.
+    Diagnostics > Event log shows such moves as FOCUS lines.
+  - More submenus in the built-in dials: Create (Alt+3) has Shapes, More
+    primitives, Helpers and Cameras and lights; Modifiers (Ctrl+Alt+2) has
+    Deform and Geometry; Modelling with nothing selected has Shapes and More
+    primitives. Dials you already have are not changed - "Load default
+    dials..." brings the new ones in.
+  - The editor opens larger (most of the screen) instead of at its minimum.
+  - A 3ds Max command put on a direction without a caption of its own showed
+    its keyboard-underline mark - "Select &None". The dial, the search, the
+    recent-commands dial and the editor's catalogue now show "Select None".
+
 1.0.8 - a script library and an easier editor
 -------------------------------------------------------------------------------
   - Script library: "Script library..." under the directions and under the

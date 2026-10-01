@@ -28,7 +28,12 @@ The plugin itself is sold separately; there is no source code here.
 - **Hotbox** with every 3ds Max menu, including other plugins' menus
 - **Live dials**: modifier stack, undo by name, recent commands, selection sets
 - **Menu editor** for 4000+ 3ds Max commands, your own scripts, sliders, colours,
-  keyboard shortcuts and mouse buttons
+  keyboard shortcuts and mouse buttons - with a live drawing of the dial, a new-dial
+  wizard and ready-made context variants
+- **Submenus** - a whole dial behind one direction (Create: Shapes, Primitives, Helpers,
+  Cameras and lights; Modifiers: Deform, Geometry)
+- **Sets** - several named contents on one dial (Modelling, UV, Retopo...), switched
+  from the dial itself or with a key
 - Presets and four ready packs (Modelling, Animation, Look-dev, Archviz)
 - Native C++ - about 3 ms to the first pixel. No internet connection, no telemetry
 
@@ -42,7 +47,7 @@ The plugin itself is sold separately; there is no source code here.
 
 | Document | What it covers |
 |---|---|
-| [QuickStart](docs/MarkingForge_QuickStart.pdf) | 18 tutorials and five tricks - start here |
+| [QuickStart](docs/MarkingForge_QuickStart.pdf) | 20 tutorials and five tricks - start here |
 | [Editor Guide](docs/MarkingForge_Editor_Guide.pdf) | your first dial and every part of the menu editor, step by step |
 | [Installation and Configuration Guide](docs/MarkingForge_Installation_Guide.pdf) | installing, updating, shortcuts, the 24 dials |
 | [Reference](docs/MarkingForge_Reference.pdf) | every option, gesture and command; tips; problems and solutions |
