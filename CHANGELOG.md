@@ -4,6 +4,15 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.0.6 - the list under the dial can be edited
+-------------------------------------------------------------------------------
+  - A row of the list under the dial is edited like a direction: select it and
+    use "Change label...", "Edit script...", "Settings..." or "Colour..." in
+    the list's own bar. Before, a row could only be added, removed and moved.
+  - "Add a script..." adds a row that runs your own MAXScript, and asks for its
+    caption at once - rows are read, so a caption says what a row does.
+  - A row's colour dialog offers only the caption colour: a row has no tile.
+
 1.0.5 - clean exit, quick gestures counted, two dial entries fixed
 -------------------------------------------------------------------------------
   - Closing 3ds Max no longer ends in an error. At exit MarkingForge touched its
