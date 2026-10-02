@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.2.2 - muted editor colours
+-------------------------------------------------------------------------------
+  - The menu editor's panes no longer sit on a wash of their colour. Over
+    3ds Max's dark grey the green and amber washes read as faded olive and
+    mustard, and the text on them was hard to read. Every pane now stands on
+    the same neutral grey; its colour - muted slate blue, lavender, sand and
+    clay - is on the bar along its top edge, its frame and its title.
+  - The Editor Guide's colour swatches are read from the editor itself, so the
+    guide and the window cannot show different colours again.
+
 1.2.1 - adding a set keeps the key
 -------------------------------------------------------------------------------
   - Adding a set to a dial - "Add as a new set" in the dial library, the new
