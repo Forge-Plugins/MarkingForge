@@ -4,6 +4,18 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.1 - more colour presets
+-------------------------------------------------------------------------------
+  - Eight more ready-made looks for the dials - Indigo, Twilight, Steel,
+    Crimson, Copper, Gold, and two with light tiles and dark text, Ice and
+    Lavender - eighteen in all.
+  - Six more starting points for the editor's own colours - Charcoal, Steel
+    blue, Indigo night, Mocha, Rose dust and Nord - fourteen in all.
+  - Every ready-made look is checked for readable text: a caption against its
+    tile, list text against its row, table text against its ground.
+  - A short video of the colours - every page of a dial in its own preset,
+    the colour editor and the editor's own looks - is in the store kit.
+
 1.4.0 - colour presets, and colours for each page of a dial
 -------------------------------------------------------------------------------
   - Colours... (the dials' palette) has PRESETS: ten ready-made looks -
