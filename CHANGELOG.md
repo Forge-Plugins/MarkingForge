@@ -4,6 +4,20 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.2 - thirty dial looks, twenty-two editor looks
+-------------------------------------------------------------------------------
+  - Twelve more ready-made looks for the dials - Sapphire, Amethyst, Magenta,
+    Coral, Sunset, Amber, Ruby, Storm, Carbon, Neon, and two with light
+    tiles, Snow and Peach - thirty in all.
+  - Eight more for the editor's own colours - Sapphire, Amethyst, Carbon,
+    Storm, Burgundy, Slate grey, Dusk and Espresso - twenty-two in all.
+  - The looks with light tiles keep two things readable that were not: the
+    caption of a broken entry (now light on its red tile, as in the plugin's
+    own look) and a toggle that is on (a darker shade of the tile instead of
+    dark green under dark text).
+  - A catalogue of every dial look on one picture - in the Editor Guide and
+    in the store kit (images/09_dial_looks.png).
+
 1.4.1 - more colour presets
 -------------------------------------------------------------------------------
   - Eight more ready-made looks for the dials - Indigo, Twilight, Steel,
