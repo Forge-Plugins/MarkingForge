@@ -4,6 +4,25 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.0 - colour presets, and colours for each page of a dial
+-------------------------------------------------------------------------------
+  - Colours... (the dials' palette) has PRESETS: ten ready-made looks -
+    Graphite, Slate, Ocean, Violet, Rose, Ember, Mono, Sand with light tiles,
+    High contrast and the default - and your own: "Presets > Save these
+    colours as a preset...", Delete, and Export / Import of one preset as a
+    .mfcolors file to take it to another computer.
+  - A preset goes where you choose: every dial, one dial, or - for a dial with
+    sets - every page of it or each page on its own (the sets the mouse wheel
+    turns). A page's colours travel with it when it goes on the key.
+  - A dial's own colours now reach its context variants and its submenus.
+    Until now they stopped at the dial's base menu: "Poly: polygon" or a
+    submenu came back in the colours of every dial.
+  - Editor colours... has five more starting points (Graphite, Midnight blue,
+    Warm sepia, Plum, Ocean) and your own presets, the same way.
+  - MARKINGFORGE_CONFIG_DIR: when this environment variable names a folder
+    that exists, 3ds Max reads and writes the dials there instead of in its
+    plug-in configuration folder - for a test copy or a prepared studio set.
+
 1.3.0 - the editor's own colours
 -------------------------------------------------------------------------------
   - "Editor colours..." in the menu editor's bottom bar colours the editor's
