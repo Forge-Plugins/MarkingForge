@@ -4,6 +4,65 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.3 - a brighter "Broken", and review fixes
+-------------------------------------------------------------------------------
+  The caption of a broken entry ("Broken")
+  - It is BRIGHTER on dark tiles - the plugin's own look and all 25 dark
+    ready-made looks. It was a dim salmon at 80 % opacity, the faintest
+    caption on the dial (5:1 against its tile in Slate); it is now a light
+    red at 96 %, at least 7:1 in every dark look, and still red.
+  - On the light-tile looks it stays dark red - a light caption would vanish
+    on a light tile. The 1.4.2 change that made it light there is undone: it
+    was readable only on the red "aimed" tile, and an entry not aimed at
+    sits on the light one.
+  - The colour editor's preview put every broken entry on the red "aimed"
+    tile. It now draws it as the plugin does - red only when aimed.
+  - Every ready-made look is now checked on the pairs the plugin really
+    draws, including the pointed list row and the hotbox.
+
+  And a careful review of everything since 1.2.0 - the wheel that turns
+  pages, the colours of each page and the presets. What it found, and what
+  was done about it:
+
+  The dials (the plugin)
+  - Turning to a page with a WIDER caption left the dial invisible for the
+    rest of the gesture, while releasing still ran the direction aimed at.
+    The dial now stays on screen.
+  - The wheel was held back from 3ds Max even when it could not turn a page
+    (in a submenu, while a dial waited pinned, in search): the viewport's
+    zoom did nothing. It is now taken only when it turns a page.
+  - A fine wheel or a touchpad turned a page for every small step; it now
+    turns one page per notch.
+  - A page turn chose the dial's context variant at the moved cursor instead
+    of where the gesture began - it could jump to another variant.
+  - A quick second gesture could lose its page to the reset of the one
+    before; a dial built live from 3ds Max now wears its dial's colours.
+  - MARKINGFORGE_CONFIG_DIR: quotes are taken off, a relative path or a
+    folder that does not exist is refused, and Diagnostics > Configuration
+    status says which folder is in use and why.
+
+  The editor
+  - Colours... wrote back EVERY page that had been only looked at: choosing
+    "every page" to look and then changing a global colour gave all pages
+    the same colours, and a page painted before looking at another lost its
+    paint. Only what was edited is written now.
+  - Renaming the set whose tab was open sent the next edits to the set on
+    the key; deleting it, or "Back to the default menu", left a stale tab.
+    "Back to the default menu" also did not count as a change - closing
+    without Save asked nothing and the deletion was lost.
+  - The sets list shows the open tab's set, so Save dial, Rename and Delete
+    act on the set you are looking at.
+  - A colour preset file that cannot be read is left as it is and said so -
+    the next Save used to replace every preset in it. Importing a preset
+    with a name you already have keeps both ("Mine (2)"). A failed export is
+    said, not only written to the Listener. An opaque colour in a preset of
+    your own stays opaque.
+  - A page the file names but does not hold no longer breaks Colours...;
+    "Save every dial" writes "UV" and "uv" to two files.
+
+  - The Reference Manual lists all the editor's ready-made looks (it said
+    "two starting points"); the package check looks for every editor module.
+
 1.4.2 - thirty dial looks, twenty-two editor looks
 -------------------------------------------------------------------------------
   - Twelve more ready-made looks for the dials - Sapphire, Amethyst, Magenta,
