@@ -32,7 +32,8 @@ The plugin itself is sold separately; there is no source code here.
   wizard and ready-made context variants
 - **Submenus** - a whole dial behind one direction (Create: Shapes, Primitives, Helpers,
   Cameras and lights; Modifiers: Deform, Geometry)
-- **Sets** - several named contents on one dial (Modelling, UV, Retopo...), switched
+- **Sets** - several named contents on one dial (Modelling, UV, Retopo...): pages you
+  turn with the mouse wheel while the dial is open, tabs in the editor, and a switch
   from the dial itself or with a key
 - **Dial library** - every dial as a file of its own: restore an original in one click,
   or add one of 8 extra dials (mesh cleanup, retopology, pivots, cloning, smoothing,

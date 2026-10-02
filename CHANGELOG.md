@@ -4,6 +4,27 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.2.1 - adding a set keeps the key
+-------------------------------------------------------------------------------
+  - Adding a set to a dial - "Add as a new set" in the dial library, the new
+    dial wizard, "Load dial..." or "New set..." - no longer changes what the
+    key opens. Until now the new set went on the key at once: adding "Build"
+    to Menu 1 made Alt+1 open Build instead of Modelling, although the button
+    promised to keep what the dial showed. The new set is the dial's next page
+    (the mouse wheel on the open dial) and its tab opens in the editor; "Put
+    this set on the key" moves it to the key when you want that.
+
+1.2.0 - the pages of a dial: the mouse wheel and tabs
+-------------------------------------------------------------------------------
+  - A dial with sets has PAGES. Hold its key and turn the mouse wheel: the
+    dial shows its next set (towards you) or the previous one, at the same
+    place; release over a command to run it. The next press opens the set on
+    the key again. The footer says "page 2 of 3 - mouse wheel". The wheel is
+    taken only while such a dial is open - zooming and scrolling are as before.
+  - In the editor the sets of a dial are tabs over its contents. Click a tab
+    to see and edit that set; the key keeps opening the set marked "on the
+    key" until "Put this set on the key".
+
 1.1.0 - every dial as a file, extra dials, keys from the first start
 -------------------------------------------------------------------------------
   - Keyboard shortcuts from the first start, however MarkingForge was
