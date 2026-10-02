@@ -4,6 +4,32 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.1.0 - every dial as a file, extra dials, keys from the first start
+-------------------------------------------------------------------------------
+  - Keyboard shortcuts from the first start, however MarkingForge was
+    installed: when no dial has a key yet, the first start gives each its
+    standard key (Alt / Ctrl+Alt / Shift+Alt + 1..8), skipping keys used by
+    something else. Until now only the installer's tick box did this - a
+    copied folder or a studio installation left every dial without a key.
+    The tick box cleared now tells the first start to leave the keys alone;
+    the studio script has -NoShortcuts for the same.
+  - The dial library: every dial as a .mfdial file of its own - the 24
+    built-in dials as shipped, 8 new extra dials and the 15 dials of the
+    preset packs - in the plugin's "dials" folder and in "Dials" in the
+    download. "Dial library..." in the editor puts one on a dial, adds it as
+    a new set, or restores the original of a dial you changed in one click.
+  - Eight extra dials: Mesh cleanup, Pivot and placement, Clone and
+    instance, Smoothing and subdivision, Retopology, Quick look, Links and
+    helpers (rigging) and Build (walls, doors, windows, stairs, railings,
+    foliage).
+  - "Save every dial..." in the editor writes each of the 24 dials - and every
+    other set of a dial - to a file of its own in a new dated folder.
+  - In 3ds Max 2025 and 2026, "Smart Bevel" showed as a missing command (red)
+    on the Modifiers dial and in the Modelling pack: that modifier exists in
+    3ds Max 2027 only. It is replaced by Quadify Mesh (Modifiers > Geometry)
+    and Slice (the pack). Every command of every built-in, extra and pack dial
+    was checked in 3ds Max 2025, 2026 and 2027.
+
 1.0.9 - sets of one dial, a bigger centre, submenus
 -------------------------------------------------------------------------------
   - Sets: one dial can keep several named contents - "Modelling", "UV",

@@ -34,6 +34,10 @@ The plugin itself is sold separately; there is no source code here.
   Cameras and lights; Modifiers: Deform, Geometry)
 - **Sets** - several named contents on one dial (Modelling, UV, Retopo...), switched
   from the dial itself or with a key
+- **Dial library** - every dial as a file of its own: restore an original in one click,
+  or add one of 8 extra dials (mesh cleanup, retopology, pivots, cloning, smoothing,
+  quick look, rigging, archviz) and the preset packs' dials
+- Keyboard shortcuts ready from the first start, however it was installed
 - Presets and four ready packs (Modelling, Animation, Look-dev, Archviz)
 - Native C++ - about 3 ms to the first pixel. No internet connection, no telemetry
 
