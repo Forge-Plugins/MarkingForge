@@ -4,6 +4,40 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.4 - a dial always closes; 57 scripts; load every dial
+-------------------------------------------------------------------------------
+  - A dial closes when you let go, even when 3ds Max does not report it.
+    In some states 3ds Max switches its shortcuts off - measured after
+    starting a Text object, when its own shortcuts stop too - and a dial
+    opened just before could stay on screen after the key came up, with
+    every other dial key doing nothing. MarkingForge now watches the key
+    itself: up for a quarter of a second without word from 3ds Max, and the
+    dial closes exactly as a release would have closed it.
+    MarkingForge.eventLog() shows RELEASE_LOST when that happens.
+  - The script library has 57 scripts - 32 new, in two new groups:
+      Objects and pivots: pivot aligned to world, pivot to world origin,
+        centre on the origin, attach to the first, split into elements.
+      Topology: select faces facing up / down, cap holes, flip normals,
+        clear smoothing.
+      Modifiers: + Shell, + Symmetry, + Chamfer, + Edit Poly, + FFD 3x3x3.
+      Materials and display: UV checker material, material = wire colour,
+        backface cull on/off.
+      Selection and transforms: select same type, select children, select
+        without material, random rotation, random scale, spread evenly
+        along X.
+      Shapes and splines: renderable on/off, close all splines, + Extrude.
+      Scene and layers: selection to a new layer, freeze selection, unfreeze
+        all, zoom to selection, size to the status bar.
+    Each was run in 3ds Max on a test scene and with nothing selected.
+  - Load every dial... puts back a whole folder made by Save every dial... -
+    what each dial showed, its sets in their order, the dials that showed
+    the default menu and the colours of every dial. Scripts from the files
+    are removed unless you keep them; a damaged file stops the whole load;
+    nothing is written until Save.
+  - Right-click a dial - in the list of dials or on its drawing - to save
+    it, load a file into it, put a library dial on it, or save or load
+    every dial.
+
 1.4.3 - a brighter "Broken", and review fixes
 -------------------------------------------------------------------------------
   The caption of a broken entry ("Broken")
