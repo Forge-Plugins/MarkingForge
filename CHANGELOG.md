@@ -4,6 +4,21 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.3.0 - the editor's own colours
+-------------------------------------------------------------------------------
+  - "Editor colours..." in the menu editor's bottom bar colours the editor's
+    window itself - not the dials: the window's ground, its text and hints,
+    each pane's colour and ground, the tables and lists (ground, every other
+    row, text, the selected row, the column headers) and every column of
+    every table on its own, text and ground. The editor changes as you pick;
+    Cancel puts back what was there. Two starting points: High contrast and
+    Calm grey.
+  - Nothing is set until you choose it: an editor with no colours of its own
+    looks exactly as before. The colours are kept in editor_colors.json
+    beside menus.json - they are not part of your dials and need no Save.
+  - Buttons, text fields, drop-down lists and check boxes keep 3ds Max's own
+    look: a colour of ours on them takes their whole style away.
+
 1.2.2 - muted editor colours
 -------------------------------------------------------------------------------
   - The menu editor's panes no longer sit on a wash of their colour. Over
