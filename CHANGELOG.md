@@ -4,6 +4,21 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.0 - five ready-made values; a QuickStart tutorial on them
+-------------------------------------------------------------------------------
+  - Value... in the menu editor offers six ready-made examples instead of
+    three: viewport field of view, time slider frame, TurboSmooth
+    iterations of the selection, uniform scale of the selection, thickness
+    of the selected splines, height of the selected object. The new ones
+    act on every selected object; each was run in 3ds Max - read, written,
+    read back - and with nothing selected (the dial shows ?, nothing is
+    written).
+  - QuickStart: tutorial 15, "Values - five gesture sliders", walks through
+    switching values on, the Value... window and five examples, each with
+    every field to type and something to try.
+  - The same release for 3ds Max 2025, 2026 and 2027 - checked file by file
+    and in each 3ds Max.
+
 1.4.9 - a submenu says where you are
 -------------------------------------------------------------------------------
   - Inside a submenu the footer under the dial shows the path - the dial's
