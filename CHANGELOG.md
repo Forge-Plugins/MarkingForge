@@ -4,6 +4,17 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.1 - a QuickStart in plain words
+-------------------------------------------------------------------------------
+  - The QuickStart is rewritten in plain words: fewer technical terms, the
+    same steps. It now also covers what changed since 1.4.5 - the viewport
+    pages of Alt+2 with a picture (tutorial 5), submenus that open in place
+    with their path under the dial (tutorials 1 and 13), the dial opening on
+    the page you used last (tutorial 20), 51 dials in the dial library
+    (tutorial 21), and new hints and troubleshooting rows.
+  - Small corrections in the Reference and the README to match.
+  - No change to how MarkingForge works.
+
 1.5.0 - five ready-made values; a QuickStart tutorial on them
 -------------------------------------------------------------------------------
   - Value... in the menu editor offers six ready-made examples instead of
