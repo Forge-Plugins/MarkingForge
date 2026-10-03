@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.4 - a second, easy QuickStart
+-------------------------------------------------------------------------------
+  - New document: MarkingForge_QuickStart_Easy.pdf - the QuickStart said
+    simply, in twelve short lessons (16 pages instead of 41): six on using
+    the dials, six on changing them in the editor, then a page of things
+    good to know and the common problems. The full QuickStart stays as it
+    was and now points to the easy one.
+  - The README lists every document again (the Editor Guide was missing).
+  - No change to how MarkingForge works.
+
 1.5.3 - the dial 25 px bigger
 -------------------------------------------------------------------------------
   - 1.5.2 made the dial too small. The wedges are 25 px longer again
