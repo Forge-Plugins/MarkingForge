@@ -4,6 +4,15 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.3 - the dial 25 px bigger
+-------------------------------------------------------------------------------
+  - 1.5.2 made the dial too small. The wedges are 25 px longer again
+    (radius 115 instead of 90; 130 up to 1.5.1). The names stay right at
+    the wedges' edge and the dotted settings rim stays 20 px past the
+    farthest name, so the rim moves out with the names.
+  - The return zone of multiple picks follows the dial: out to 92 px.
+  - The menu editor's dial drawing follows the new proportions.
+
 1.5.2 - a smaller dial; a quick gesture past the rim skips the settings
 -------------------------------------------------------------------------------
   - The dial is smaller: the wedges are 40 px shorter (radius 90 instead of
