@@ -25,15 +25,17 @@ The plugin itself is sold separately; there is no source code here.
 - 24 ready-made dials on **Alt / Ctrl+Alt / Shift+Alt + 1-8**
 - **Context-aware**: vertex, edge, border, polygon or element tools depending on the
   sub-object level - the same layout on Editable Poly and Edit Poly
-- **Hotbox** with every 3ds Max menu, including other plugins' menus
+- **The viewport on one key** (Alt+2): shading, lighting, display and views, a page each under
+  the mouse wheel - every switch on a direction or in the list under the dial
+- **Hotbox** with every 3ds Max menu, including other plugins' menus - one wheel notch away on Alt+2
 - **Live dials**: modifier stack, undo by name, recent commands, selection sets
 - **Menu editor** for 4000+ 3ds Max commands, your own scripts, sliders, colours,
   keyboard shortcuts and mouse buttons - with a live drawing of the dial, a new-dial
   wizard and ready-made context variants
-- **Script library** - 57 ready-made scripts for modelling and everyday work (attach,
-  split into elements, select faces facing up, cap holes, chamfer, UV checker, spread,
-  random rotation and scale, splines, layers...), each one tested in 3ds Max - onto a
-  dial in one click
+- **Script library** - 102 ready-made scripts for modelling and everyday work (edge loops
+  and rings, chamfer, bridge, bevel, symmetrize, greeble, unwrap, scatter onto a surface,
+  arrange and stack, three-point lights, layers by type...), each one tested in 3ds Max
+  - onto a dial in one click
 - **Submenus** - a whole dial behind one direction (Create: Shapes, Primitives, Helpers,
   Cameras and lights; Modifiers: Deform, Geometry)
 - **Sets** - several named contents on one dial (Modelling, UV, Retopo...): pages you

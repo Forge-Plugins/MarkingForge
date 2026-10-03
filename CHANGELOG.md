@@ -4,6 +4,51 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.5 - the viewport on Alt+2; the hotbox as a page; 102 scripts
+-------------------------------------------------------------------------------
+  - Alt+2 drives the viewport, on four pages turned with the mouse wheel:
+      Viewport shading (on the key): default shading, clay, facets, flat
+        colour, hidden line, bounding box, wireframe override, edged faces;
+        the seven stylized looks in the list.
+      Viewport lighting: shadows, ambient occlusion, highlights, scene or
+        default lights, shaded or realistic materials with or without
+        maps; hard or soft shadows, the selected-lights switches, textures
+        and progressive refinement in the list.
+      Viewport display: grid, safe frames, statistics, ViewCube, selection
+        brackets, shade selected faces, selected with edged faces, isolate;
+        see-through, backface cull, expert mode and hiding lights,
+        cameras, helpers, shapes or particles in the list.
+      Viewport views: top, front, left, right, perspective, orthographic,
+        camera, maximize; bottom, back, zooms, one or four viewports, the
+        field of view, undo and redo of a view change in the list.
+    Every switch 3ds Max has a command for is that command, so the dial
+    shows it checked while it is on. Each item was run in 3ds Max twice.
+  - The hotbox is the fifth page of Alt+2 - one wheel notch AWAY from you
+    when the key opens. Any hotbox can now be one of a dial's sets: the
+    wheel turns into it and back out of it. A fresh installation gets this
+    layout; an existing one keeps its own Alt+2 until "Load default dials"
+    (which now brings a dial's pages too) or the dial library. The hotbox
+    is in the dial library as a dial of its own (Extra > Menus), and the
+    three other viewport pages are under Extra > Viewport.
+  - The script library has 102 scripts - 45 new, in four new groups:
+      Modelling (advanced): select hard edges, edge loop, edge ring, a
+        random 20 % of polygons, extrude, bevel, detach, make planar, bake
+        TurboSmooth, symmetrize across the pivot, greeble, chamfer edges,
+        connect edges, delete the -X half, bridge two borders.
+      UV mapping: a 100-unit UVW box map, a capped cylindrical UVW map,
+        unwrap and flatten, copy UVs to channel 2, a 2x finer checker.
+      Layout and placement: snap to grid, arrange in a grid, stack up,
+        align bottoms, drop onto a surface, spread along a line, jitter,
+        scatter onto a surface.
+      Cameras, lights and render: camera from the view, three-point
+        lights, render size 1920 x 1080, lights on/off.
+    And more in the old groups: random colour materials, merge same-named
+    materials, the first one's material to all, wire colour from the
+    material, rename in sequence, layers by object type, select a whole
+    layer, delete empty layers, a scene report, a spline from edges,
+    lighter splines, + Lathe, renderable 2 units thick. Each was run in
+    3ds Max on a test scene and with nothing selected.
+
 1.4.4 - a dial always closes; 57 scripts; load every dial
 -------------------------------------------------------------------------------
   - A dial closes when you let go, even when 3ds Max does not report it.
