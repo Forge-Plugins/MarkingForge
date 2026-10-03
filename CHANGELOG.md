@@ -4,6 +4,13 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.9 - a submenu says where you are
+-------------------------------------------------------------------------------
+  - Inside a submenu the footer under the dial shows the path - the dial's
+    name and the tiles you went through, e.g. "Nothing selected  >  More
+    primitives". Until now a submenu had no name of its own there and the
+    footer showed MarkingForge's version number instead.
+
 1.4.8 - submenus open in place; a dial opens the page you turned to last
 -------------------------------------------------------------------------------
   - A submenu (a direction marked >, such as Shapes or More primitives on
