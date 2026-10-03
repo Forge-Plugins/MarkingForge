@@ -4,6 +4,18 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.6 - the lighting page of Alt+2 works; commands from more tables
+-------------------------------------------------------------------------------
+  - Shadows, Highlights, Ambient occlusion and hard or soft shadows on the
+    Viewport lighting page (Alt+2, one wheel notch towards you) were drawn
+    broken in 1.4.5 and did nothing. Their commands sit in a table whose
+    number 3ds Max reports as negative, and MarkingForge refused negative
+    table numbers. Found by testing the page with real mouse and keyboard
+    input.
+  - The same fix applies to any command you put on a dial from such a table
+    in the menu editor - those were broken the same way. Nothing to do: the
+    dials you already have work as they are.
+
 1.4.5 - the viewport on Alt+2; the hotbox as a page; 102 scripts
 -------------------------------------------------------------------------------
   - Alt+2 drives the viewport, on four pages turned with the mouse wheel:
