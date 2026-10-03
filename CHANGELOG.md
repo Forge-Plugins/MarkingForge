@@ -4,6 +4,17 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.5 - the easy QuickStart covers everything
+-------------------------------------------------------------------------------
+  - MarkingForge_QuickStart_Easy.pdf now teaches everything the full
+    QuickStart does - the same 22 lessons with the same numbers, the five
+    tricks, the key map, the learning plan and every problem - in plainer
+    words: shorter sentences (10.9 words on average instead of 13.5, half as
+    many over 20 words), one action per step, and each term (submenu,
+    variant, hotbox, content source, page...) explained where it first
+    appears. 1.5.4 had made it twelve lessons that left things out.
+  - No change to how MarkingForge works.
+
 1.5.4 - a second, easy QuickStart
 -------------------------------------------------------------------------------
   - New document: MarkingForge_QuickStart_Easy.pdf - the QuickStart said
