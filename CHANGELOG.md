@@ -4,6 +4,21 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.8 - submenus open in place; a dial opens the page you turned to last
+-------------------------------------------------------------------------------
+  - A submenu (a direction marked >, such as Shapes or More primitives on
+    Alt+1 with nothing selected) now opens IN PLACE: the dial stays where it
+    is and its tiles become the submenu's. Until 1.4.7 it opened as a new
+    dial further out in that direction, and coming back moved it back - the
+    dial seemed to jump one way or the other depending on the tile.
+    Move back inside the dial to pick; nothing is picked by a release made
+    while the cursor is still out where it entered. The centre of the dial
+    goes back up a level, as before.
+  - A dial with several sets opens on the page you turned to last with the
+    mouse wheel, not on the first one - also after 3ds Max restarts. The
+    page is remembered by its name (last_pages.json beside menus.json); a
+    set renamed or removed in the editor opens the first page again.
+
 1.4.7 - your shortcuts stay where 3ds Max keeps them
 -------------------------------------------------------------------------------
   - The shortcut file (hotkeys\MarkingForge_Hotkeys.hsx) now always stays in
