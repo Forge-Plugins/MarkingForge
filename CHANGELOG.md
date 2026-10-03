@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.4.7 - your shortcuts stay where 3ds Max keeps them
+-------------------------------------------------------------------------------
+  - The shortcut file (hotkeys\MarkingForge_Hotkeys.hsx) now always stays in
+    3ds Max's own plugcfg\MarkingForge folder, also when the dials are moved
+    to another folder with MARKINGFORGE_CONFIG_DIR. Until 1.4.6 it followed
+    the dials there - but 3ds Max remembers ONE active hotkey set per 3ds Max
+    version, for all its sessions, so a second 3ds Max started on a test or
+    studio folder switched the shortcuts of your own 3ds Max to that folder,
+    and once the folder was gone 3ds Max started with no shortcuts at all.
+  - Nothing to do for most users: without MARKINGFORGE_CONFIG_DIR the file was
+    always in plugcfg\MarkingForge. With the variable set, the next shortcut
+    change in the editor writes the file back to plugcfg\MarkingForge.
+
 1.4.6 - the lighting page of Alt+2 works; commands from more tables
 -------------------------------------------------------------------------------
   - Shadows, Highlights, Ambient occlusion and hard or soft shadows on the
