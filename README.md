@@ -30,6 +30,10 @@ The plugin itself is sold separately; there is no source code here.
 - **Menu editor** for 4000+ 3ds Max commands, your own scripts, sliders, colours,
   keyboard shortcuts and mouse buttons - with a live drawing of the dial, a new-dial
   wizard and ready-made context variants
+- **Script library** - 57 ready-made scripts for modelling and everyday work (attach,
+  split into elements, select faces facing up, cap holes, chamfer, UV checker, spread,
+  random rotation and scale, splines, layers...), each one tested in 3ds Max - onto a
+  dial in one click
 - **Submenus** - a whole dial behind one direction (Create: Shapes, Primitives, Helpers,
   Cameras and lights; Modifiers: Deform, Geometry)
 - **Sets** - several named contents on one dial (Modelling, UV, Retopo...): pages you
@@ -47,6 +51,13 @@ The plugin itself is sold separately; there is no source code here.
 | ![Aiming](images/MarkingForge_aim.gif) | ![Undo by name](images/MarkingForge_undo.gif) |
 | ![Several commands in one gesture](images/trick_chain.png) | ![Type to search](images/trick_search.png) |
 | ![The hotbox](images/04_hotbox.png) | ![The menu editor](images/06_editor.png) |
+
+### The script library
+
+![Ten of the library's scripts, run from a dial](images/MarkingForge_script_library.gif)
+
+The script library window, then ten of its scripts run from a dial: before, the dial
+aimed at the script, after. [The full video (MP4, 48 s, 1280x720)](images/MarkingForge_script_library_48s.mp4).
 
 ## Documentation
 
