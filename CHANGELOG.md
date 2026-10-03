@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.6 - every document up to date with 1.5.2-1.5.5
+-------------------------------------------------------------------------------
+  - The README, the Shortcut Card and the guide for Maya users now say that
+    a flick follows the settings rim too (1.5.2): a short flick opens the
+    settings window, a long one runs without it.
+  - The Reference: two new rows in the troubleshooting table - a flick that
+    always (or never) opens the settings, and Inset that "does nothing" past
+    the rim (it waits for a drag in the viewport, as its own button does).
+  - The Reference, the Editor Guide, the guide for Maya users, the Shortcut
+    Card and the store texts name the easy QuickStart; the store texts said
+    "QuickStart (20 tutorials)" - it has 22.
+  - No change to how MarkingForge works.
+
 1.5.5 - the easy QuickStart covers everything
 -------------------------------------------------------------------------------
   - MarkingForge_QuickStart_Easy.pdf now teaches everything the full
