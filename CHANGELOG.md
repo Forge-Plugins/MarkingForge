@@ -4,6 +4,24 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.2 - a smaller dial; a quick gesture past the rim skips the settings
+-------------------------------------------------------------------------------
+  - The dial is smaller: the wedges are 40 px shorter (radius 90 instead of
+    130), the names sit right at the wedges' outer edge (4 px instead of
+    14), and the dotted settings rim lies 20 px past the farthest name
+    instead of 30. On a typical dial the rim is about a third smaller.
+  - A quick gesture (a flick with no dial shown) now measures how far the
+    hand went. Past the place where the dial would draw its dotted rim it
+    counts as a release past the rim - so a long flick at Extrude or Bevel
+    runs it WITHOUT the settings window, a short one with it, exactly as
+    the same movement does on the shown dial. Up to 1.5.1 every flick
+    counted as a short one and always opened the settings.
+  - The menu editor's dial drawing follows the new proportions.
+  - QuickStart, tutorial 4, corrected: past the rim Inset, Extrude and Bevel
+    start WITHOUT the window as their Modify-panel button does - drag in the
+    viewport to set the amount. It said they run at once with the last
+    values; 3ds Max's own Inset macro (EPoly_Inset) toggles the drag mode.
+
 1.5.1 - a QuickStart in plain words
 -------------------------------------------------------------------------------
   - The QuickStart is rewritten in plain words: fewer technical terms, the
