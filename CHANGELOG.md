@@ -4,6 +4,45 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.8 - two fixes after the 1.5.7 review (2026-10-04)
+-------------------------------------------------------------------------------
+  - Save last chain as an item works again for a chain released over a
+    submenu tile (or a broken entry): 1.5.7 wrote the chain down before
+    leaving that tile out, so nothing could be saved.
+  - Recent commands (Alt+8) are no longer cleared when 3ds Max rebuilds its
+    menus (a workspace change, loading a menu file). They hold action
+    identities that are looked up again before every use.
+
+1.5.7 - stability and safer concurrent editing (2026-10-03)
+-------------------------------------------------------------------------------
+  - Scene menu storage uses the 3ds Max allocator and preserves the previous
+    data if allocating its replacement fails.
+  - Commands are resolved again before use after an action table changes;
+    queued gesture callbacks cannot act on a closed or replaced gesture.
+  - Value directions handle re-entrant getters, cancellation, reloads and
+    invalid numeric results. Releasing a gesture samples its final position.
+  - Executing commands and chains keeps stable copies across callbacks;
+    saved chains preserve quotes and backslashes in action identifiers.
+  - Usage statistics distinguish temporary access failures from damaged
+    files and avoid waiting for another writer during normal gestures.
+  - Preset writes are serialized, dial switching checks for changed files,
+    and a failed chain save retains the text entered in its dialog.
+  - Failed shortcut restores recover the current shortcut set. Damaged drag
+    data and non-object library files no longer raise editor exceptions.
+  - Adding Next set to all pages checks their capacity before changing any.
+  - Editor layouts release their native Qt items when their window closes.
+  - Clearing usage statistics reports a retained counter or an unreadable
+    response instead of displaying an unverified success message.
+  - Gesture origins use physical screen coordinates at Windows display
+    scaling above 100%; pinned dial gaps no longer pass clicks to the viewport.
+  - Tap commands resolve their context once; rule benchmarks no longer
+    disable hover targeting through its performance protection.
+  - Saving a scene menu retains the choice to use it in the current scene;
+    existing damaged scene menu data is protected from accidental overwrite.
+  - File watching retries failed reads without accepting a failed read as
+    the latest configuration. Developer reloads report missing startup paths.
+  - Updated builds for 3ds Max 2027, 2026 and 2025; editor version 0.19.3.
+
 1.5.6 - every document up to date with 1.5.2-1.5.5
 -------------------------------------------------------------------------------
   - The README, the Shortcut Card and the guide for Maya users now say that
