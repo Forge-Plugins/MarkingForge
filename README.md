@@ -57,6 +57,23 @@ The plugin itself is sold separately; there is no source code here.
 | ![Several commands in one gesture](images/trick_chain.png) | ![Type to search](images/trick_search.png) |
 | ![The hotbox](images/04_hotbox.png) | ![The menu editor](images/06_editor.png) |
 
+### In use
+
+![MarkingForge in use: your own dial, modifiers, live dials, a slider, flicks and the hotbox](images/MarkingForge_in_use.gif)
+
+Real key and mouse input in 3ds Max 2027: a dial of your own (Inset, Extrude, Bevel, TurboSmooth),
+Modifiers > Chamfer, the live modifier-stack and recent-commands dials, a Field of view slider, two
+flicks without the dial, and the pages of Alt+2 ending in the hotbox.
+[The full video (MP4, 44 s, 1920x1080)](images/MarkingForge_in_use_44s.mp4).
+
+### The menu editor
+
+![The menu editor, step by step](images/MarkingForge_editor.gif)
+
+A dial named, commands found and assigned, a library script, a slider, the list under the dial, a
+context variant, colours and the settings ring - then Save, and the dial as the plugin draws it.
+[The full video (MP4, 64 s, 1920x1080)](images/MarkingForge_editor_64s.mp4).
+
 ### The script library
 
 ![Ten of the library's scripts, run from a dial](images/MarkingForge_script_library.gif)
