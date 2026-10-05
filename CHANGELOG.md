@@ -4,6 +4,31 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.11 - performance over a long session (2026-10-05)
+-------------------------------------------------------------------------------
+  Asked: "the dials feel slower after many gestures, and the longer I move
+  over an open dial". Measured first, in 3ds Max with real key and mouse
+  input on a copy of a working configuration: 400 held gestures, 300 more
+  that ran commands, and three 40 s holds with the cursor circling. Nothing
+  grew - opening about 5 ms, the first pixel about 2.2 ms, a release 4-6 ms,
+  a cursor tick about 1 ms while moving, the same in the last block as in
+  the first; memory, handles and GDI objects flat. What was removed is work
+  that could make a single gesture stall:
+  - usage.json (the Usage column) is no longer written inside the key
+    release every tenth gesture - it is written 1.5 s later, when no dial is
+    open;
+  - the event log keeps its last 512 entries without moving all of them on
+    every new one;
+  - a pick of a plain 3ds Max action no longer compiles and runs MAXScript to
+    publish MF_ORIGIN_* - only scripts, sliders and macroscripts, which can
+    read it, get it (less MAXScript garbage, fewer collection pauses);
+  - the start-up menu log (menu_log.txt) is kept under 512 KB.
+  New diagnostics: MarkingForge.perfSeries() reports every held gesture in
+  blocks of 25 (opening, first pixel, release, cursor ticks, paints) and
+  every HITCH - a held tick over 25 ms with its parts, an opening over 40 ms,
+  a release over 60 ms - with the time of day; perfReset() clears them. When
+  a dial feels slow, perfSeries() says where the time went.
+
 1.5.10 - the settings ring's size is yours to set (2026-10-05)
 -------------------------------------------------------------------------------
   - New in the menu editor: Settings ring... sets how far the dotted ring
