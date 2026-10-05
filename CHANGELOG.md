@@ -4,6 +4,62 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.9 - fixes from the final review (2026-10-05)
+-------------------------------------------------------------------------------
+  Quick gestures and taps now do exactly what the held dial does:
+  - A flick or tap on a dial that fills itself works: Alt+7 up undoes,
+    Alt+8 up repeats the last command, Alt+6 opens a modifier. They read
+    only the file's (empty) directions before and did nothing.
+  - A flick acts on the page the held key would open (the page used last),
+    also right after 3ds Max starts.
+  - The flick's length is measured in the dial's own units, so the settings
+    rim and the dead zone sit where the dial draws them at 125-200 % display
+    scaling too.
+  - The object under the cursor and the command now share ONE undo step on a
+    flick, a tap and a list row, as on a held release.
+  - The context is judged once per flick (it was judged three times, which
+    could switch "menu under the cursor" off on a single flick in a heavy
+    scene); a tap while another dial is open is ignored; scripts read the
+    flick's own starting point (MF_ORIGIN_*).
+  The dial:
+  - Returning to the centre from a submenu two levels deep goes up ONE level.
+  - A variant asking for a sub-object level no longer wins over an object the
+    pick will select (that object is at object level).
+  - Rules for docked panels (command panel, time slider, Scene Explorer)
+    match while docked, not only while floating.
+  - A list row lights and repaints the moment the cursor moves onto it; rows
+    the window cannot show are not picked; a submenu waiting for the hand to
+    come back does not pick a row either; the queue row no longer covers the
+    north caption; the dead zone includes its edge; a hotbox entry reached in
+    the last 8 ms before release is the one that runs.
+  - A release on a list row runs a waiting multi-pick queue too; undo-dial
+    entries cannot be queued.
+  Reliability:
+  - The remembered page is written after the command runs, and a moment with
+    one page (a scene's own menu) no longer erases it.
+  - Queued work is cancelled when the plugin stops; the type-to-search index
+    is rebuilt right after 3ds Max rebuilds its menus, not on the first key.
+  - A save landing while the configuration reloads is no longer skipped; a
+    toggle in Experimental features no longer blocks the editor's save; a
+    duplicated direction or slot key in the file is reported.
+  - The mouse hook leaves clicks on other programs' windows alone and
+    recovers from a release lost to the lock screen.
+  - A dial with an action of an uninstalled plugin no longer re-reads every
+    action table on every key press.
+  The editor:
+  - Enter in a text field (the catalogue search, the menu name) no longer
+    saves menus.json.
+  - Apply shortcuts writes only the dials changed in this session.
+  - Variants, the menu name and Load default dials respect inheriting slots
+    and mouse buttons; Condition... keeps values it does not list; deleting
+    a set, a cancelled script row and Colours... with no change behave.
+  - Direction keys written in lower case are read the plugin's way.
+  - Library: Smoothing on/off and Renderable on/off switch shared
+    (instanced) modifiers and shapes once; + UVW Map (box) skips lights.
+  Installers: the .mzp installer refuses a second copy in the other folder
+  (the studio script already did); the studio script finds non-English
+  3ds Max settings folders and takes paths with brackets literally.
+
 1.5.8 - two fixes after the 1.5.7 review (2026-10-04)
 -------------------------------------------------------------------------------
   - Save last chain as an item works again for a chain released over a
