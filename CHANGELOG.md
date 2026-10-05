@@ -4,6 +4,23 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.10 - the settings ring's size is yours to set (2026-10-05)
+-------------------------------------------------------------------------------
+  - New in the menu editor: Settings ring... sets how far the dotted ring
+    lies past the farthest caption, from 0 to 200 px (20 px by default, as
+    before). The window shows the real dial with the ring where you put it.
+    The ring is the settings boundary: releasing inside it runs Inset,
+    Chamfer and the like WITH their settings, past it WITHOUT them (or the
+    other way round when that is your default). A quick flick without the
+    dial uses the same ring, so both always agree. Saved in menus.json as
+    "rimDistance"; a value out of range is clamped and reported.
+  - The dial window grows with a ring set farther out, so the ring is never
+    cut off by the window's edge; at the default it keeps its 1.5.9 size.
+  - MAXScript: MarkingForge.rimInfo() reports the distance in use;
+    snapshotMenuEx takes "rim=N" to draw a dial with another distance.
+  - Store pictures and animations taken again from the current dial; the
+    beta-test checklist lists the nine PDFs and the quick-gesture rule.
+
 1.5.9 - fixes from the final review (2026-10-05)
 -------------------------------------------------------------------------------
   Quick gestures and taps now do exactly what the held dial does:
