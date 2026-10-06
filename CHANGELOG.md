@@ -4,6 +4,41 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.13 - fixes from the final review of 1.5.10-1.5.12 (2026-10-06)
+-------------------------------------------------------------------------------
+  - Scripts read MF_ORIGIN_* (where the gesture began) published at the
+    release again, as up to 1.5.10. 1.5.11 put it off until a script ran:
+    a macroscript reached through the hotbox, the search or the Recent dial
+    then read an older gesture's point, and in a queue of several picks the
+    point was worked out after earlier picks had already changed the view.
+  - The settings ring keeps the distance you set on every dial. On a dial
+    with a caption of the full width east or west, the window's edge held
+    the ring on that caption for any distance up to 20 px and took 20 px off
+    larger ones. The dial window now always has room for the ring (about
+    22 px more on each side than before).
+  - The window is sized for your ring distance already when 3ds Max starts,
+    and the editor's ring preview no longer leaves its distance on the dial
+    until the next gesture - so no resize on the way to the first pixel.
+  - Settings ring... in the editor: a slot that is a hotbox (which has no
+    ring) previews another dial and says so; with a plugin older than 1.5.10
+    the window says the setting is ignored there; the preview can no longer
+    show the previous picture.
+  - Texts: the 2025 and 2026 packages no longer say "builds for 3ds Max 2026,
+    2026 and 2025" or that Smart Bevel exists only in their own version; the
+    store GIFs are all under 2 MB as the listing says; README, Reference and
+    the beta checklist corrected.
+
+1.5.12 - numeric input and macro origin fixes (2026-10-06)
+-------------------------------------------------------------------------------
+  - Escape cancels a held dial even with Type-to-search disabled, including
+    Ctrl-based shortcuts. Other typing passes through when search is off.
+  - Settings ring: very large numeric values are clamped consistently in the
+    editor and plugin; nonfinite editor inputs use the default distance.
+  - Value item editor: malformed numeric fields no longer raise Python/Qt
+    overflow errors. Decimal places are limited before conversion to Qt's int.
+  - Macros stored as action-table references receive the current gesture
+    origin, just like macros stored by name and category.
+
 1.5.11 - performance over a long session (2026-10-05)
 -------------------------------------------------------------------------------
   Asked: "the dials feel slower after many gestures, and the longer I move
@@ -139,7 +174,7 @@ MarkingForge - Release notes
     existing damaged scene menu data is protected from accidental overwrite.
   - File watching retries failed reads without accepting a failed read as
     the latest configuration. Developer reloads report missing startup paths.
-  - Updated builds for 3ds Max 2027, 2026 and 2025; editor version 0.19.3.
+  - Updated builds for all three versions (2025, 2026 and 2027); editor version 0.19.3.
 
 1.5.6 - every document up to date with 1.5.2-1.5.5
 -------------------------------------------------------------------------------
@@ -525,8 +560,8 @@ MarkingForge - Release notes
   - "Save every dial..." in the editor writes each of the 24 dials - and every
     other set of a dial - to a file of its own in a new dated folder.
   - In 3ds Max 2025 and 2026, "Smart Bevel" showed as a missing command (red)
-    on the Modifiers dial and in the Modelling pack: that modifier exists in
-    3ds Max 2027 only. It is replaced by Quadify Mesh (Modifiers > Geometry)
+    on the Modifiers dial and in the Modelling pack: that modifier exists only
+    in the 2027 release of 3ds Max. It is replaced by Quadify Mesh (Modifiers > Geometry)
     and Slice (the pack). Every command of every built-in, extra and pack dial
     was checked in 3ds Max 2025, 2026 and 2027.
 

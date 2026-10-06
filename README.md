@@ -42,8 +42,9 @@ The plugin itself is sold separately; there is no source code here.
   turn with the mouse wheel while the dial is open, tabs in the editor, and a switch
   from the dial itself or with a key
 - **Dial library** - every dial as a file of its own: restore an original in one click,
-  or add one of 8 extra dials (mesh cleanup, retopology, pivots, cloning, smoothing,
-  quick look, rigging, archviz) and the preset packs' dials
+  or add one of 12 extra dials (mesh cleanup, retopology, pivots, cloning, smoothing,
+  quick look, rigging, archviz, viewport views, lighting and display, the hotbox) and the
+  preset packs' dials
 - **Settings on release, or skipped with a longer move** - Chamfer, Inset, Extrude... open
   their settings when you release near the dial and run without them past the dotted
   ring; a flick follows the same ring, and how far out it lies is yours to set
