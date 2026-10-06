@@ -4,18 +4,40 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.14 - fixes from the second final review (2026-10-07)
+-------------------------------------------------------------------------------
+  - Scripts started from the hotbox or from Type-to-search read MF_ORIGIN_*
+    of THIS gesture. These two paths never published it, so a macroscript
+    picked there read the point of the previous dial or flick.
+  - Escape closes the hotbox, as it closes every dial since 1.5.12 (the
+    right mouse button still does too). Ctrl+Shift+Esc during a dial held
+    with Ctrl now opens the Task Manager instead of cancelling the dial.
+  - Saving menus.json while a dial is open no longer moves that dial's
+    settings ring under your hand; the new distance applies from the next
+    gesture.
+  - Editor, Settings ring...: a slot that turns into a hotbox in some
+    context (a rule) is skipped like a plain hotbox; "Hotbox" in capitals
+    counts too, as it does for the plugin; with no plugin loaded the window
+    says so instead of calling the plugin old.
+  - Editor, Value...: the number of decimals is read as the plugin reads
+    it. A value such as 2.7 or 1e100, which the plugin runs as 0 decimals,
+    showed as 2 or 4, and OK then silently changed the slider.
+  - Texts: the Autodesk submission notes, the store descriptions and the
+    licence texts in the listing kits name 3ds Max 2025, 2026 and 2027.
+
 1.5.13 - fixes from the final review of 1.5.10-1.5.12 (2026-10-06)
 -------------------------------------------------------------------------------
   - Scripts read MF_ORIGIN_* (where the gesture began) published at the
     release again, as up to 1.5.10. 1.5.11 put it off until a script ran:
-    a macroscript reached through the hotbox, the search or the Recent dial
-    then read an older gesture's point, and in a queue of several picks the
+    a macroscript reached through the Recent dial then read an older
+    gesture's point, and in a queue of several picks the
     point was worked out after earlier picks had already changed the view.
   - The settings ring keeps the distance you set on every dial. On a dial
     with a caption of the full width east or west, the window's edge held
     the ring on that caption for any distance up to 20 px and took 20 px off
     larger ones. The dial window now always has room for the ring (about
-    22 px more on each side than before).
+    22 px more on each side than before - also at the default distance, so
+    the 1.5.10 note that it then keeps its 1.5.9 size no longer holds).
   - The window is sized for your ring distance already when 3ds Max starts,
     and the editor's ring preview no longer leaves its distance on the dial
     until the next gesture - so no resize on the way to the first pixel.
@@ -23,8 +45,8 @@ MarkingForge - Release notes
     ring) previews another dial and says so; with a plugin older than 1.5.10
     the window says the setting is ignored there; the preview can no longer
     show the previous picture.
-  - Texts: the 2025 and 2026 packages no longer say "builds for 3ds Max 2026,
-    2026 and 2025" or that Smart Bevel exists only in their own version; the
+  - Texts: the 2025 and 2026 packages no longer name one year twice in the
+    1.5.7 list of builds, or say Smart Bevel exists only in their version; the
     store GIFs are all under 2 MB as the listing says; README, Reference and
     the beta checklist corrected.
 
