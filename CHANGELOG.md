@@ -4,6 +4,25 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.15 - Uninstall and updates never follow a link (2026-10-07)
+-------------------------------------------------------------------------------
+  - The installer's Uninstall, and every Update / Repair, could delete files
+    OUTSIDE MarkingForge's folder when that folder held a link. A junction or
+    symbolic link inside it (a studio's shared dials, say) had the files it
+    pointed to deleted, and a MarkingForge folder that was itself a link to
+    a studio share emptied the share. Both happened in a test: 3 of 3 and 80
+    of 80 files. Links are now removed as links; what they point to is never
+    touched. A normal installation, with no links, was not affected.
+  - The studio script (Deploy-MarkingForge.ps1) takes every path literally:
+    a "[" in a profile or share path no longer breaks an install or makes a
+    removal match another folder. It also never follows a link.
+  - Uninstall also removes the "skip shortcuts" flag file, so a later
+    install sets the standard shortcuts up as the tick box says.
+  - Checked in a sandbox for 3ds Max 2025, 2026 and 2027, with both the
+    installer's Uninstall and the studio script: another vendor's plugin,
+    look-alike folder names, another year's MarkingForge, loose files and
+    your own settings (menus.json, the shortcut file) all survive unchanged.
+
 1.5.14 - fixes from the second final review (2026-10-07)
 -------------------------------------------------------------------------------
   - Scripts started from the hotbox or from Type-to-search read MF_ORIGIN_*
