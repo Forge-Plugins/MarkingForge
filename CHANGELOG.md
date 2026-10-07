@@ -4,6 +4,17 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.20 - clickable links in every MarkingForge window (2026-10-07)
+-------------------------------------------------------------------------------
+  - MarkingForge > Report a bug... and Suggest a feature... open a window
+    whose GitHub address and e-mail are links: one click opens the issue
+    forms or your e-mail program (the bug report's e-mail carries the
+    version in its subject). Until 1.5.19 they were a question box with the
+    addresses as plain text to retype.
+  - MarkingForge > Documentation, when the guides are not next to the
+    plugin, says where they are online - as links, too.
+  - Every link in these windows and in About is drawn in link blue.
+
 1.5.19 - the project's new home on GitHub (2026-10-07)
 -------------------------------------------------------------------------------
   - Bug reports, feature requests and the documentation now live at
