@@ -4,6 +4,20 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.32 - The UV editor as a window; object name and layer in the editor (2026-10-07)
+-------------------------------------------------------------------------------
+  - A variant can ask for the cursor over the UV editor (Edit UVWs): pick
+    "UV editor (Edit UVWs)" under "Cursor over the window" (in menus.json:
+    "window": "uvEditor"). It covers the UV canvas, the side panels and the
+    toolbars of that window. Until now a UV variant could only ask for the
+    Unwrap UVW modifier to be open, which holds over every window.
+  - "What is open?" in the condition window lists the UV editor too, and
+    MarkingForge.windowInfo() names it.
+  - The condition window has fields for the object name (with * as a
+    wildcard) and the layer, each with a Take button that fills it from the
+    selected object. Both conditions worked before but could only be typed
+    into menus.json. The MATCHES preview now decides them as well.
+
 1.5.31 - Open UV Editor in configurations saved earlier (2026-10-07)
 -------------------------------------------------------------------------------
   - "Open UV Editor" opens the UV editor also in dials saved before 1.5.30.
