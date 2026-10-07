@@ -118,6 +118,9 @@ Prefer e-mail? Write to **forgeplugins@gmail.com** - the same address takes bug 
 requests and support questions. Please do not post licence or purchase details in a
 public issue; send those by e-mail.
 
+**Roadmap** - what is planned and in progress: https://trello.com/b/7gJVqG8Y/markingforge-features-roadmap
+(also MarkingForge > Roadmap (Trello) in 3ds Max).
+
 ## Author
 
 More plugins by the author: https://forgeplugins.tech

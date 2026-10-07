@@ -4,6 +4,12 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.24 - the features roadmap in the menu (2026-10-07)
+-------------------------------------------------------------------------------
+  - MarkingForge > Roadmap (Trello) opens the public board of planned and
+    in-progress features in your browser; the Suggest a feature... window
+    links to it as well, and so do the README and the Installation Guide.
+
 1.5.23 - the cheat sheet shows every page of a dial; review fixes (2026-10-07)
 -------------------------------------------------------------------------------
   - The cheat sheet drew only the page a dial's key opens; the dial's other
