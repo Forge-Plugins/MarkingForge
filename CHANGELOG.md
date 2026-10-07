@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.31 - Open UV Editor in configurations saved earlier (2026-10-07)
+-------------------------------------------------------------------------------
+  - "Open UV Editor" opens the UV editor also in dials saved before 1.5.30.
+    1.5.30 fixed the shipped dials only; a menus.json saved earlier kept the
+    old item, which opens nothing. The plugin now runs the working command
+    in its place, and the menu editor rewrites the item when it opens the
+    file (Save keeps it).
+  - The event log (MarkingForge > Diagnostics > Event log) names the window
+    each gesture began over, next to the dial variant it showed.
+
 1.5.30 - Slate and the UV editor (2026-10-07)
 -------------------------------------------------------------------------------
   - The commands of the dials over the Slate Material Editor now run. They
