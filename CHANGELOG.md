@@ -4,6 +4,33 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.29 - fixes from a function-by-function review (2026-10-07)
+-------------------------------------------------------------------------------
+  - Menus from the scene file (experimental): "sceneMenuUse false" in the
+    Always mode no longer comes undone the next time the configuration is
+    saved, and switching from Always to Ask stops using the scene's menus
+    until you consent again.
+  - The menu editor:
+    - Load default dials... that has nothing to bring in no longer marks
+      the editor as unsaved; neither does emptying an empty direction.
+    - Assign on a hotbox or on a dial that fills itself does nothing and
+      says why (those dials do not use their eight directions).
+    - A group in the catalogue picked instead of an action: the Assign
+      buttons say so instead of doing nothing silently.
+    - Replacing what a dial with pages shows (a library dial, a dial file,
+      the wizard) gives the page on the key the new dial's name.
+    - Fill the free slots... and the first start no longer give a dial a
+      key that another MarkingForge dial already holds as its second key.
+    - The Save preset... and Load preset... tooltips say what a preset
+      holds since 1.5.28.
+  - The installer: a first installation that fails half-way removes the
+    incomplete copy, so 3ds Max does not load it at the next start.
+  - A hand-edited menus.json whose dial pages lack their list no longer
+    makes "Menu N - next set" fail with an error in the Listener.
+  - Holding Escape or Enter over an open dial no longer passes the key's
+    repeats on to 3ds Max; the error for a damaged menus.json names slots
+    1 to 24; the Studio Deployment guide lists exit code 1.
+
 1.5.28 - presets keep pages and colours; Assign under each table (2026-10-07)
 -------------------------------------------------------------------------------
   - Save preset... now keeps each dial's pages and the colours of the dials
