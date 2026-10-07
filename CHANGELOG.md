@@ -4,6 +4,38 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.26 - release notes in order (2026-10-07)
+-------------------------------------------------------------------------------
+  - The notes of 1.5.25 below are written out in full and stand under this
+    title with the others. Nothing else changed.
+
+1.5.25 - fixes from a full code review (2026-10-07)
+-------------------------------------------------------------------------------
+  - Hotbox: the entry under the cursor at the moment you release the key is
+    the one that runs. A move onto another entry, or off the list, right
+    before the release ran the entry lit a moment earlier.
+  - Installer and studio script: when the copied files cannot even be read
+    back for the check after an update, the previous version is restored,
+    as it is when a file differs.
+  - Menus from the scene file (an experimental feature): changing the
+    editor's setting for scene menus from Never to Ask or Always now finds
+    the menus of the scene that is already open; until now it took reopening
+    the scene. Ask still waits for your consent.
+  - A damaged menus.json, dial file or preset is refused with a message that
+    names the broken place, before a single dial is changed. A preset that
+    failed half-way could leave some slots replaced and some not.
+  - A menus.json without its own fallback dial shows, in the editor, the
+    eight commands 3ds Max really falls back to (Undo, Redo, Zoom Extents...)
+    instead of an empty dial that saving would have written over them.
+  - Save every dial... twice in the same minute makes a second folder ("(2)")
+    instead of writing over the first. Load every dial... puts back a dial
+    that followed the fallback dial as it was saved, and the colours as
+    saved, also after the fallback dial or the colours changed since.
+  - The cheat sheet made with 3ds Max closed lists every key of a dial that
+    has more than one.
+  - Conditions on the mode and on the selection ("Selected", "selected ")
+    are read the same way by the editor's preview and by 3ds Max.
+
 1.5.24 - the features roadmap in the menu (2026-10-07)
 -------------------------------------------------------------------------------
   - MarkingForge > Roadmap (Trello) opens the public board of planned and
