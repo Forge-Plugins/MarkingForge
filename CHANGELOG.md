@@ -4,6 +4,12 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.18 - ForgePlugins in the package manifest (2026-10-07)
+-------------------------------------------------------------------------------
+  - PackageContents.xml names ForgePlugins as the author and the company -
+    what 3ds Max's plugin manager and the Autodesk App Store show.
+  - The plugin itself is unchanged apart from its version.
+
 1.5.17 - commands run without their settings by default (2026-10-07)
 -------------------------------------------------------------------------------
   - An ordinary release over Chamfer, Extrude, Inset, Bevel... now runs the
