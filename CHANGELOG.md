@@ -4,6 +4,26 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.28 - presets keep pages and colours; Assign under each table (2026-10-07)
+-------------------------------------------------------------------------------
+  - Save preset... now keeps each dial's pages and the colours of the dials
+    (Colours...), and Load preset... replaces the slots' pages with the ones
+    in the file. A set added after saving the preset no longer stays behind
+    after loading it. A preset of the whole layout sets the dial colours as
+    saved (the default ones when it saved none, presets from before 1.5.28
+    included); a pack of a few dials leaves your colours alone. The editor's
+    own colours (Editor colours...) stay in their own file and are never
+    part of a preset.
+  - Load default dials... with "Replace the slots that already have a menu
+    as well" ticked is the state MarkingForge came with: every dial also
+    gets its default pages back (pages you added are removed) and the
+    default dial colours. Filling only the empty slots changes neither.
+  - Assign sits under the table it fills: "Assign to selected direction"
+    under the directions, and a new "Assign to selected row" under the list,
+    which puts the catalogue's action in place of the selected row. The two
+    Assign buttons at the bottom of the window (under the catalogue and in
+    the bottom bar) are gone; a double-click or a drag still works.
+
 1.5.27 - the licence names its licensor (2026-10-07)
 -------------------------------------------------------------------------------
   - LICENSE.txt names the licensor - ForgePlugins, Poland - and the address
