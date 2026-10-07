@@ -4,6 +4,35 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.23 - the cheat sheet shows every page of a dial; review fixes (2026-10-07)
+-------------------------------------------------------------------------------
+  - The cheat sheet drew only the page a dial's key opens; the dial's other
+    pages (the ones the mouse wheel turns to) were missing - the Alt+5
+    viewport dial printed one page of five. Every page is now drawn, headed
+    "Page 2 of 5: ...", in the order the wheel reaches them, and its checks
+    (a source whose toggle is off, an action with no name) cover the other
+    pages too. The heading of the sheet counts them.
+  - Studio script (Deploy-MarkingForge.ps1): started as "powershell -File ..."
+    from PowerShell 7 (the default in Windows Terminal), it stopped with exit
+    code 1 right after copying - Windows PowerShell could not load its own
+    Get-FileHash there - so the copy was neither verified nor rolled back.
+    The check no longer needs that command.
+  - Load default dials... with "Replace the slots that already have a menu
+    as well" ticked could lose a dial on a configuration from before 1.5.21:
+    an empty slot whose dial sat on another key stayed empty while that
+    other key was replaced too. Every slot is now filled when you replace
+    them all. A page of the Alt+5 viewport dial no longer counts as the
+    Shift+Alt+1 dial of the same name, which left that slot empty.
+  - Load preset... (and the four preset packs) keeps each slot's own mouse
+    button, as the dial library does, and the page on the key takes the
+    preset dial's name.
+  - The dial footer and MarkingForge.version() show the version and its
+    release date, without the internal note that used to follow.
+  - Documents: the 2025 and 2026 Installation Guide and Studio Deployment
+    guide name their own package (MarkingForge_Max2025_..., the
+    MarkingForge_2025 folder); the Reference counts the dial library as it
+    ships (12 extra dials, not 8).
+
 1.5.22 - fixes from the review of 1.5.14-1.5.21 (2026-10-07)
 -------------------------------------------------------------------------------
   - A key another program holds for the whole of Windows is named. PowerToys
