@@ -106,7 +106,7 @@ download; 3ds Max 2024 and earlier may follow if enough users ask for them.
 
 ## Reporting a bug or asking for a feature
 
-**[Open an issue](https://github.com/looki666/MarkingForge/issues/new/choose)** and pick a form:
+**[Open an issue](https://github.com/Forge-Plugins/MarkingForge/issues/new/choose)** and pick a form:
 
 - **Bug report** - something does not work as described.
   In 3ds Max choose **MarkingForge > Report a bug...** first: it copies your 3ds Max and

@@ -4,6 +4,13 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.19 - the project's new home on GitHub (2026-10-07)
+-------------------------------------------------------------------------------
+  - Bug reports, feature requests and the documentation now live at
+    https://github.com/Forge-Plugins/MarkingForge - in the README, every
+    document, the MarkingForge menu's report windows and the store texts.
+  - The plugin itself is unchanged apart from its version.
+
 1.5.18 - ForgePlugins in the package manifest (2026-10-07)
 -------------------------------------------------------------------------------
   - PackageContents.xml names ForgePlugins as the author and the company -
@@ -881,7 +888,7 @@ HELP AND SUPPORT
   - MarkingForge > Report a bug... copies the 3ds Max and plugin details to the
     clipboard and opens an e-mail; works even when the plugin failed to load.
   - MarkingForge > Suggest a feature... for ideas and requests.
-  - Bug reports and feature requests: https://github.com/looki666/MarkingForge/issues
+  - Bug reports and feature requests: https://github.com/Forge-Plugins/MarkingForge/issues
     (forms that ask for exactly what is needed); support by e-mail:
     forgeplugins@gmail.com
 

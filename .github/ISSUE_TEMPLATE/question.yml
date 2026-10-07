@@ -5,7 +5,7 @@ labels: ["question"]
 body:
   - type: markdown
     attributes:
-      value: The [QuickStart](https://github.com/looki666/MarkingForge/blob/main/docs/MarkingForge_QuickStart.pdf) and the [Reference](https://github.com/looki666/MarkingForge/blob/main/docs/MarkingForge_Reference.pdf) answer most questions.
+      value: The [QuickStart](https://github.com/Forge-Plugins/MarkingForge/blob/main/docs/MarkingForge_QuickStart.pdf) and the [Reference](https://github.com/Forge-Plugins/MarkingForge/blob/main/docs/MarkingForge_Reference.pdf) answer most questions.
   - type: textarea
     id: question
     attributes:
