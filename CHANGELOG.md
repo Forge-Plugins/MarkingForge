@@ -4,6 +4,12 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.27 - the licence names its licensor (2026-10-07)
+-------------------------------------------------------------------------------
+  - LICENSE.txt names the licensor - ForgePlugins, Poland - and the address
+    for bug reports and feature requests next to the e-mail. The terms are
+    unchanged.
+
 1.5.26 - release notes in order (2026-10-07)
 -------------------------------------------------------------------------------
   - The notes of 1.5.25 below are written out in full and stand under this
