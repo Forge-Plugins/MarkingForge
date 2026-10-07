@@ -4,6 +4,33 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.22 - fixes from the review of 1.5.14-1.5.21 (2026-10-07)
+-------------------------------------------------------------------------------
+  - A key another program holds for the whole of Windows is named. PowerToys
+    ZoomIt, for one, records a window with Ctrl+Alt+5 and takes the key, so
+    3ds Max never receives it and the dial on it cannot open. The menu
+    editor now says so in red under the dial's shortcut, the Set shortcut...
+    window warns before you take such a key, and Fill the free slots... and
+    the first start leave it out. (Programs that read the keyboard by other
+    means, AutoHotkey for one, cannot be seen this way.)
+  - Load default dials... no longer puts a dial on a second key: an empty
+    slot whose default dial you already have elsewhere (on a configuration
+    from before 1.5.21, say) stays empty and the window says where the dial
+    is. Replacing every slot no longer leaves the old viewport pages behind
+    the Modifiers dial on Alt+2.
+  - Load preset... says, slot by slot, which of your dials it replaces.
+  - Installer and studio script: the backup made before an update does not
+    follow a link either (1.5.15 made removing safe; copying could still
+    copy a whole share into the temporary folder); a failed update under a
+    path with "[" in it restores the previous version; a backup that cannot
+    be cleaned up no longer ends the script with the wrong exit code.
+  - Texts: the README's quick gesture and hotbox sections, the dial
+    library's list of extras, the beta checklist (new keys, the settings
+    default, the Report a bug window), the Report a bug tooltip; the
+    Installation Guide's uninstall steps are numbered 1-3 again. The editor
+    video and the colour presets video show the editor with the new dial
+    list, and the Installation Guide's installer pictures were taken again.
+
 1.5.21 - the dials laid out for modelling first (2026-10-07)
 -------------------------------------------------------------------------------
   - A fresh installation puts the dials in a new order: the first keys
@@ -18,9 +45,11 @@ MarkingForge - Release notes
     Every dial is the same as before - only its key moved. Modifiers, once
     Ctrl+Alt+2, is now Alt+2; Selection Alt+3; Create Alt+4; the viewport
     and the hotbox Alt+5. Modifier stack, Undo and Recent keep Alt+6..8.
-  - Your own configuration keeps its layout. Load default dials... in the
-    editor brings the new one; the dial library and the four preset packs
-    follow it (each pack still replaces the same dials as before).
+  - Your own configuration keeps its layout. To take the new one: Load
+    default dials... in the editor with "Replace the slots that already have
+    a menu as well" ticked (it fills only empty slots otherwise). The dial
+    library and the four preset packs follow the new layout (each pack still
+    replaces the same dials as before).
   - Every document, the README and the store texts name the new keys; the
     pictures of the dials were taken again.
 
