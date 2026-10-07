@@ -4,6 +4,23 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.30 - Slate and the UV editor (2026-10-07)
+-------------------------------------------------------------------------------
+  - The commands of the dials over the Slate Material Editor now run. They
+    did nothing whenever Slate was not the active window - after a click in
+    a viewport, say - because 3ds Max runs an editor's own commands only
+    while that editor is active. A dial command now first makes the window
+    the gesture pointed at the active one (over a viewport nothing
+    changes). The same holds for every editor with commands of its own,
+    Track View among them.
+  - Slate's two ways to an object's material say what they do: "Material
+    of selected" takes the selected object's material at once,
+    "Eyedropper: click an object" waits for a click on an object.
+  - "Open UV Editor" (the UV dial with an Unwrap UVW selected) opens the UV
+    editor. It ran a command that opened nothing.
+  - The QuickStart now also comes in a short version (QuickStart_Easy_v3,
+    11 pages) in the Documentation folder.
+
 1.5.29 - fixes from a function-by-function review (2026-10-07)
 -------------------------------------------------------------------------------
   - Menus from the scene file (experimental): "sceneMenuUse false" in the
