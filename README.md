@@ -22,12 +22,12 @@ The plugin itself is sold separately; there is no source code here.
 
 ## Highlights
 
-- 24 ready-made dials on **Alt / Ctrl+Alt / Shift+Alt + 1-8**
+- 24 ready-made dials on **Alt / Ctrl+Alt / Shift+Alt + 1-8** - modelling first (Alt+1..4: Modelling, Modifiers, Selection, Create; the viewport and the hotbox on Alt+5), the rarely used dials furthest away
 - **Context-aware**: vertex, edge, border, polygon or element tools depending on the
   sub-object level - the same layout on Editable Poly and Edit Poly
-- **The viewport on one key** (Alt+2): shading, lighting, display and views, a page each under
+- **The viewport on one key** (Alt+5): shading, lighting, display and views, a page each under
   the mouse wheel - every switch on a direction or in the list under the dial
-- **Hotbox** with every 3ds Max menu, including other plugins' menus - one wheel notch away on Alt+2
+- **Hotbox** with every 3ds Max menu, including other plugins' menus - one wheel notch away on Alt+5
 - **Live dials**: modifier stack, undo by name, recent commands, selection sets
 - **Menu editor** for 4000+ 3ds Max commands, your own scripts, sliders, colours,
   keyboard shortcuts and mouse buttons - with a live drawing of the dial, a new-dial
@@ -65,7 +65,7 @@ The plugin itself is sold separately; there is no source code here.
 
 Real key and mouse input in 3ds Max 2027: a dial of your own (Inset, Extrude, Bevel, TurboSmooth),
 Modifiers > Chamfer, the live modifier-stack and recent-commands dials, a Field of view slider, two
-flicks without the dial, and the pages of Alt+2 ending in the hotbox.
+flicks without the dial, and the pages of Alt+5 ending in the hotbox.
 [The full video (MP4, 44 s, 1920x1080)](images/MarkingForge_in_use_44s.mp4).
 
 ### The menu editor

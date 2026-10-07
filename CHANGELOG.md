@@ -4,6 +4,26 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.21 - the dials laid out for modelling first (2026-10-07)
+-------------------------------------------------------------------------------
+  - A fresh installation puts the dials in a new order: the first keys
+    model, the rarely used ones sit furthest away.
+      Alt+1..8        Modelling, Modifiers, Selection, Create, the viewport
+                      with the hotbox (its last page), Modifier stack, Undo,
+                      Recent commands
+      Ctrl+Alt+1..8   Transform, Align and pivot, Lights and cameras, UV
+                      mapping, Snaps and grid, Show and hide, View, Viewports
+      Shift+Alt+1..8  Viewport display, Selection sets, Materials, Render,
+                      Animation, Scene, Tools and setup, File
+    Every dial is the same as before - only its key moved. Modifiers, once
+    Ctrl+Alt+2, is now Alt+2; Selection Alt+3; Create Alt+4; the viewport
+    and the hotbox Alt+5. Modifier stack, Undo and Recent keep Alt+6..8.
+  - Your own configuration keeps its layout. Load default dials... in the
+    editor brings the new one; the dial library and the four preset packs
+    follow it (each pack still replaces the same dials as before).
+  - Every document, the README and the store texts name the new keys; the
+    pictures of the dials were taken again.
+
 1.5.20 - clickable links in every MarkingForge window (2026-10-07)
 -------------------------------------------------------------------------------
   - MarkingForge > Report a bug... and Suggest a feature... open a window
