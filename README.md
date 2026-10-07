@@ -45,9 +45,10 @@ The plugin itself is sold separately; there is no source code here.
   or add one of 12 extra dials (mesh cleanup, retopology, pivots, cloning, smoothing,
   quick look, rigging, archviz, viewport views, lighting and display, the hotbox) and the
   preset packs' dials
-- **Settings on release, or skipped with a longer move** - Chamfer, Inset, Extrude... open
-  their settings when you release near the dial and run without them past the dotted
-  ring; a flick follows the same ring, and how far out it lies is yours to set
+- **Run at once, or open the settings with a longer move** - Chamfer, Inset, Extrude... run
+  at once when you release near the dial and open their settings past the dotted ring
+  (the other way round with one tick box, or per command); a flick follows the same ring,
+  and how far out it lies is yours to set
 - Keyboard shortcuts ready from the first start, however it was installed
 - Presets and four ready packs (Modelling, Animation, Look-dev, Archviz)
 - Native C++ - about 3 ms to the first pixel. No internet connection, no telemetry

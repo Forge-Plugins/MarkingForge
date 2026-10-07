@@ -4,6 +4,35 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.17 - commands run without their settings by default (2026-10-07)
+-------------------------------------------------------------------------------
+  - An ordinary release over Chamfer, Extrude, Inset, Bevel... now runs the
+    command at once, as its Modify-panel button does - for Inset, Extrude or
+    Bevel you drag in the viewport. Releasing PAST the dotted ring (or a
+    long flick) opens its settings first. Until 1.5.16 it was the other way
+    round. The tick box "An ordinary release shows the action's SETTINGS"
+    in Experimental features brings the old way back, and Settings... in
+    the editor still chooses per command.
+  - A configuration that set this itself keeps its choice. One that never
+    touched it ("showItemSettings" missing from menus.json) gets the new
+    default.
+  - QuickStarts, Installation Guide, Editor Guide, Reference, the Maya guide,
+    README and the store text describe the new default; the pictures of a
+    dial aimed inside and past the ring were taken again.
+
+1.5.16 - documentation brought up to the last versions (2026-10-07)
+-------------------------------------------------------------------------------
+  - Both QuickStarts: moving the settings ring has its own part - the steps
+    and the real Settings ring... window - instead of a one-line tip; the
+    hotbox says that Esc or a right click closes it.
+  - Reference, chapter 8: MF_ORIGIN_SCREEN, MF_ORIGIN_VIEW and
+    MF_ORIGIN_WORLD - where the gesture began, for your own scripts: what
+    each holds, when it is set (also for the hotbox and the search since
+    1.5.14) and a script that creates an object there.
+  - Installation Guide: what Uninstall removes - only the MarkingForge
+    folder and two flag files; a link is removed as a link (1.5.15).
+  - The plugin itself is unchanged apart from its version.
+
 1.5.15 - Uninstall and updates never follow a link (2026-10-07)
 -------------------------------------------------------------------------------
   - The installer's Uninstall, and every Update / Repair, could delete files
