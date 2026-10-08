@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.36 - Updating while a document is open (2026-10-08)
+-------------------------------------------------------------------------------
+  - With a PDF of the installed version open (in Acrobat, say), an update
+    stopped halfway, said the previous version could NOT be restored - it
+    was in fact still in place - and left a backup in the temp folder. The
+    installer and the studio script now look for files another program holds
+    open BEFORE they change anything, name them and stop: close them and
+    install again. Uninstall does the same. The studio script ends with the
+    new exit code 8.
+
 1.5.35 - Variants in the short QuickStart (2026-10-08)
 -------------------------------------------------------------------------------
   - The short QuickStart (QuickStart_Easy_v3) has a lesson on variants: what
