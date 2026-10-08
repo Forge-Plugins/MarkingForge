@@ -4,6 +4,15 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.35 - Variants in the short QuickStart (2026-10-08)
+-------------------------------------------------------------------------------
+  - The short QuickStart (QuickStart_Easy_v3) has a lesson on variants: what
+    they are, one made step by step (Export for the whole scene when nothing
+    is selected, on the File dial), and what a variant's condition can ask.
+  - Every document names its 3ds Max version where you see it when it is
+    open: in the window title of the PDF viewer and at the foot of every
+    page (the covers already did).
+
 1.5.34 - The mouse wheel always changes the dial (2026-10-08)
 -------------------------------------------------------------------------------
   - With an object selected whose modifier has a variant (Unwrap UVW, say),
