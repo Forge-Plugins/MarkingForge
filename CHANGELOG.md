@@ -4,6 +4,18 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.39 - Several commands in one gesture run in order (2026-10-08)
+-------------------------------------------------------------------------------
+  - With "Multiple picks in one gesture" on, 3ds Max commands in a queue ran
+    only after the script items of the same queue, whatever their place in
+    it - and outside the single undo entry. A queue now runs strictly in
+    order, as one Ctrl+Z.
+  - The QuickStart example (Inset, then Extrude) changed nothing: those dial
+    items only start Max's interactive tool, which waits for a drag. The
+    documents now say which commands chain well (selections, Flip, Connect,
+    Weld, modifiers...), that a command waiting for a drag goes last, and
+    give a working example: Ring, then Connect.
+
 1.5.38 - The window under the dial (2026-10-08)
 -------------------------------------------------------------------------------
   - With a dial on screen, the plugin asked "which window is under the
