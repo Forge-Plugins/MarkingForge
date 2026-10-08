@@ -4,6 +4,14 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.40 - The short QuickStart: chains and the keys (2026-10-08)
+-------------------------------------------------------------------------------
+  - QuickStart_Easy_v3 has a lesson on several commands in one gesture: how
+    to queue, where to let go, a working example (Ring + Connect), which
+    commands chain well and why Inset, Extrude, Bevel or Chamfer go last.
+  - Its first pages explain the standard keys: chosen to stay out of the way
+    of 3ds Max's own shortcuts, and meant to be changed - with the steps.
+
 1.5.39 - Several commands in one gesture run in order (2026-10-08)
 -------------------------------------------------------------------------------
   - With "Multiple picks in one gesture" on, 3ds Max commands in a queue ran
