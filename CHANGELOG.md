@@ -4,6 +4,28 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.43 - A readable narrow catalogue; review fixes (2026-10-08)
+-------------------------------------------------------------------------------
+  - Editor: with the action catalogue dragged narrow, the "Category / table"
+    column took the space and the command names all but vanished. The
+    category now gives way - the names keep at least half of the pane - and
+    gets its width back when the pane is widened. A width dragged by hand is
+    kept, also through a search.
+  - A tap or flick of another dial key while a dial was PINNED (typing in
+    it) ran that key's command under the open dial. It runs nothing now.
+  - A dial held over a floating editor (Slate) and released outside it ran
+    the editor's commands with the editor not active, so they did nothing.
+    The release now works where the dial was opened, as a flick already did.
+  - Editor: Apply shortcuts writes only the keys that were changed - it no
+    longer puts back, for the selected dial, a key changed meanwhile in
+    3ds Max's Hotkey Editor. The guard against writing shortcuts while Max's
+    shortcut file is missing works again. Looking at a context variant that
+    has no menu of its own no longer saves an empty one. A dial written by
+    hand with "Hotbox" in capitals, a null list or rules, or an unsigned
+    table number loads as 3ds Max reads it.
+  - The event log no longer says "chain: ..." about a queue that a release
+    in the centre dropped.
+
 1.5.42 - The 3D view under the dial (2026-10-08)
 -------------------------------------------------------------------------------
   - 1.5.38 taught the plugin to look through its own dial at the window
