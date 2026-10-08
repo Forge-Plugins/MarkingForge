@@ -4,6 +4,15 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.38 - The window under the dial (2026-10-08)
+-------------------------------------------------------------------------------
+  - With a dial on screen, the plugin asked "which window is under the
+    cursor?" and got the dial itself. Turning a page with the mouse wheel
+    over the Slate material editor, Track View or another window could
+    therefore miss that window's variant; the footer lost "under cursor:
+    <object>" after a page turn; and the event log named no window. The
+    plugin now looks through its own dial at the window beneath it.
+
 1.5.37 - More examples in the short QuickStart (2026-10-08)
 -------------------------------------------------------------------------------
   - The short QuickStart (QuickStart_Easy_v3) grows to 14 lessons: the
