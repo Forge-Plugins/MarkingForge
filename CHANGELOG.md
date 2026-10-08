@@ -4,6 +4,14 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.34 - The mouse wheel always changes the dial (2026-10-08)
+-------------------------------------------------------------------------------
+  - With an object selected whose modifier has a variant (Unwrap UVW, say),
+    turning the wheel on a dial with pages could bring back the same
+    commands: a page copied from another dial brings that dial's variants
+    along, so two pages showed the very same variant. The wheel now always
+    changes what you see - such a page shows its own contents instead.
+
 1.5.33 - No warning at every opening of the editor (2026-10-08)
 -------------------------------------------------------------------------------
   - Opening the editor on dials saved before 1.5.30 showed a warning box,
