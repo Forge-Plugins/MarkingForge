@@ -4,6 +4,15 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.33 - No warning at every opening of the editor (2026-10-08)
+-------------------------------------------------------------------------------
+  - Opening the editor on dials saved before 1.5.30 showed a warning box,
+    "Some of the file could not be read", about the updated "Open UV Editor"
+    item - and showed it again at every opening. Nothing was lost: the item
+    was updated. The editor now says so in its status bar and marks the file
+    changed, so Save (or saving when you close) keeps the update and the note
+    does not come back.
+
 1.5.32 - The UV editor as a window; object name and layer in the editor (2026-10-07)
 -------------------------------------------------------------------------------
   - A variant can ask for the cursor over the UV editor (Edit UVWs): pick
