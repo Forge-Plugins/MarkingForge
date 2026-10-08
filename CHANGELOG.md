@@ -4,6 +4,15 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.37 - More examples in the short QuickStart (2026-10-08)
+-------------------------------------------------------------------------------
+  - The short QuickStart (QuickStart_Easy_v3) grows to 14 lessons: the
+    variants already in the built-in dials and why their order matters; a
+    variant for a window (Track View, from a template); object class, kind
+    and modifier names - what each looks at and how to write them; the
+    dotted settings ring and how to change its size; and the right-click
+    menu of a dial - saving and loading one dial, or every dial.
+
 1.5.36 - Updating while a document is open (2026-10-08)
 -------------------------------------------------------------------------------
   - With a PDF of the installed version open (in Acrobat, say), an update
