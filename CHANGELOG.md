@@ -4,6 +4,13 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.42 - The 3D view under the dial (2026-10-08)
+-------------------------------------------------------------------------------
+  - 1.5.38 taught the plugin to look through its own dial at the window
+    beneath; over the 3D view it stopped one window short, so with the dial
+    on screen the view was not recognised - a page turned with the wheel
+    there lost the object under the cursor. It now reaches the view.
+
 1.5.41 - A queue runs in order; Connect on edges works (2026-10-08)
 -------------------------------------------------------------------------------
   - Several commands in one gesture: 3ds Max ran the dial's macros LATER
