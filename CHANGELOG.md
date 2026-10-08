@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.45 - The waiting queue: its status line and lesson (2026-10-09)
+-------------------------------------------------------------------------------
+  - While a queue waited for a tool, 3ds Max's status line said "... Menu N
+    - Overriding" instead of naming the next command. It now says, for
+    example: "right-click when Inset is done - next: Extrude".
+  - Documentation: QuickStart Easy v3 has a lesson of its own on a queue
+    that waits for you (lesson 14) - what a right-click, Esc, a pan, another
+    tool or a new gesture does, and how Ctrl+Z goes back. The QuickStarts,
+    the Reference and the Editor Guide describe it too.
+
 1.5.44 - A queue waits for Inset, Bevel... (2026-10-09)
 -------------------------------------------------------------------------------
   - Several commands in one gesture: Inset, Extrude, Bevel, Chamfer and any
