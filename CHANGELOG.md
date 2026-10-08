@@ -4,6 +4,18 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.41 - A queue runs in order; Connect on edges works (2026-10-08)
+-------------------------------------------------------------------------------
+  - Several commands in one gesture: 3ds Max ran the dial's macros LATER
+    than the script items of the same queue (its action system delays them),
+    so a queue could run out of order and outside its single undo entry.
+    1.5.39 did not fix that - re-measured. Queued macros now run at once,
+    one after another, as one Ctrl+Z.
+  - "Connect" on the Editable Poly edge dial did nothing: it ran Max's
+    vertex connect. It now connects the selected edges. Dials saved before
+    are updated when the plugin or the editor reads them.
+  - "Connect" on the border dial did nothing either; Loop is there now.
+
 1.5.40 - The short QuickStart: chains and the keys (2026-10-08)
 -------------------------------------------------------------------------------
   - QuickStart_Easy_v3 has a lesson on several commands in one gesture: how
