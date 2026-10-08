@@ -4,6 +4,18 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.44 - A queue waits for Inset, Bevel... (2026-10-09)
+-------------------------------------------------------------------------------
+  - Several commands in one gesture: Inset, Extrude, Bevel, Chamfer and any
+    other command that switches on a tool waiting for a drag used to work
+    only as the LAST command of a queue - the next one switched the tool off
+    again. Now the queue stops at such a command: drag in the viewport, then
+    right-click, and the next queued command starts by itself. 3ds Max's
+    status line says which one is next.
+  - Each such step is its own undo entry (commands that finish at once
+    still share one). Picking another tool, selecting another object or a
+    new gesture drops the rest of the queue.
+
 1.5.43 - A readable narrow catalogue; review fixes (2026-10-08)
 -------------------------------------------------------------------------------
   - Editor: with the action catalogue dragged narrow, the "Category / table"
