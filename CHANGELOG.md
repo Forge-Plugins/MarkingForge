@@ -4,6 +4,30 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.50 - Final review fixes (2026-10-09)
+-------------------------------------------------------------------------------
+  - A queue waiting for a tool (Inset, Bevel...) checks EVERY selected
+    object, not only the first: adding, removing or swapping an object
+    while it waits drops the rest of the queue. Up to 1.5.49 the next
+    command could run on objects the queue was not started for. The status
+    line says when a queue is dropped. A creation tool (Box...) still lets
+    the queue go on, as it selects what it creates.
+  - A value direction let go over at the end of a queue is written LAST:
+    after the tool the queue waits for and the commands queued before it -
+    or dropped with them. Up to 1.5.49 it was written at once, before them.
+  - Editor: a cancelled "Add a script..." under the list no longer leaves
+    the default-menu question answered - the next row added to a dial that
+    inherits the default menu asks again.
+  - Editor: Save also warns about an empty submenu on a page the key does
+    not open now, and in a list row.
+  - Editor: a condition number is read one way everywhere - 2.0 is 2; a
+    negative, a fraction or true/false is not tested and is said
+    ("ignored") in the condition's description; 3ds Max reports it in its
+    log. Up to 1.5.49 "selection": 1.5 meant "nothing selected" in 3ds Max.
+  - Cheat sheet: the hotbox page of a dial prints as a hotbox (it printed
+    as an empty square), and every variant prints by its own layout and
+    contents - a variant of a live-contents or hotbox dial was left out.
+
 1.5.49 - The editor, option by option (2026-10-09)
 -------------------------------------------------------------------------------
   - Condition... no longer fails to open on a condition written by hand as
