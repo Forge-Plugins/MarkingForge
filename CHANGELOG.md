@@ -4,6 +4,30 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.51 - The dials, one by one (2026-10-09)
+-------------------------------------------------------------------------------
+  Every item of the built-in dials was run in 3ds Max in the context its
+  variant is for (782 items, 2026 and 2025); what did not work is fixed:
+  - Undo and Redo on a dial did NOTHING when the gesture started over an
+    unselected object - and the selection moved to that object. Undo, Redo,
+    Save, Open, Import, Merge, Hold, Fetch, Reset, Export and Archive no
+    longer select the object under the cursor (also when picked from the
+    hotbox or the search and repeated from the Recent dial).
+  - "+ TurboSmooth", "+ Shell" and every other "add a modifier" item skip
+    what the modifier cannot go on: with a camera or light in the selection
+    they used to stop with an error and add nothing at all.
+  - "Unwrap and edit" opens an Unwrap UVW the object already has instead of
+    stacking a second one, and adds none to a camera or light.
+  - Viewport display dial: "Facets + highlights", "Edges only", "Lit
+    wireframes" and "Transparency: best" did nothing in today's viewports;
+    replaced by Facets and Flat color. Snaps and grid dial: "Align grid to
+    view" did nothing on the home grid; AutoGrid takes its place. The same
+    items left the preset packs.
+  - The Modifier stack dial's entries no longer go into the Recent dial (they
+    named a modifier by its place in a stack that may have changed since).
+  - A chain saved as an item runs macroscripts in the order they were
+    queued, as the live chain does.
+
 1.5.50 - Final review fixes (2026-10-09)
 -------------------------------------------------------------------------------
   - A queue waiting for a tool (Inset, Bevel...) checks EVERY selected
