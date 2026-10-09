@@ -4,6 +4,27 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.48 - Script items undo; final review (2026-10-09)
+-------------------------------------------------------------------------------
+  - A dial item that runs a script (Add TurboSmooth, Convert to Editable
+    Poly and some two hundred more) could not be undone: Ctrl+Z left the
+    change. Each one is now an undo entry named after the item.
+  - Updating MarkingForge no longer gives a key back to a dial whose key you
+    cleared on purpose: "Set up the standard shortcuts" is ticked for a first
+    install only.
+  - The editor's Save keeps the previous menus.json (the last 5, in a
+    "backups" folder beside it).
+  - Several commands in one gesture: Select, Move, Rotate or Scale ends a
+    waiting tool like a right-click (now said in the documents); a new scene
+    drops a waiting queue; a creation tool no longer drops it; a queue that
+    waited for a tool is not saved as one item.
+  - A condition the plugin does not know (a typo such as "subObject") is
+    reported, and a variant with no known condition is skipped instead of
+    matching everywhere.
+  - Smaller: a dial bound to Alt + a mouse button no longer wakes the menu
+    bar; a click in the hotbox works in the place it was opened; old backup
+    files are pruned; the documents give the short QuickStart's real size.
+
 1.5.47 - A pinned dial gives the keyboard back (2026-10-09)
 -------------------------------------------------------------------------------
   - With a dial pinned by typing, a click into a text field of 3ds Max (the
