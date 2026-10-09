@@ -4,6 +4,22 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.47 - A pinned dial gives the keyboard back (2026-10-09)
+-------------------------------------------------------------------------------
+  - With a dial pinned by typing, a click into a text field of 3ds Max (the
+    object name, a spinner) left the dial open, and what you typed went into
+    the dial's search instead of the field. The dial now closes, running
+    nothing, as soon as the field takes the keyboard.
+
+1.5.46 - A value direction undoes with Ctrl+Z (2026-10-09)
+-------------------------------------------------------------------------------
+  - A value set by dragging (an experimental "value" direction) could not be
+    undone: Ctrl+Z took back only the selection of the object under the
+    cursor and left the value. Now one Ctrl+Z takes back both.
+  - Moving through a value direction - even in passing, then giving up in
+    the centre - selected the object under the cursor and left it selected.
+    It now reads the starting value without changing the selection.
+
 1.5.45 - The waiting queue: its status line and lesson (2026-10-09)
 -------------------------------------------------------------------------------
   - While a queue waited for a tool, 3ds Max's status line said "... Menu N
