@@ -4,6 +4,25 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.49 - The editor, option by option (2026-10-09)
+-------------------------------------------------------------------------------
+  - Condition... no longer fails to open on a condition written by hand as
+    a decimal number ("selection": 1.0, "subobject": 2.0); it reads it as
+    3ds Max does.
+  - An empty submenu is said - when you leave it and when you save: 3ds Max
+    shows a submenu with nothing in it as a broken entry.
+  - On a dial that inherits the default menu, "Add a script..." and "Script
+    library..." under the list ask about the default menu BEFORE you write
+    the script, not after (a Cancel threw the script away).
+  - Value... keeps numbers you did not touch exactly as they were (it used
+    to round them to its boxes).
+  - Undo (shortcuts) says first that it also drops shortcuts not applied yet.
+  - The cheat sheet notes shortcuts not applied yet and draws a hotbox dial
+    as a hotbox, not as eight directions.
+  - Colour..., Change label..., Settings... and Empty the direction say a
+    direction is empty before asking about the default menu; the scene-menu
+    buttons say they act at once; a few outdated tooltips corrected.
+
 1.5.48 - Script items undo; final review (2026-10-09)
 -------------------------------------------------------------------------------
   - A dial item that runs a script (Add TurboSmooth, Convert to Editable
