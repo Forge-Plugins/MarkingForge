@@ -4,6 +4,29 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.55 - Final review (2026-10-12)
+-------------------------------------------------------------------------------
+  - Over Track View, the Slate editor, Particle View or Scene Explorer a
+    dial opens the page that has a variant for that window. Up to now a
+    page turned to elsewhere (in Unwrap, say) opened there too, and the
+    window's variant needed the mouse wheel. The page you turned to stays
+    remembered for the 3D view; a flick and a tap follow the same page.
+  - Editor: Save every dial keeps the whole configuration, and Load every
+    dial puts back exactly what was saved - every dial and its pages, the
+    default menu, the mouse buttons, the colours and every option. Changes
+    made since are dropped. Choosing the folder you saved INTO loads its
+    newest saved set. (A folder saved before 1.5.55 loads as it did.)
+  - Editor: when the configuration file changed on disk after the editor
+    read it (a page switched from a dial, an Experimental option ticked in
+    3ds Max's menu), Save asks: Overwrite with my edits, Save a copy or
+    Cancel. It used to refuse every Save until Reload.
+  - Editor: the New dial wizard has its own list of commands with a search
+    box - click a direction, then double-click a command or press "Put
+    into ...". The page says how in capitals; a command name typed in full
+    is found too.
+  - Editor: the cheat sheet numbers the variants it prints; a variant with
+    no menu is shown as skipped, as 3ds Max skips it.
+
 1.5.54 - Two review fixes (2026-10-11)
 -------------------------------------------------------------------------------
   - A queue that pauses for a spline tool (Fillet, Chamfer, Outline...)
