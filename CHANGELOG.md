@@ -4,6 +4,18 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.54 - Two review fixes (2026-10-11)
+-------------------------------------------------------------------------------
+  - A queue that pauses for a spline tool (Fillet, Chamfer, Outline...)
+    keeps the selection it started with: a selection changed in that short
+    pause drops the rest of the queue, as it does while the queue waits for
+    the right-click. Up to now the rest could run on the new selection.
+  - Editor: a variant whose condition holds only keys 3ds Max does not know
+    (a typo such as "selction") is shown as skipped - 3ds Max skips it -
+    and not as "matches ALWAYS"; the variant list no longer marks it as the
+    one that wins now, and the cheat sheet leaves it out. Such keys are
+    still kept in the file.
+
 1.5.53 - Review of 1.5.50-1.5.52 (2026-10-11)
 -------------------------------------------------------------------------------
   - The queue's pause for spline tools is only for the 14 spline commands
