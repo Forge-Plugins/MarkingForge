@@ -4,6 +4,17 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.56 - The preset packs installed with the plugin (2026-10-12)
+-------------------------------------------------------------------------------
+  - The four preset packs (Modelling, Animation, Look-dev, Archviz) are now
+    installed with the plugin, in its presets folder. Up to now they were
+    only in the download's Presets folder.
+  - Editor: Load preset... opens that folder; Save preset... offers the
+    folder of your dials (plugcfg\MarkingForge) instead of whatever folder
+    3ds Max was working in.
+  - The guides say where the plugin installs for each 3ds Max version and
+    where the preset packs and your own presets are.
+
 1.5.55 - Final review (2026-10-12)
 -------------------------------------------------------------------------------
   - Over Track View, the Slate editor, Particle View or Scene Explorer a
