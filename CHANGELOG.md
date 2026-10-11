@@ -4,6 +4,28 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.53 - Review of 1.5.50-1.5.52 (2026-10-11)
+-------------------------------------------------------------------------------
+  - The queue's pause for spline tools is only for the 14 spline commands
+    that start a tool (Fillet, Chamfer, Outline, Trim, Extend, Refine,
+    Connect, Insert, Attach, Bind, Cross Insert, Create Line, Subtract) and
+    for scripts calling splineOps - measured for all 35 Editable Spline
+    commands. A queue of instant spline commands (Weld, Fuse, Break...) is
+    again one Ctrl+Z and runs without a pause.
+  - Undo, Redo and the other scene commands found with type-to-search and
+    repeated from the Recent dial no longer select the object under the
+    cursor first.
+  - "Save last chain as an item..." never offers an older chain after a
+    chain that waited for a tool.
+  - A chain saved as an item falls back to the action system when a
+    macroscript is named otherwise in this 3ds Max.
+  - A selection word in a condition is read with spaces trimmed, by the
+    plugin as by the editor; one warning instead of two for a condition
+    level that is not a number.
+  - Editor: a huge number in a condition no longer stops the variant list
+    and the cheat sheet; Save warns only about pages 3ds Max loads;
+    Condition... keeps a selection count above 9999.
+
 1.5.52 - The queue waits for spline tools too (2026-10-11)
 -------------------------------------------------------------------------------
   - Multiple picks in one gesture: a queue now waits for Fillet, Chamfer,
