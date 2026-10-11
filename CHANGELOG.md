@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.52 - The queue waits for spline tools too (2026-10-11)
+-------------------------------------------------------------------------------
+  - Multiple picks in one gesture: a queue now waits for Fillet, Chamfer,
+    Outline and the other tools of an Editable Spline and of an Edit Spline
+    modifier, and the right-click starts the next queued command - as it
+    always did for Inset, Extrude or Bevel. 3ds Max switches a spline tool
+    on a moment after the command runs, so the queue went straight on and
+    switched the tool off again. Measured with real gestures on Editable
+    Poly, Editable Spline, Editable Mesh and the Edit Poly, Edit Spline and
+    Edit Mesh modifiers, two waiting tools in a row included.
+  - MarkingForge.commandModeInfo() tells which tool 3ds Max is in and
+    whether a queue is waiting for it (for support).
+
 1.5.51 - The dials, one by one (2026-10-09)
 -------------------------------------------------------------------------------
   Every item of the built-in dials was run in 3ds Max in the context its
