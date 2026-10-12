@@ -4,6 +4,14 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.58 - Lesson references name the QuickStart Long (2026-10-12)
+-------------------------------------------------------------------------------
+  - The Editor Guide, the guide for Maya users and the Installation Guide
+    sent readers to "the QuickStart, tutorial 14" (and 8-13, 15, 19, 20-21,
+    "Five tricks worth knowing") - numbers of the first QuickStart, which is
+    no longer in the package. They now name the QuickStart Long, whose
+    lessons carry the same numbers; the QuickStart Short counts its own.
+
 1.5.57 - QuickStart Long and QuickStart Short (2026-10-12)
 -------------------------------------------------------------------------------
   - Two QuickStarts instead of three. MarkingForge_QuickStart_Long.pdf (was
