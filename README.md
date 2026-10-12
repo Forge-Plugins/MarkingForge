@@ -59,6 +59,15 @@ The plugin itself is sold separately; there is no source code here.
 | ![Several commands in one gesture](images/trick_chain.png) | ![Type to search](images/trick_search.png) |
 | ![The hotbox](images/04_hotbox.png) | ![The menu editor](images/06_editor.png) |
 
+### The launch film
+
+[![MarkingForge - the launch film](images/MarkingForge_Launch_cover.png)](images/MarkingForge_Launch_93s.mp4)
+
+Everything in 93 seconds, recorded in 3ds Max 2027: three flicks for Inset, Extrude and Bevel, the ready-made
+dials, context variants per sub-object level, several picks in one gesture with one undo, the settings ring,
+a value dial, pages and the hotbox, type-to-search and the visual editor.
+[Watch the film (MP4, 93 s, 1920x1080)](images/MarkingForge_Launch_93s.mp4).
+
 ### In use
 
 ![MarkingForge in use: your own dial, modifiers, live dials, a slider, flicks and the hotbox](images/MarkingForge_in_use.gif)
