@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.61 - Modifier variants with the Modify panel closed (2026-10-12)
+-------------------------------------------------------------------------------
+  - A dial variant for a modifier (Edit Poly with Vertex / Edge / Polygon,
+    Unwrap UVW, your own) showed only while the Modify panel was open: after
+    adding an Edit Poly from the Create panel the dial stayed on its base
+    menu. With the panel closed and one object selected, the modifier on top
+    of its stack now counts - the one 3ds Max shows when the panel opens.
+  - Picking a command from such a dial opens the Modify panel on that
+    modifier first, so Vertex, Polygon, Remove Edit Poly and the rest find
+    what they work on.
+  - MarkingForge.contextInfo() says when the modifier was read from the
+    stack.
+
 1.5.60 - The settings ring with an Edit Poly modifier (2026-10-12)
 -------------------------------------------------------------------------------
   - With an Edit Poly modifier the Modelling dial (Alt+1) had no outer ring:
