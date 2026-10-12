@@ -87,9 +87,8 @@ aimed at the script, after. [The full video (MP4, 48 s, 1280x720)](images/Markin
 
 | Document | What it covers |
 |---|---|
-| [QuickStart - the short version](docs/MarkingForge_QuickStart_Easy_v3.pdf) | 8 lessons, about 15 minutes - the quickest start |
-| [QuickStart - the easy version](docs/MarkingForge_QuickStart_Easy.pdf) | the same 22 lessons in plain words - start here |
-| [QuickStart](docs/MarkingForge_QuickStart.pdf) | 22 tutorials and five tricks - every step in detail |
+| [QuickStart Short](docs/MarkingForge_QuickStart_Short_v3.pdf) | 16 lessons and the tips, about 15 minutes - the quickest start |
+| [QuickStart Long](docs/MarkingForge_QuickStart_Long.pdf) | all 22 lessons in plain words, every step in detail |
 | [Editor Guide](docs/MarkingForge_Editor_Guide.pdf) | your first dial and every part of the menu editor, step by step |
 | [Installation and Configuration Guide](docs/MarkingForge_Installation_Guide.pdf) | installing, updating, shortcuts, the 24 dials |
 | [Reference](docs/MarkingForge_Reference.pdf) | every option, gesture and command; tips; problems and solutions |

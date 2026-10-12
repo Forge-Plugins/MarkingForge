@@ -4,6 +4,17 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.57 - QuickStart Long and QuickStart Short (2026-10-12)
+-------------------------------------------------------------------------------
+  - Two QuickStarts instead of three. MarkingForge_QuickStart_Long.pdf (was
+    QuickStart_Easy) teaches all 22 lessons in plain words;
+    MarkingForge_QuickStart_Short_v3.pdf (was QuickStart_Easy_v3) is the
+    short one. The first QuickStart (MarkingForge_QuickStart.pdf) is no
+    longer in the package - the Long one covers the same lessons.
+  - QuickStart Short: about 15 minutes to read (the lesson times add up to
+    it), and it ends with the Reference's Tips and tricks.
+  - Every document that named the old files names the new ones.
+
 1.5.56 - The preset packs installed with the plugin (2026-10-12)
 -------------------------------------------------------------------------------
   - The four preset packs (Modelling, Animation, Look-dev, Archviz) are now
