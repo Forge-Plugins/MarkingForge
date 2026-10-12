@@ -4,6 +4,32 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.63 - Search runs the command you meant (2026-10-12)
+-------------------------------------------------------------------------------
+  - Typing "select none" on the dial and pressing Enter ran a Select None
+    that did nothing: Max has seven commands of that name (Particle Flow,
+    Slate, Track View, Schematic View, the main toolbar...) and search took
+    whichever came first in Max's own list - Particle Flow's. Between commands
+    of the same name the main interface's now comes first, then one of an
+    editor that is open, then the rest. Typing "select none" over a viewport
+    deselects.
+  - When the same name appears more than once among the results, every copy
+    after the first shows where it comes from - "Select None (Track View)" -
+    instead of eight identical captions.
+
+1.5.62 - A modifier Value with the Modify panel closed (2026-10-12)
+-------------------------------------------------------------------------------
+  - A Value direction in a variant for a modifier, whose reading code asks
+    modPanel.getCurrentObject() (a TurboSmooth's iterations, say), did
+    nothing while the Modify panel was closed: the dial showed the right
+    variant, but the starting value could not be read, so the direction was
+    switched off for the gesture. The value is now read from the modifier
+    the variant was chosen for - the same object, the same modifier on top -
+    without opening any panel; releasing writes it as before, opening the
+    Modify panel on that modifier. A cancelled gesture changes no panel,
+    selection or Undo. Values that do not use modPanel (the viewport's
+    field of view, say) are not touched.
+
 1.5.61 - Modifier variants with the Modify panel closed (2026-10-12)
 -------------------------------------------------------------------------------
   - A dial variant for a modifier (Edit Poly with Vertex / Edge / Polygon,
