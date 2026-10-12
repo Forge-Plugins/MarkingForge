@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.60 - The settings ring with an Edit Poly modifier (2026-10-12)
+-------------------------------------------------------------------------------
+  - With an Edit Poly modifier the Modelling dial (Alt+1) had no outer ring:
+    its commands had no settings window to open. Extrude, Chamfer, Weld,
+    Connect (edges), Bevel, Inset, Outline, Hinge, Bridge, Tessellate and the
+    others that have a settings window in 3ds Max now open it past the ring,
+    as on an Editable Poly. Weld now welds on an ordinary release and asks
+    past the ring (it used to ask every time).
+  - Edit Mesh and Edit Spline have no settings windows in 3ds Max, so their
+    commands have no ring - there is nothing it could open.
+  - MarkingForge.menuModel N marks the items with a settings window and
+    lists every variant of the dial.
+
 1.5.59 - Final editor review (2026-10-12)
 -------------------------------------------------------------------------------
   Every function of the menu editor was run in 3ds Max and judged by what it
