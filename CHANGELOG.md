@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.59 - Final editor review (2026-10-12)
+-------------------------------------------------------------------------------
+  Every function of the menu editor was run in 3ds Max and judged by what it
+  did - 77 checks. Two things were wrong:
+  - Loading a preset, a dial file or every dial WITHOUT scripts left a
+    submenu that held only scripts behind, empty - a broken entry on the
+    dial, and 3ds Max warned "'submenu' has no items at all". The submenu now
+    goes with its scripts. The same for menus stored in a scene. A submenu
+    that was empty before, a hotbox and a dial that fills itself stay.
+  - The new dial wizard said "Not found" for a name several commands carry
+    (Extrude, Bevel...). It now says that more than one command has this
+    name and asks you to pick the one you mean from the list.
+
 1.5.58 - Lesson references name the QuickStart Long (2026-10-12)
 -------------------------------------------------------------------------------
   - The Editor Guide, the guide for Maya users and the Installation Guide
