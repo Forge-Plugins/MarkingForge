@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.64 - Search: what the ordering really does (2026-10-13)
+-------------------------------------------------------------------------------
+  - The notes of 1.5.63 said that, among commands of the same name, one of
+    an editor that is open comes second. It does not: 3ds Max offers no such
+    signal to a plugin, and the check that was meant to do it separated
+    nothing. The ordering is now exactly this - the main interface's command
+    first, all others in 3ds Max's own order - and the needless check is
+    gone from every key press. Typing "select none" over a viewport
+    deselects, as in 1.5.63.
+
 1.5.63 - Search runs the command you meant (2026-10-12)
 -------------------------------------------------------------------------------
   - Typing "select none" on the dial and pressing Enter ran a Select None
