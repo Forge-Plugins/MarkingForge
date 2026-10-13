@@ -4,6 +4,16 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.65 - Colour preset files in a folder of their own (2026-10-13)
+-------------------------------------------------------------------------------
+  - Import a preset from a file... and Export this preset to a file... (the
+    colour presets of the dial and of the editor) opened their window in
+    whatever folder 3ds Max happened to be working in - which other plugins
+    change, so an exported preset could land in C:\ProgramData\Autodesk or
+    inside another plugin's own folder. Both now open in the folder where
+    MarkingForge keeps your settings and presets. (Save preset... had this
+    fixed in 1.5.55.)
+
 1.5.64 - Search: what the ordering really does (2026-10-13)
 -------------------------------------------------------------------------------
   - The notes of 1.5.63 said that, among commands of the same name, one of
