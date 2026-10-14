@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.67 - Connect, Weld, Tessellate with their settings (2026-10-14)
+-------------------------------------------------------------------------------
+  - Opening a command's settings window from a dial (releasing past the
+    dotted ring, say) ran the command ONCE with its last settings first and
+    only then opened the window. For Inset, Extrude, Bevel or Chamfer that
+    went unseen, because running them only starts dragging; for commands that
+    act at once - Connect, Weld, Tessellate - it already changed the mesh and
+    selected the new edges, so the window then worked on those: Connect on a
+    ring of edges with 8 segments in the window left a single loop. Now the
+    dial opens only the settings window, exactly as the settings icon of the
+    quad menu does, and the command runs when you confirm it there. Reported
+    on GitHub - thank you.
+
 1.5.66 - Switch the settings windows off completely (2026-10-14)
 -------------------------------------------------------------------------------
   - New in Experimental features: No settings windows (Bevel, Extrude...).
