@@ -4,6 +4,21 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.66 - Switch the settings windows off completely (2026-10-14)
+-------------------------------------------------------------------------------
+  - New in Experimental features: No settings windows (Bevel, Extrude...).
+    Ticked, no command opens its settings window from a dial - Bevel,
+    Extrude, Chamfer, Inset and the rest start at once, as their button in
+    the Modify panel does (drag in the viewport to set the amount). The
+    dotted outer ring and the "..." on the tiles disappear; releasing past
+    the ring, a long flick, a search result or Settings... on an item no
+    longer open a window, and a script's version "with parameters" is not
+    run. Off by default - untick it to have the windows back. In the editor:
+    Experimental features...; in 3ds Max: MarkingForge > Experimental
+    features; in menus.json: "experimental": { "noItemSettings": true }.
+  - The Reference says so at the start of chapter 1, and both QuickStarts in
+    lesson 4.
+
 1.5.65 - Colour preset files in a folder of their own (2026-10-13)
 -------------------------------------------------------------------------------
   - Import a preset from a file... and Export this preset to a file... (the
