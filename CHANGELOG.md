@@ -4,6 +4,21 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.68 - Hardening after a review of every way a command runs (2026-10-14)
+-------------------------------------------------------------------------------
+  - Every path that runs a command - release, flick, tap, list rows, queues,
+    hotbox click and release, search, Recent, Undo, the suggested next
+    command, the modifier stack, value directions - was reviewed for a command
+    running twice. None does. Three small things were tightened so it stays
+    that way:
+  - Whether a command's settings window opens is now decided once, before
+    anything runs, instead of being asked again afterwards.
+  - A right-click that cancels the hotbox or a pinned dial now disarms the
+    key at once, as Escape does - a key released in the same instant can no
+    longer run the item that was just cancelled.
+  - An internal description of how commands with settings run was brought up
+    to date.
+
 1.5.67 - Connect, Weld, Tessellate with their settings (2026-10-14)
 -------------------------------------------------------------------------------
   - Opening a command's settings window from a dial (releasing past the
