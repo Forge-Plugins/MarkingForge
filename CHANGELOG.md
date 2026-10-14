@@ -4,6 +4,19 @@
 MarkingForge - Release notes
 ===============================================================================
 
+1.5.69 - The settings texts say what the dial does (2026-10-14)
+-------------------------------------------------------------------------------
+  - The tooltip of "An ordinary release shows the action's SETTINGS" and the
+    Reference still said that a pick runs the command AND opens its settings
+    window. Since 1.5.67 it opens the window only, and the command runs when
+    you confirm it there - the texts now say so.
+  - "No settings windows" said that releasing past the ring "changes
+    nothing", which could be read as "does nothing". It now says what
+    happens: the command runs just as on an ordinary release.
+  - When 3ds Max refuses to open a command's settings window (the command is
+    not available in the current mode), the dial now says so in the status
+    bar and in the MAXScript Listener instead of doing nothing silently.
+
 1.5.68 - Hardening after a review of every way a command runs (2026-10-14)
 -------------------------------------------------------------------------------
   - Every path that runs a command - release, flick, tap, list rows, queues,
