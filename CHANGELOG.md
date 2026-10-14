@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.70** - The dial's size, and the green ring's (2026-10-14)
+Current version: **1.5.71** - You do not have to hit the caption (2026-10-14)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.71 - You do not have to hit the caption (2026-10-14)
+
+- Users read the dials as if a command ran only when the cursor was ON its caption tile. It never was so: the dial picks by DIRECTION. Move towards a command and release anywhere in its slice - near the centre, on the caption or far beyond it - and it runs; only the centre cancels. The documents now say so at the very start: the Reference (chapter 1), both QuickStarts (lesson 1), the Installation Guide (chapter 6) and the README. Far out only three things differ, and those are named there too: past the dotted ring a command with a settings window opens it, a submenu opens, and a row of the list under the dial wins while the cursor is on it. No change to the plugin's behaviour.
 
 ## 1.5.70 - The dial's size, and the green ring's (2026-10-14)
 

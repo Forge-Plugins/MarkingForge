@@ -9,6 +9,10 @@
 > Press the key and flick the mouse towards the command in one quick movement - the
 > command runs and **the dial is not even drawn**. The dial appears only when you hold
 > the key and wait, to remind you where things are.
+>
+> **You do not have to hit the caption.** On a held dial, too, the direction counts: move
+> towards a command and release anywhere in its slice - near the centre, on its caption or
+> far beyond it - and it runs. Only the centre cancels.
 
 ![The dial follows the sub-object level](images/MarkingForge_context.gif)
 
@@ -21,15 +25,15 @@ This repository holds the **documentation, release notes and the issue tracker**
 The plugin itself is sold separately; there is no source code here.
 
 <!-- version:start -->
-## Current version: 1.5.70
+## Current version: 1.5.71
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.71 - You do not have to hit the caption (2026-10-14)](CHANGELOG.md#1571---you-do-not-have-to-hit-the-caption-2026-10-14)
 - [1.5.70 - The dial's size, and the green ring's (2026-10-14)](CHANGELOG.md#1570---the-dials-size-and-the-green-rings-2026-10-14)
 - [1.5.69 - The settings texts say what the dial does (2026-10-14)](CHANGELOG.md#1569---the-settings-texts-say-what-the-dial-does-2026-10-14)
 - [1.5.68 - Hardening after a review of every way a command runs (2026-10-14)](CHANGELOG.md#1568---hardening-after-a-review-of-every-way-a-command-runs-2026-10-14)
 - [1.5.67 - Connect, Weld, Tessellate with their settings (2026-10-14)](CHANGELOG.md#1567---connect-weld-tessellate-with-their-settings-2026-10-14)
-- [1.5.66 - Switch the settings windows off completely (2026-10-14)](CHANGELOG.md#1566---switch-the-settings-windows-off-completely-2026-10-14)
 <!-- version:end -->
 
 ## Highlights
