@@ -20,6 +20,18 @@ without the dial ever being drawn.
 This repository holds the **documentation, release notes and the issue tracker**.
 The plugin itself is sold separately; there is no source code here.
 
+<!-- version:start -->
+## Current version: 1.5.70
+
+The latest changes ([all release notes](CHANGELOG.md)):
+
+- [1.5.70 - The dial's size, and the green ring's (2026-10-14)](CHANGELOG.md#1570---the-dials-size-and-the-green-rings-2026-10-14)
+- [1.5.69 - The settings texts say what the dial does (2026-10-14)](CHANGELOG.md#1569---the-settings-texts-say-what-the-dial-does-2026-10-14)
+- [1.5.68 - Hardening after a review of every way a command runs (2026-10-14)](CHANGELOG.md#1568---hardening-after-a-review-of-every-way-a-command-runs-2026-10-14)
+- [1.5.67 - Connect, Weld, Tessellate with their settings (2026-10-14)](CHANGELOG.md#1567---connect-weld-tessellate-with-their-settings-2026-10-14)
+- [1.5.66 - Switch the settings windows off completely (2026-10-14)](CHANGELOG.md#1566---switch-the-settings-windows-off-completely-2026-10-14)
+<!-- version:end -->
+
 ## Highlights
 
 - 24 ready-made dials on **Alt / Ctrl+Alt / Shift+Alt + 1-8** - modelling first (Alt+1..4: Modelling, Modifiers, Selection, Create; the viewport and the hotbox on Alt+5), the rarely used dials furthest away
@@ -49,6 +61,8 @@ The plugin itself is sold separately; there is no source code here.
   at once when you release near the dial and open their settings past the dotted ring
   (the other way round with one tick box, or per command); a flick follows the same ring,
   and how far out it lies is yours to set
+- **Your size** - every dial from 60 to 160 %, and the green return ring of several picks in one gesture, set in the editor with a picture of the real dial
+- **No settings windows** if you never want them - one tick and Chamfer, Inset, Extrude... always run at once
 - Keyboard shortcuts ready from the first start, however it was installed
 - Presets and four ready packs (Modelling, Animation, Look-dev, Archviz)
 - Native C++ - about 3 ms to the first pixel. No internet connection, no telemetry
