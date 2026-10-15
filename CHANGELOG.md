@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.79** - Editing sub-objects with objects behind; the topmost editable entry (2026-10-15)
+Current version: **1.5.80** - A held Tab keeps the keyboard where it is (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.80 - A held Tab keeps the keyboard where it is (2026-10-16)
+
+- A dial on TAB held for a while: every repeat of the key moved the keyboard on through 3ds Max's panels - the window's tab bar, a docked panel, a text field, buttons. Once it reached a text field 3ds Max lost the key's release, and the direction under the cursor ran when you let go. Measured in a user's 3ds Max 2027. While a dial is open, the repeats of Tab are now ignored; the dial needs only the first press, and letting go works as before.
 
 ## 1.5.79 - Editing sub-objects with objects behind; the topmost editable entry (2026-10-15)
 
