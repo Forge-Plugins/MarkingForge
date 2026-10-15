@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.76** - The recent changes at the start of every document (2026-10-15)
+Current version: **1.5.77** - Edit Poly commands under a modifier; nothing switched off runs (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.77 - Edit Poly commands under a modifier; nothing switched off runs (2026-10-15)
+
+- ATTACH (and every Edit Poly command) from the Editable Poly dial on an object with a modifier on top - a TurboSmooth, say - ended in a MAXScript error ("Unknown property: EnterPickMode in TurboSmooth"). The dial knows the object as an Editable Poly under its modifiers, but 3ds Max runs those commands only with the Editable Poly picked in the modifier stack. Now the Modify panel goes to the Editable Poly first - the click you would make in the stack - and the command runs.
+- A command 3ds Max has switched off at that moment (greyed on the dial) is no longer run anyway: Attach with two objects selected, say. The status bar says it is not available here, as 3ds Max's own menus do.
+- The event log notes both: "REFUSED ...".
 
 ## 1.5.76 - The recent changes at the start of every document (2026-10-15)
 
