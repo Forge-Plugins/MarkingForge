@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.74** - Maya's look in one tick; the Discord channel (2026-10-15)
+Current version: **1.5.75** - A dial on Tab from the old-style panels; Undo keeps working (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.75 - A dial on Tab from the old-style panels; Undo keeps working (2026-10-15)
+
+- A dial on TAB now opens with the keyboard in an old-style panel too - the Editable Poly / Edit Poly rollups of the Modify panel, say. Measured with real keys: after a click into such a panel Windows took Tab as its own "next control" before 3ds Max saw the shortcut - five holds of Tab opened no dial (Alt+1: five of five), and hold after hold walked the keyboard into a number field. There 3ds Max silences EVERY shortcut, so Ctrl+Z seemed to stop working while the toolbar's Undo still did, until a click in a viewport. Now that Tab press goes to the active viewport and opens the dial; the keyboard stays out of the number fields.
+- Inside a number or text field Tab still moves to the next field, as it always has - typing values is untouched.
+- Undo itself was never broken: every path a dial runs was measured - one real Ctrl+Z takes back one step, no undo block is ever left open (an operation with its settings, a dragged tool, the object under the cursor, a script that fails half-way).
+- The event log says when it happened: "Tab on ... in an old-style panel - handed to the viewport".
 
 ## 1.5.74 - Maya's look in one tick; the Discord channel (2026-10-15)
 
