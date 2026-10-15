@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.73** - Maya's option boxes; the text size (2026-10-15)
+Current version: **1.5.74** - Maya's look in one tick; the Discord channel (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.74 - Maya's look in one tick; the Discord channel (2026-10-15)
+
+- New experimental feature: MAYA MARKING MENU LOOK (MarkingForge \> Experimental features, or the editor's Experimental features...). Ticked, every dial - its variants, submenus and the hotbox too - is drawn exactly as Maya's marking menu: no disc, grey boxes round a small centre dot, a line to the cursor, Maya's blue on the aimed box, and Maya's option boxes for commands with a settings window. It is drawn over every palette and every dial's own colours; clear it and your colours are back, untouched. menus.json: "experimental": { "mayaLook": true }. The same look per dial, with your own colours, stays in Colours...
+- The colour window says when that look is on, so a colour picked there does not seem to do nothing.
+- MarkingForge now has a DISCORD channel: https://discord.gg/HsakZWQZAw - questions, tips and news, with other users and the author. In 3ds Max: MarkingForge \> Discord community; also in Report a bug... and Suggest a feature..., in the README and at the end of every document.
+- Editor 0.20.30.
 
 ## 1.5.73 - Maya's option boxes; the text size (2026-10-15)
 
