@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.75
+## Current version: 1.5.76
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.76 - The recent changes at the start of every document (2026-10-15)](CHANGELOG.md#1576---the-recent-changes-at-the-start-of-every-document-2026-10-15)
 - [1.5.75 - A dial on Tab from the old-style panels; Undo keeps working (2026-10-15)](CHANGELOG.md#1575---a-dial-on-tab-from-the-old-style-panels-undo-keeps-working-2026-10-15)
 - [1.5.74 - Maya's look in one tick; the Discord channel (2026-10-15)](CHANGELOG.md#1574---mayas-look-in-one-tick-the-discord-channel-2026-10-15)
 - [1.5.73 - Maya's option boxes; the text size (2026-10-15)](CHANGELOG.md#1573---mayas-option-boxes-the-text-size-2026-10-15)
 - [1.5.72 - The dial opens sooner; Maya's look as a theme (2026-10-15)](CHANGELOG.md#1572---the-dial-opens-sooner-mayas-look-as-a-theme-2026-10-15)
-- [1.5.71 - You do not have to hit the caption (2026-10-14)](CHANGELOG.md#1571---you-do-not-have-to-hit-the-caption-2026-10-14)
 <!-- version:end -->
 
 ## Highlights

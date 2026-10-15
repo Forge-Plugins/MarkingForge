@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.75** - A dial on Tab from the old-style panels; Undo keeps working (2026-10-15)
+Current version: **1.5.76** - The recent changes at the start of every document (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.76 - The recent changes at the start of every document (2026-10-15)
+
+- Every document - the QuickStart Long and Short, the Reference, the Installation Guide, the Editor Guide and MarkingForge for Maya Users - now starts with "New since 1.5.70 - read this first", right after its contents: you never have to hit a tile to confirm (the direction decides), the dial opens in a tenth of a second (Dial speed...), your size (Dial size..., the text size), exactly Maya's marking menu in one tick with its option boxes, and any key - Tab too. With a picture of the same dial in both shapes. The same five points open the README.
+- One text for all of them, so the documents cannot say it differently.
+- The plugin itself is unchanged since 1.5.75.
 
 ## 1.5.75 - A dial on Tab from the old-style panels; Undo keeps working (2026-10-15)
 
