@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.78** - Fixes from a full code review (2026-10-15)
+Current version: **1.5.79** - Editing sub-objects with objects behind; the topmost editable entry (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.79 - Editing sub-objects with objects behind; the topmost editable entry (2026-10-15)
+
+- While you edit SUB-OBJECTS (vertices, edges, polygons...), the object under the cursor no longer replaces the one being edited. Reported: edges selected, the dial showed Ring / Loop - but with another object BEHIND the edited one (an Editable Poly under two TurboSmooths: you aim at the cage, 3ds Max's hit test sees the smoothed surface and lit the object behind) the dial turned into that object's dial. As in 3ds Max itself, a click on another object does not select it in sub-object mode.
+- Edit Poly and spline commands with modifiers on top go to the TOPMOST editable entry of the stack: an Edit Poly (or Edit Spline) modifier when there is one, else the Editable Poly / spline itself (1.5.77-1.5.78 refused when an Edit Poly modifier was there).
+- Vertex / Edge / Border / Polygon / Element from the Poly or spline dial with a TurboSmooth, Shell or FFD current: the panel first goes to that topmost editable entry, then to the level (a TurboSmooth has no sub-objects - nothing happened; an FFD entered its control points).
+- Maya's look checked with very long command names and every dial and text size: the names are shortened with an ellipsis, the boxes and option boxes stay aligned. The menu name under the dial grew with the text but its tile did not - at a large text size its letters were cut; the tile now grows with the text.
 
 ## 1.5.78 - Fixes from a full code review (2026-10-15)
 
