@@ -1,8 +1,16 @@
 # Release notes
 
-Current version: **1.5.72** - The dial opens sooner; Maya's look as a theme (2026-10-15)
+Current version: **1.5.73** - Maya's option boxes; the text size (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.73 - Maya's option boxes; the text size (2026-10-15)
+
+- Maya's look now has Maya's OPTION BOXES. In the Maya marking menu shape a command with a settings window (Bevel, Extrude, Chamfer, Inset...) shows a small square box right of its caption, as in Maya: release ON the box and the settings open; release on the caption or anywhere else that way and the command runs. That shape has no dotted ring any more, and a quick flick never opens the settings (it cannot land on a box) - the other way round for a command set to open its settings by default. The MarkingForge dial keeps its ring, unchanged.
+- In Maya's shape the caption UNDER THE CURSOR also wins over the angle: Maya's diagonals stand in two columns beside the centre, so the right end of a long NE caption lies in E's slice - aiming at it lit E. Away from the captions the direction counts as before.
+- New: the TEXT SIZE, 70 to 200 % of the 9 pt captions - a third slider in the editor's Dial size... window, with the picture of the real dial. The captions, the rows under the dial, the hotbox, the chain row and the footer follow it, and every tile grows with its text. menus.json: "textSize". MarkingForge.dialInfo() prints textSize and textPt.
+- A DIAL ON TAB no longer walks the keyboard focus (a user's report: "I've reassigned my Modeling Dial Menu to the Tab key ... it sometimes feels a little unresponsive"). Measured with real keys: the dial opens on Tab exactly as on Alt+1 - 100 ms, every time. But Tab is also the "next field" key of 3ds Max's panels: with the keyboard in the command panel, each Tab that opened the dial also moved the focus to the next control, press after press, until it landed in a number field - where 3ds Max silences every shortcut, so the next Tab opened nothing. When Tab is a dial's key, MarkingForge now gives the focus back where it was.
+- Editor 0.20.29.
 
 ## 1.5.72 - The dial opens sooner; Maya's look as a theme (2026-10-15)
 

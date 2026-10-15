@@ -25,15 +25,15 @@ This repository holds the **documentation, release notes and the issue tracker**
 The plugin itself is sold separately; there is no source code here.
 
 <!-- version:start -->
-## Current version: 1.5.72
+## Current version: 1.5.73
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.73 - Maya's option boxes; the text size (2026-10-15)](CHANGELOG.md#1573---mayas-option-boxes-the-text-size-2026-10-15)
 - [1.5.72 - The dial opens sooner; Maya's look as a theme (2026-10-15)](CHANGELOG.md#1572---the-dial-opens-sooner-mayas-look-as-a-theme-2026-10-15)
 - [1.5.71 - You do not have to hit the caption (2026-10-14)](CHANGELOG.md#1571---you-do-not-have-to-hit-the-caption-2026-10-14)
 - [1.5.70 - The dial's size, and the green ring's (2026-10-14)](CHANGELOG.md#1570---the-dials-size-and-the-green-rings-2026-10-14)
 - [1.5.69 - The settings texts say what the dial does (2026-10-14)](CHANGELOG.md#1569---the-settings-texts-say-what-the-dial-does-2026-10-14)
-- [1.5.68 - Hardening after a review of every way a command runs (2026-10-14)](CHANGELOG.md#1568---hardening-after-a-review-of-every-way-a-command-runs-2026-10-14)
 <!-- version:end -->
 
 ## Highlights
@@ -65,9 +65,9 @@ The latest changes ([all release notes](CHANGELOG.md)):
   at once when you release near the dial and open their settings past the dotted ring
   (the other way round with one tick box, or per command); a flick follows the same ring,
   and how far out it lies is yours to set
-- **Your size** - every dial from 60 to 160 %, and the green return ring of several picks in one gesture, set in the editor with a picture of the real dial
+- **Your size** - every dial from 60 to 160 %, the text from 70 to 200 %, and the green return ring of several picks in one gesture, set in the editor with a picture of the real dial
 - **Opens in 100 ms** - a held key with the mouse still gets its dial after 100 ms, not after 3ds Max's own 250 ms (0 to 250 ms in *Dial speed...*, with an optional opening animation); a flick still draws nothing, a quick tap is still a tap
-- **Maya's look** - one preset draws the dial as Maya's marking menu: grey boxes round a centre dot and a line to the cursor, no disc. The shape travels with a saved look or a `.mfcolors` file
+- **Maya's look** - one preset draws the dial as Maya's marking menu: grey boxes round a centre dot and a line to the cursor, no disc, and Maya's option boxes - release on the small square to open a command's settings. The shape travels with a saved look or a `.mfcolors` file
 - **No settings windows** if you never want them - one tick and Chamfer, Inset, Extrude... always run at once
 - Keyboard shortcuts ready from the first start, however it was installed
 - Presets and four ready packs (Modelling, Animation, Look-dev, Archviz)
