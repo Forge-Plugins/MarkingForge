@@ -1,8 +1,21 @@
 # Release notes
 
-Current version: **1.5.77** - Edit Poly commands under a modifier; nothing switched off runs (2026-10-15)
+Current version: **1.5.78** - Fixes from a full code review (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.78 - Fixes from a full code review (2026-10-15)
+
+- The 1.5.77 move to the Editable Poly under the modifiers happens only at object level. With a modifier's own sub-objects open - Unwrap UVW, Poly Select, FFD points - the panel stays where it is (it used to leave that mode and run the command on the object underneath). When the command is still switched off after the move, the panel goes back.
+- The same for EDITABLE SPLINE and Line under a modifier: the spline commands go to the spline first.
+- A command refused this way STOPS A QUEUE of multiple picks - the next step no longer runs on a scene you did not mean - and a gesture where nothing ran leaves no "MarkingForge: 0 operations" undo entry (the object under the cursor stays unselected).
+- The editor window under the cursor (Slate, the UV editor) is made active before 3ds Max is asked whether its command is available.
+- Tab: with no dial on Tab, Tab is never touched (1.5.73's give-back asked only whether Tab was down); Ctrl+Alt+Tab and AltGr+Tab are not taken; Shift+Tab written as "Shift+Backtab" is recognised; a shortcut file that could not be read once is read again; a rollup page itself and a floating panel grouped with another count as old-style panels.
+- Type-to-search: a dial's own letter key no longer types itself into the search when it repeats.
+- Text size: after a larger text (the editor's preview at 200 %, say) a smaller one shrinks the dial back - captions were cut at the larger width and the window stayed big until 3ds Max restarted.
+- Maya's shape: where two boxes overlap (a small dial with large text), the one drawn on top is the one picked; a box showing a value is measured as it is drawn.
+- The early dial: out to a direction and back to the centre before 250 ms is a cancel, not a tap.
+- The event log says PANEL for the move, REFUSED only for a refusal.
 
 ## 1.5.77 - Edit Poly commands under a modifier; nothing switched off runs (2026-10-15)
 
