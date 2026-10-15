@@ -7,8 +7,8 @@
 >
 > The command is chosen by the **direction** of the movement, not by clicking an item.
 > Press the key and flick the mouse towards the command in one quick movement - the
-> command runs and **the dial is not even drawn**. The dial appears only when you hold
-> the key and wait, to remind you where things are.
+> command runs and **the dial is not even drawn**. The dial appears when you hold the
+> key with the mouse still - after a tenth of a second - to remind you where things are.
 >
 > **You do not have to hit the caption.** On a held dial, too, the direction counts: move
 > towards a command and release anywhere in its slice - near the centre, on its caption or
@@ -25,15 +25,15 @@ This repository holds the **documentation, release notes and the issue tracker**
 The plugin itself is sold separately; there is no source code here.
 
 <!-- version:start -->
-## Current version: 1.5.71
+## Current version: 1.5.72
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.72 - The dial opens sooner; Maya's look as a theme (2026-10-15)](CHANGELOG.md#1572---the-dial-opens-sooner-mayas-look-as-a-theme-2026-10-15)
 - [1.5.71 - You do not have to hit the caption (2026-10-14)](CHANGELOG.md#1571---you-do-not-have-to-hit-the-caption-2026-10-14)
 - [1.5.70 - The dial's size, and the green ring's (2026-10-14)](CHANGELOG.md#1570---the-dials-size-and-the-green-rings-2026-10-14)
 - [1.5.69 - The settings texts say what the dial does (2026-10-14)](CHANGELOG.md#1569---the-settings-texts-say-what-the-dial-does-2026-10-14)
 - [1.5.68 - Hardening after a review of every way a command runs (2026-10-14)](CHANGELOG.md#1568---hardening-after-a-review-of-every-way-a-command-runs-2026-10-14)
-- [1.5.67 - Connect, Weld, Tessellate with their settings (2026-10-14)](CHANGELOG.md#1567---connect-weld-tessellate-with-their-settings-2026-10-14)
 <!-- version:end -->
 
 ## Highlights
@@ -66,6 +66,8 @@ The latest changes ([all release notes](CHANGELOG.md)):
   (the other way round with one tick box, or per command); a flick follows the same ring,
   and how far out it lies is yours to set
 - **Your size** - every dial from 60 to 160 %, and the green return ring of several picks in one gesture, set in the editor with a picture of the real dial
+- **Opens in 100 ms** - a held key with the mouse still gets its dial after 100 ms, not after 3ds Max's own 250 ms (0 to 250 ms in *Dial speed...*, with an optional opening animation); a flick still draws nothing, a quick tap is still a tap
+- **Maya's look** - one preset draws the dial as Maya's marking menu: grey boxes round a centre dot and a line to the cursor, no disc. The shape travels with a saved look or a `.mfcolors` file
 - **No settings windows** if you never want them - one tick and Chamfer, Inset, Extrude... always run at once
 - Keyboard shortcuts ready from the first start, however it was installed
 - Presets and four ready packs (Modelling, Animation, Look-dev, Archviz)
@@ -76,6 +78,7 @@ The latest changes ([all release notes](CHANGELOG.md)):
 | ![Aiming](images/MarkingForge_aim.gif) | ![Undo by name](images/MarkingForge_undo.gif) |
 | ![Several commands in one gesture](images/trick_chain.png) | ![Type to search](images/trick_search.png) |
 | ![The hotbox](images/04_hotbox.png) | ![The menu editor](images/06_editor.png) |
+| ![Maya's look - the preset Maya marking menu](images/maya_look.png) | ![Every ready-made look](images/09_dial_looks.png) |
 
 ### The launch film
 

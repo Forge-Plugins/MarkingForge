@@ -1,8 +1,17 @@
 # Release notes
 
-Current version: **1.5.71** - You do not have to hit the caption (2026-10-14)
+Current version: **1.5.72** - The dial opens sooner; Maya's look as a theme (2026-10-15)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.72 - The dial opens sooner; Maya's look as a theme (2026-10-15)
+
+- A user wrote of "a slight initial delay when opening the marking menu". Measured: drawing the dial takes about 5 ms; the delay was 3ds Max's own - it calls a key HELD only after 250 ms, and the dial waited for that. Now a held key opens the dial after 100 ms when the mouse is still. Nothing else changes: a hand already moving is a quick gesture and draws no dial, a key let go before 250 ms without moving is still a tap (it runs the tap item, dial drawn or not), a release after a move on the drawn dial runs what it shows, and Escape on the early dial closes it for good - holding on does not reopen it.
+- New in the editor: Dial speed... (bottom bar). How soon a held key opens its dial, 0 to 250 ms (100 by default; 250 waits for 3ds Max, as before; 0 opens it at once), and an OPENING ANIMATION, 0 (off) to 200 ms - the dial fades in and grows; only the picture moves, the gesture is read from the first frame. menus.json: "dialDelay", "openAnimation".
+- Maya's marking menu as a look. Colours... has a new Shape list: the MarkingForge dial, or Maya's marking menu - no disc, a small centre dot, a line to the cursor and square grey boxes in Maya's arrangement (N and S above and below, the rest in two columns of three). The new preset "Maya marking menu" sets that shape and Maya's colours. Only the picture changes: directions, the dead zone, the settings ring (drawn while the aimed box has settings), submenus and the list work the same. The shape cascades like a colour - every dial, one dial, one page - and a saved preset or a .mfcolors file carries it, so a look can be loaded on another machine. menus.json: "theme": { "style": "maya" }.
+- New colour "tileOutline" (transparent by default, so nothing changes for existing looks): an outline round the caption boxes and list rows.
+- MarkingForge.dialInfo() also prints dialDelay, openAnimation, 3ds Max's own hold time (maxHoldMs) and the shape; MarkingForge.eventLog() marks a dial opened early with "early: N ms after the key".
+- Editor 0.20.28.
 
 ## 1.5.71 - You do not have to hit the caption (2026-10-14)
 
