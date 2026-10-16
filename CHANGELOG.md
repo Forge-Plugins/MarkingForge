@@ -1,8 +1,19 @@
 # Release notes
 
-Current version: **1.5.86** - A warning in red: the object behind while you edit sub-objects (2026-10-16)
+Current version: **1.5.87** - Fixes from a code review: the tap repeat, the right button, the outline (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.87 - Fixes from a code review: the tap repeat, the right button, the outline (2026-10-16)
+
+- Tap repeats the last modelling command (experimental):
+  - "No settings windows" holds for a repeat too. A command first run with its settings window repeats without one while the option is ticked, and with it again once the option is cleared.
+  - With several editable modifiers on one stack - an Edit Mesh above an Editable Poly, a TurboSmooth on top - the topmost editable one decides which command is repeated. It used to be the Editable Poly underneath.
+  - Object level is no longer remembered as the command to repeat: Inset, Object level, back to Edge - a tap runs Inset again.
+  - Switching the option off forgets the remembered commands: ticked again, a tap never brings back a command from long ago.
+- A saved classic look brings the classic dial back. Saved in Colours... and applied after the "Maya marking menu" preset, it stayed Maya's.
+- The right mouse button over another program (on a second monitor, say) while a dial is held belongs to that program again: its menu opens, and the dial is not cancelled. A late cancel never closes the next dial.
+- No object outline in sub-object mode (experimental): the outline stays off for the whole edit - also when it was off at the start and someone switched it on during the edit. 3ds Max's setting is recorded before it is changed, given back only once 3ds Max confirms it, and a damaged record is set aside without touching any setting. Several 3ds Max sessions no longer share one record.
 
 ## 1.5.86 - A warning in red: the object behind while you edit sub-objects (2026-10-16)
 
