@@ -1,8 +1,17 @@
 # Release notes
 
-Current version: **1.5.82** - Two fixes found by the tests of 1.5.81 (2026-10-16)
+Current version: **1.5.84** - The right mouse button cancels a held dial (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.84 - The right mouse button cancels a held dial (2026-10-16)
+
+- The documents always said a dial is cancelled by a release in its centre, by Escape - and by the right mouse button. With the dial HELD on its key the right button went to 3ds Max instead (its quad menu), and letting go of the key then ran the direction you were aiming at. Found by the new tests of Maya's look; the MarkingForge dial did the same. Now a right click on a held dial cancels it - 3ds Max sees neither the press nor the release - and letting go of the key runs nothing. The hotbox and a pinned dial worked already and are unchanged.
+
+## 1.5.83 - Nothing lit at rest: operation-pair learning off by default (2026-10-16)
+
+- With the cursor in the centre of a dial, where nothing should be picked, the last command you ran next was lit - and a very quick tap of the dial's key ran it. That was the experimental feature OPERATION-PAIR LEARNING doing what it was built for: it makes the usual next command the dial's default direction. In practice the lit tile reads as a selection and the tap as an accident, in the MarkingForge dial and in Maya's look alike. It is now OFF by default; one tick in MarkingForge \> Experimental features brings it back. A tap with no "tap" item runs nothing again, as the README always said.
+- Diagnostics: MarkingForge.dialInfo() also tells whether a dial is open and which direction it lights at rest.
 
 ## 1.5.82 - Two fixes found by the tests of 1.5.81 (2026-10-16)
 
