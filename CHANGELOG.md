@@ -1,8 +1,13 @@
 # Release notes
 
-Current version: **1.5.88** - Fixes from a second code review (2026-10-16)
+Current version: **1.5.89** - A safer exit (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.89 - A safer exit (2026-10-16)
+
+- When 3ds Max closes, "No object outline in sub-object mode" (experimental) gives the outline back before MarkingForge stops its timers, and starts no new one: nothing of the plugin can run after it is gone.
+- A single pick that opens a settings window no longer notes "chain not offered for saving" in the event log (with "Save last chain" on).
 
 ## 1.5.88 - Fixes from a second code review (2026-10-16)
 
