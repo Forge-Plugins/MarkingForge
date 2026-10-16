@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.85** - A tap can repeat your last modelling command (experimental) (2026-10-16)
+Current version: **1.5.86** - A warning in red: the object behind while you edit sub-objects (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.86 - A warning in red: the object behind while you edit sub-objects (2026-10-16)
+
+- The Installation Guide, both QuickStarts, the Reference and the README now say in red what a user sees in 3ds Max 2027: while you edit vertices, edges or polygons, the object BEHIND can light up under the cursor - on a dial's key and on a middle-button pan, also without modifiers. It shows during the pan, which MarkingForge does not touch; a dial works on the edited object and does not select the one behind (since 1.5.79). The note gives the two ways to switch it off.
 
 ## 1.5.85 - A tap can repeat your last modelling command (experimental) (2026-10-16)
 

@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.85
+## Current version: 1.5.86
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.86 - A warning in red: the object behind while you edit sub-objects (2026-10-16)](CHANGELOG.md#1586---a-warning-in-red-the-object-behind-while-you-edit-sub-objects-2026-10-16)
 - [1.5.85 - A tap can repeat your last modelling command (experimental) (2026-10-16)](CHANGELOG.md#1585---a-tap-can-repeat-your-last-modelling-command-experimental-2026-10-16)
 - [1.5.84 - The right mouse button cancels a held dial (2026-10-16)](CHANGELOG.md#1584---the-right-mouse-button-cancels-a-held-dial-2026-10-16)
 - [1.5.83 - Nothing lit at rest: operation-pair learning off by default (2026-10-16)](CHANGELOG.md#1583---nothing-lit-at-rest-operation-pair-learning-off-by-default-2026-10-16)
 - [1.5.82 - Two fixes found by the tests of 1.5.81 (2026-10-16)](CHANGELOG.md#1582---two-fixes-found-by-the-tests-of-1581-2026-10-16)
-- [1.5.81 - No object outline in sub-object mode (experimental) (2026-10-16)](CHANGELOG.md#1581---no-object-outline-in-sub-object-mode-experimental-2026-10-16)
 <!-- version:end -->
 
 ## Highlights
