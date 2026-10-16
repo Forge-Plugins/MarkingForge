@@ -1,8 +1,18 @@
 # Release notes
 
-Current version: **1.5.87** - Fixes from a code review: the tap repeat, the right button, the outline (2026-10-16)
+Current version: **1.5.88** - Fixes from a second code review (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.88 - Fixes from a second code review (2026-10-16)
+
+- Multiple picks (experimental): a script that fails stops the queue - the steps after it may need the work it did not do. 3ds Max's switched-off commands already stopped it.
+- "Save last chain..." offers a chain only when EVERY step of it ran, and saves what actually ran: a last script run with its settings saves its settings code. A last command that opened its settings window is not offered (a saved item cannot open that window).
+- The mouse wheel on a dial with pages keeps the next page's own variant when two variants share a name but run different things (a submenu's commands, settings code, a value, the tap).
+- A rule's object-name pattern means the same in the editor and in 3ds Max: "\*" also matches names with "/" or "\\" in them. Class names in hand-written rules may have spaces around them.
+- A preset of a configuration that is only a default menu loads again.
+- "Fill free shortcuts" no longer gives a dial a key another dial already has as its second shortcut.
+- Tap repeats the last modelling command (experimental): a script's level switch is recognised in the code that ran, and also when written as "(subobjectLevel = 0);".
 
 ## 1.5.87 - Fixes from a code review: the tap repeat, the right button, the outline (2026-10-16)
 
