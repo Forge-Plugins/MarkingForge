@@ -1,8 +1,13 @@
 # Release notes
 
-Current version: **1.5.84** - The right mouse button cancels a held dial (2026-10-16)
+Current version: **1.5.85** - A tap can repeat your last modelling command (experimental) (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.85 - A tap can repeat your last modelling command (experimental) (2026-10-16)
+
+- New experimental feature, MarkingForge \> Experimental features \> Tap repeats the last modelling command (off by default). A tap of a dial's key - press and release without moving - runs your last modelling command again: the last command you ran from a dial on an Editable Poly / Edit Poly, an Editable Mesh / Edit Mesh or an Editable Spline / Line / Edit Spline. Each kind is remembered on its own: a tap on a poly object repeats the last poly command even after you edited a spline in between. It runs the same way as before - with its settings window if it had one - on the selection. Level switches (Vertex, Edge...) are not remembered, and a dial's own "A tap runs" item still wins.
+- The documents start with the newest changes (1.5.80 - 1.5.85): the tap that repeats, nothing lit at rest, the right mouse button that cancels, no object outline in sub-object mode. The QuickStart Long's trick 3, the tips, the Reference and the Maya guide (Maya's G) describe the tap.
 
 ## 1.5.84 - The right mouse button cancels a held dial (2026-10-16)
 
