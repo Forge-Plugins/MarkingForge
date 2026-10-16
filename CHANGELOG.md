@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.80** - A held Tab keeps the keyboard where it is (2026-10-16)
+Current version: **1.5.81** - No object outline in sub-object mode (experimental) (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.81 - No object outline in sub-object mode (experimental) (2026-10-16)
+
+- Editing the edges of an object with Symmetry, the object BEHIND it lit up under the cursor - also while panning with the middle button, with no dial anywhere. That is 3ds Max's own preview highlight: in sub-object mode it tests only the mesh being edited, so over the mirrored half it finds the object behind. A new experimental feature, MarkingForge \> Experimental features \> No object outline in sub-object mode (off by default), switches 3ds Max's preview outline off while vertices, edges or polygons are edited and back on when you leave the sub-object level. Only an outline that was on is switched off, and it comes back even if 3ds Max closes in the middle of the edit.
 
 ## 1.5.80 - A held Tab keeps the keyboard where it is (2026-10-16)
 

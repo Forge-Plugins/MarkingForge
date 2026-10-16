@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.80
+## Current version: 1.5.81
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.81 - No object outline in sub-object mode (experimental) (2026-10-16)](CHANGELOG.md#1581---no-object-outline-in-sub-object-mode-experimental-2026-10-16)
 - [1.5.80 - A held Tab keeps the keyboard where it is (2026-10-16)](CHANGELOG.md#1580---a-held-tab-keeps-the-keyboard-where-it-is-2026-10-16)
 - [1.5.79 - Editing sub-objects with objects behind; the topmost editable entry (2026-10-15)](CHANGELOG.md#1579---editing-sub-objects-with-objects-behind-the-topmost-editable-entry-2026-10-15)
 - [1.5.78 - Fixes from a full code review (2026-10-15)](CHANGELOG.md#1578---fixes-from-a-full-code-review-2026-10-15)
 - [1.5.77 - Edit Poly commands under a modifier; nothing switched off runs (2026-10-15)](CHANGELOG.md#1577---edit-poly-commands-under-a-modifier-nothing-switched-off-runs-2026-10-15)
-- [1.5.76 - The recent changes at the start of every document (2026-10-15)](CHANGELOG.md#1576---the-recent-changes-at-the-start-of-every-document-2026-10-15)
 <!-- version:end -->
 
 ## Highlights
