@@ -1,8 +1,13 @@
 # Release notes
 
-Current version: **1.5.81** - No object outline in sub-object mode (experimental) (2026-10-16)
+Current version: **1.5.82** - Two fixes found by the tests of 1.5.81 (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.82 - Two fixes found by the tests of 1.5.81 (2026-10-16)
+
+- No object outline in sub-object mode (experimental): in 3ds Max 2027 the outline went off only 250-450 ms after you entered vertices, edges or polygons - the plugin looked a moment later, and in 2027 that moment came after the viewport's redraw. It now takes the new level from 3ds Max's own notification and switches the outline off at once.
+- A dial on TAB held for a while: once in a few holds the keyboard still ended on a tab bar after you let go. The last repeat of the key was still on its way when the dial closed. Every repeat of a hold is now ignored, up to the moment you let go.
 
 ## 1.5.81 - No object outline in sub-object mode (experimental) (2026-10-16)
 
