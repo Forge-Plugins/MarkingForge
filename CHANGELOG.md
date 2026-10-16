@@ -1,8 +1,19 @@
 # Release notes
 
-Current version: **1.5.89** - A safer exit (2026-10-16)
+Current version: **1.5.90** - The dial keeps up over a dense mesh (2026-10-16)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.90 - The dial keeps up over a dense mesh (2026-10-16)
+
+- Reported with a video: in Maya's look, the dial "got stuck" when the cursor swept far out over a dense mesh - it still showed the direction from a moment before. 3ds Max worked on every mouse move over the mesh (the sub-objects under the cursor) and the dial had to wait. Now a held dial takes the mouse moves itself: measured on a 258,000-triangle mesh at edge level, the longest wait for the dial went from 146 ms to 18 ms - as in an empty scene. A click while a dial is held still goes where it went.
+- Maya's look: the line from the centre to the cursor no longer stops at the edge of the dial's window; past it, it ends on a circle in the cursor's direction, with a dot at its end.
+- Maya's look, from a review of all its code:
+  - An entry with its own tile colour lights up when aimed - its colour showed in every state, and in Maya's look the box is the only sign of what is aimed ("some buttons are not highlighted").
+  - In a submenu the boxes light up after a short move - the hand no longer has to come back to the centre first.
+  - Moving from a box to its small settings square no longer lights the neighbouring box for a moment.
+  - A queued direction's dot no longer covers a settings square.
+- A held dial never takes the mouse from a drag in progress, and a click while a dial is held reaches the window under the dial.
 
 ## 1.5.89 - A safer exit (2026-10-16)
 
