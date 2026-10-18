@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.91** - The start-up log says the editor is ready (2026-10-18)
+Current version: **1.5.92** - The dial keeps pace with a fast screen (2026-10-18)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.92 - The dial keeps pace with a fast screen (2026-10-18)
+
+- A held dial now draws as often as the screen it is on can show: on a 180 Hz screen the line from the centre follows the cursor about every 5 ms instead of every 16 ms; on a 144 Hz screen about every 6 ms. On a 60 Hz screen nothing changes - it already drew every frame there.
+- Lighting a direction's box, crossing a ring and moving to another list row were always drawn at once and still are; only the smooth movement of the line was held to 60 frames a second.
+- The plugin's statistics (Diagnostics) show the frame limit and the screen's refresh rate for the last gesture.
 
 ## 1.5.91 - The start-up log says the editor is ready (2026-10-18)
 
