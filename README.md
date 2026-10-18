@@ -38,6 +38,19 @@ The latest changes ([all release notes](CHANGELOG.md)):
 - [1.5.91 - The start-up log says the editor is ready (2026-10-18)](CHANGELOG.md#1591---the-start-up-log-says-the-editor-is-ready-2026-10-18)
 <!-- version:end -->
 
+<!-- whatsnew:start -->
+## What's new
+
+- **Keeps up with heavy scenes** - a held dial no longer lags over a dense mesh in sub-object mode - its longest wait went from 146 ms to about 20 ms, the same as in an empty scene.
+- **Uses fast monitors** - on a 120-180 Hz screen the dial draws as often as the screen can show (about every 5 ms at 180 Hz); nothing changes on a 60 Hz screen.
+- **Maya's marking menu look, polished** - a submenu's boxes light up as soon as you slide onto them, and option boxes and per-command colours behave as they should.
+- **Plays well with everything else on screen** - a click while a dial is held goes exactly where you pressed - into 3ds Max's floating windows and into other programs alike.
+- **Easier help when something goes wrong** - Event log and Configuration status open in a window, the last actions are kept on disk after a crash, and the bug report carries the numbers of the last gesture.
+- **Menu editor** - saving merges your edits with a change 3ds Max made meanwhile (a page switched, an option ticked); colour names and commands added during the session are recognised.
+
+Before you buy: the [FAQ](FAQ.md) answers the usual questions - versions, safety, licence, uninstalling.
+<!-- whatsnew:end -->
+
 ## Highlights
 
 - 24 ready-made dials on **Alt / Ctrl+Alt / Shift+Alt + 1-8** - modelling first (Alt+1..4: Modelling, Modifiers, Selection, Create; the viewport and the hotbox on Alt+5), the rarely used dials furthest away
