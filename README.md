@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.90
+## Current version: 1.5.91
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.91 - The start-up log says the editor is ready (2026-10-18)](CHANGELOG.md#1591---the-start-up-log-says-the-editor-is-ready-2026-10-18)
 - [1.5.90 - The dial keeps up over a dense mesh (2026-10-16)](CHANGELOG.md#1590---the-dial-keeps-up-over-a-dense-mesh-2026-10-16)
 - [1.5.89 - A safer exit (2026-10-16)](CHANGELOG.md#1589---a-safer-exit-2026-10-16)
 - [1.5.88 - Fixes from a second code review (2026-10-16)](CHANGELOG.md#1588---fixes-from-a-second-code-review-2026-10-16)
 - [1.5.87 - Fixes from a code review: the tap repeat, the right button, the outline (2026-10-16)](CHANGELOG.md#1587---fixes-from-a-code-review-the-tap-repeat-the-right-button-the-outline-2026-10-16)
-- [1.5.86 - A warning in red: the object behind while you edit sub-objects (2026-10-16)](CHANGELOG.md#1586---a-warning-in-red-the-object-behind-while-you-edit-sub-objects-2026-10-16)
 <!-- version:end -->
 
 ## Highlights

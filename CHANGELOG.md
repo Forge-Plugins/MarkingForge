@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.90** - The dial keeps up over a dense mesh (2026-10-16)
+Current version: **1.5.91** - The start-up log says the editor is ready (2026-10-18)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.91 - The start-up log says the editor is ready (2026-10-18)
+
+- A few seconds after 3ds Max starts, MarkingForge gets its menu editor ready in the background, so that even its first opening is quick. It now writes a line about it in its start-up log: "editor warmed up in ... ms (... actions)" - or why it failed, which until now went unnoticed. The log's last lines are part of the bug report (MarkingForge \> Report a bug), so a report now shows whether this ran.
 
 ## 1.5.90 - The dial keeps up over a dense mesh (2026-10-16)
 
