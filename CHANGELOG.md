@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.94** - Clean-up: answers in a window, the log on disk (2026-10-18)
+Current version: **1.5.95** - Your edits and 3ds Max's, both kept (2026-10-18)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.95 - Your edits and 3ds Max's, both kept (2026-10-18)
+
+- Saving in the menu editor after menus.json changed meanwhile - a page switched from a dial, an Experimental option ticked in 3ds Max's menu - now offers Merge first: that change and the window's edits are both kept. Where both changed the very same setting, the window's edit wins and the editor lists those places. Up to 1.5.94 the choice was to overwrite (which silently took the other change back) or to save a copy.
+- Type-to-search finds a command whose macroScript was defined while 3ds Max runs (a script installed or run during the session) - until now it appeared only after a restart.
+- The window of Event log / Configuration status no longer silences 3ds Max's shortcuts while it is open: the keyboard goes to its Close button, not to the text (Enter or Escape closes it).
 
 ## 1.5.94 - Clean-up: answers in a window, the log on disk (2026-10-18)
 
