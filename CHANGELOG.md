@@ -1,14 +1,25 @@
 # Release notes
 
-Current version: **1.5.92** - The dial keeps pace with a fast screen (2026-10-18)
+Current version: **1.5.93** - Fixes from a review of 1.5.89-1.5.92 (2026-10-18)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.93 - Fixes from a review of 1.5.89-1.5.92 (2026-10-18)
+
+- A click over ANOTHER PROGRAM while a dial is held reaches that program once, as it should. Since 1.5.90 it also got a second press with no release, which could leave a button "held" in that program.
+- A click while a dial is held goes to the place it was pressed, even when 3ds Max is busy for a moment (a dense mesh), and a click into a floating window (Slate, Track View...) makes it the active one, as without a dial.
+- Maya's look, a submenu that has just opened: it starts aiming once the hand is on one of its boxes. A flick that goes on into empty space and releases there cancels, as up to 1.5.89 (1.5.90-1.5.92 ran the entry in that direction, never lit). Sliding onto a box - also the one in the same direction, right under the hand - still lights it at once, and from there the direction counts as everywhere in Maya's look.
+- A submenu's list, in every look, waits until the hand is back inside the ring - an overshoot no longer lights its first row and runs it.
+- Maya's look: a switched-on box's caption takes the palette's colour together with its background - an entry's own dark text no longer sits on the palette's dark green.
+- The bug report (MarkingForge \> Report a bug) shows the start-up log from the last start, repeated lines folded into one, so the first-start and editor lines no longer scroll away - and the numbers of the last gesture: the dial's timings, the frame limit and the screen's refresh rate. No scene or file names.
+- With an opening animation on a fast screen, its last frame always shows the dial at full size.
+- At 3ds Max's exit nothing can switch the object outline off again after MarkingForge has given it back.
 
 ## 1.5.92 - The dial keeps pace with a fast screen (2026-10-18)
 
 - A held dial now draws as often as the screen it is on can show: on a 180 Hz screen the line from the centre follows the cursor about every 5 ms instead of every 16 ms; on a 144 Hz screen about every 6 ms. On a 60 Hz screen nothing changes - it already drew every frame there.
 - Lighting a direction's box, crossing a ring and moving to another list row were always drawn at once and still are; only the smooth movement of the line was held to 60 frames a second.
-- The plugin's statistics (Diagnostics) show the frame limit and the screen's refresh rate for the last gesture.
+- The plugin's statistics (MarkingForge.statsLine() in the MAXScript Listener; from 1.5.93 also the bug report) show the frame limit and the screen's refresh rate for the last gesture.
 
 ## 1.5.91 - The start-up log says the editor is ready (2026-10-18)
 

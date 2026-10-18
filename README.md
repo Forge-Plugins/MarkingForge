@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.92
+## Current version: 1.5.93
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.93 - Fixes from a review of 1.5.89-1.5.92 (2026-10-18)](CHANGELOG.md#1593---fixes-from-a-review-of-1589-1592-2026-10-18)
 - [1.5.92 - The dial keeps pace with a fast screen (2026-10-18)](CHANGELOG.md#1592---the-dial-keeps-pace-with-a-fast-screen-2026-10-18)
 - [1.5.91 - The start-up log says the editor is ready (2026-10-18)](CHANGELOG.md#1591---the-start-up-log-says-the-editor-is-ready-2026-10-18)
 - [1.5.90 - The dial keeps up over a dense mesh (2026-10-16)](CHANGELOG.md#1590---the-dial-keeps-up-over-a-dense-mesh-2026-10-16)
 - [1.5.89 - A safer exit (2026-10-16)](CHANGELOG.md#1589---a-safer-exit-2026-10-16)
-- [1.5.88 - Fixes from a second code review (2026-10-16)](CHANGELOG.md#1588---fixes-from-a-second-code-review-2026-10-16)
 <!-- version:end -->
 
 ## Highlights
