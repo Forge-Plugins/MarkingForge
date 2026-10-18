@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.95
+## Current version: 1.5.96
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.96 - The queue runs from the centre; Windows never waits for 3ds Max (2026-10-18)](CHANGELOG.md#1596---the-queue-runs-from-the-centre-windows-never-waits-for-3ds-max-2026-10-18)
 - [1.5.95 - Your edits and 3ds Max's, both kept (2026-10-18)](CHANGELOG.md#1595---your-edits-and-3ds-maxs-both-kept-2026-10-18)
 - [1.5.94 - Clean-up: answers in a window, the log on disk (2026-10-18)](CHANGELOG.md#1594---clean-up-answers-in-a-window-the-log-on-disk-2026-10-18)
 - [1.5.93 - Fixes from a review of 1.5.89-1.5.92 (2026-10-18)](CHANGELOG.md#1593---fixes-from-a-review-of-1589-1592-2026-10-18)
 - [1.5.92 - The dial keeps pace with a fast screen (2026-10-18)](CHANGELOG.md#1592---the-dial-keeps-pace-with-a-fast-screen-2026-10-18)
-- [1.5.91 - The start-up log says the editor is ready (2026-10-18)](CHANGELOG.md#1591---the-start-up-log-says-the-editor-is-ready-2026-10-18)
 <!-- version:end -->
 
 <!-- whatsnew:start -->

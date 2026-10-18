@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.95** - Your edits and 3ds Max's, both kept (2026-10-18)
+Current version: **1.5.96** - The queue runs from the centre; Windows never waits for 3ds Max (2026-10-18)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.96 - The queue runs from the centre; Windows never waits for 3ds Max (2026-10-18)
+
+- Multiple picks (Experimental): coming back to the centre and letting go runs the queue. Until now only the green ring outside the small centre did, and a release in the centre dropped the queue - the hand comes back to the centre after the last pick, so the queue often vanished ("it does not always work the first time"). The whole circle is green while something waits. To give a queue up: Escape or the right mouse button (or a release over an empty direction), as on every dial.
+- Windows' keyboard and mouse no longer wait for a busy 3ds Max. While a dial was held, every key pressed anywhere in Windows went through MarkingForge's keyboard hook on 3ds Max's own thread, and every click into 3ds Max asked 3ds Max which window was under it - in a heavy scene that is up to a tenth of a second each, felt as the cursor and keys of the whole system lagging. The keyboard hook now has a thread of its own (as the mouse hook already had), and an ordinary click is passed on before anything is asked; only a click with a dial's own mouse binding still checks the window under it.
+- The menu under the cursor (object under the cursor) switches itself off for the session after ONE very slow test (over 32 ms - four times its budget) instead of three in a row, and a single test a few seconds after a scene opens decides it before the first dial: in a 50,000-object scene the first three dials each paid about 95 ms ("the first dial reacts slowly"). The test that runs after the dial is drawn now counts too. Configuration status says what switched it off.
 
 ## 1.5.95 - Your edits and 3ds Max's, both kept (2026-10-18)
 
