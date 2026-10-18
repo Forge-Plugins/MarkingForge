@@ -1,8 +1,17 @@
 # Release notes
 
-Current version: **1.5.93** - Fixes from a review of 1.5.89-1.5.92 (2026-10-18)
+Current version: **1.5.94** - Clean-up: answers in a window, the log on disk (2026-10-18)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.94 - Clean-up: answers in a window, the log on disk (2026-10-18)
+
+- Reload configuration, Configuration status and Event log (MarkingForge menu) open a window with their text, with a Copy button. They printed only to the MAXScript Listener, which is closed for nearly everyone - a click looked like it did nothing. Reload configuration also says when menus.json could not be read (the dials keep the last good one).
+- The event log keeps its last entries in event\_log.txt beside menus.json, written every 2 s while no dial is open (never during a gesture), with the time of day - so after a crash it shows what MarkingForge did just before. Up to two files of 512 KB. It stays on your computer: the bug report does not include it, as its lines carry window titles.
+- When the usage statistics (usage.json) cannot be written - permissions, an antivirus lock - the event log says so after five tries in a row, and Configuration status shows it. Until now they were retried in silence.
+- The menu editor reads a colour NAME in menus.json ("red", "steelblue") as the plugin does - its preview showed the default colour instead.
+- The start-up script leaves almost nothing in Python's shared namespace, where another plugin's script could overwrite it (or it theirs).
+- Unused code removed.
 
 ## 1.5.93 - Fixes from a review of 1.5.89-1.5.92 (2026-10-18)
 
