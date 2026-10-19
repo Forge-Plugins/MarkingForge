@@ -1,8 +1,19 @@
 # Release notes
 
-Current version: **1.5.99** - Chain submenus per menu (2026-10-19)
+Current version: **1.5.100** - Submenus five levels deep (2026-10-19)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.100 - Submenus five levels deep (2026-10-19)
+
+- A dial can hold submenus FOUR levels under it (five in all, the dial included) - three until now. The limit was set while every submenu opened in place on the same dial; with Chain submenus (on by default) each level opens under the cursor and leaves a circle to go back to, so a deeper tree stays easy to follow. The menu editor and the cheat sheet follow the new limit.
+- The README and the reference described submenus opening in place; since 1.5.99 they open under the cursor by default - corrected.
+- Chain submenus, after a full review:
+  - near a screen's edge a chained submenu now opens far enough inside for its whole ring to fit - the directions past the edge were out of reach; right after such an opening nothing is aimed until the hand is back in the centre, so a release there runs nothing;
+  - when that would put it on the very centre of the menu above, it opens in place instead (there was no way back);
+  - a submenu with rows under it, entered from above: passing down through the circle of the menu above, on the way to the rows, no longer takes you back up - a circle there needs the hand to rest on it for a moment;
+  - only the circles you can go back to are drawn, each once;
+  - a context variant (e.g. the dial on an Editable Poly) follows its dial's own Chain submenus setting when it has none of its own.
 
 ## 1.5.99 - Chain submenus per menu (2026-10-19)
 
