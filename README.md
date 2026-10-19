@@ -41,7 +41,7 @@ The latest changes ([all release notes](CHANGELOG.md)):
 <!-- whatsnew:start -->
 ## What's new
 
-- **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now about 3 ms, even right after you edit the mesh, and a quick press is never lost.
+- **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now a few milliseconds, even right after you edit the mesh, and a quick press is never lost.
 - **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up. On by default; set it per menu in the editor (Default / On / Off).
 - **Deeper menus** - submenus can go four levels under a dial.
 - **Editable Mesh on the Modelling dial** - vertex, edge, face, polygon and element tools - Extrude, Bevel, Chamfer, Weld and more - in the same directions as on Editable Poly.
