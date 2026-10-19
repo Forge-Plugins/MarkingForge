@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.97** - Editable Mesh on the Modelling dial (2026-10-19)
+Current version: **1.5.98** - Chain submenus, Maya's way (experimental) (2026-10-19)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.98 - Chain submenus, Maya's way (experimental) (2026-10-19)
+
+- New in MarkingForge \> Experimental features: "Chain submenus (Maya style)", off by default. A submenu then opens UNDER THE CURSOR, where your hand crossed the ring, instead of in place - and the centre of every menu you came through stays on screen as a small circle, linked by the line of your gesture. Move onto one of those circles and you are back in that menu, however deep you went: a wrong turn costs a move, not a new gesture. In the classic dials and in Maya's look alike.
+- Within 21 px of a circle the circle wins over an item (in Maya's look the menu you came from lies where the opposite box stands); the box is reachable everywhere else. Escape or the right mouse button closes the whole chain, as before.
+- Off, nothing changes: a submenu opens in place and the centre goes back up, as since 1.4.8.
 
 ## 1.5.97 - Editable Mesh on the Modelling dial (2026-10-19)
 
