@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.98** - Chain submenus, Maya's way (experimental) (2026-10-19)
+Current version: **1.5.99** - Chain submenus per menu (2026-10-19)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.99 - Chain submenus per menu (2026-10-19)
+
+- Every menu and submenu can now say how its submenus open, as in PieMaster: the editor's new "Chain submenus" row - Default, On or Off ("chain": "on" / "off" in menus.json). Default  the menu above decides, else Experimental features \> Chain submenus (Maya style) On       under the cursor, with the circles to go back - even with the experimental option off Off      in place, as always
+- Chained and in-place levels mix in one gesture: from an in-place level the way back is the centre, as always; from a chained one, the circles.
+- Chain submenus is now ON by default (Experimental features). Untick it there, or set a menu to Off, for submenus that open in place.
 
 ## 1.5.98 - Chain submenus, Maya's way (experimental) (2026-10-19)
 
