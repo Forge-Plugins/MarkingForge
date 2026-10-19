@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.96** - The queue runs from the centre; Windows never waits for 3ds Max (2026-10-18)
+Current version: **1.5.97** - Editable Mesh on the Modelling dial (2026-10-19)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.97 - Editable Mesh on the Modelling dial (2026-10-19)
+
+- The Modelling dial (Alt+1 by default) now changes on an Editable Mesh and under an Edit Mesh modifier, as it always did on Editable Poly: the vertex, edge, face, polygon and element levels each have their tools, and the object level the sub-object levels, Attach, TurboSmooth and Collapse. On faces and polygons: Extrude (N), Bevel (NE), Tessellate, Make planar, Auto smooth, Flip and Detach; on edges Divide, Chamfer, Turn, Extrude, Create shape; on vertices Chamfer, Weld, Cut, Break, Target Weld. Until now the dial could convert an object TO Editable Mesh and then offered nothing for it.
+- The same operation keeps the direction it has on Editable Poly where Mesh has it (Extrude N, Bevel NE on polygons; NW always back to the object level).
+- Detach and Create shape open 3ds Max's own window for the new name, as the buttons in the Modify panel do.
+- A fresh install has them. An existing menus.json keeps its own Modelling dial: "Load default dials..." in the editor with "Replace the slots..." ticked brings them (it resets every dial to the shipped ones), or add the twelve "Mesh:" variants to the Modelling dial yourself.
 
 ## 1.5.96 - The queue runs from the centre; Windows never waits for 3ds Max (2026-10-18)
 
