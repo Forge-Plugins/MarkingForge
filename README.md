@@ -27,26 +27,27 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.100
+## Current version: 1.5.101
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.101 - Instant over heavy objects (2026-10-19)](CHANGELOG.md#15101---instant-over-heavy-objects-2026-10-19)
 - [1.5.100 - Submenus five levels deep (2026-10-19)](CHANGELOG.md#15100---submenus-five-levels-deep-2026-10-19)
 - [1.5.99 - Chain submenus per menu (2026-10-19)](CHANGELOG.md#1599---chain-submenus-per-menu-2026-10-19)
 - [1.5.98 - Chain submenus, Maya's way (experimental) (2026-10-19)](CHANGELOG.md#1598---chain-submenus-mayas-way-experimental-2026-10-19)
 - [1.5.97 - Editable Mesh on the Modelling dial (2026-10-19)](CHANGELOG.md#1597---editable-mesh-on-the-modelling-dial-2026-10-19)
-- [1.5.96 - The queue runs from the centre; Windows never waits for 3ds Max (2026-10-18)](CHANGELOG.md#1596---the-queue-runs-from-the-centre-windows-never-waits-for-3ds-max-2026-10-18)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
 ## What's new
 
-- **Keeps up with heavy scenes** - a held dial no longer lags over a dense mesh in sub-object mode - its longest wait went from 146 ms to about 20 ms, the same as in an empty scene.
-- **Uses fast monitors** - on a 120-180 Hz screen the dial draws as often as the screen can show (about every 5 ms at 180 Hz); nothing changes on a 60 Hz screen.
-- **Maya's marking menu look, polished** - a submenu's boxes light up as soon as you slide onto them, and option boxes and per-command colours behave as they should.
-- **Plays well with everything else on screen** - a click while a dial is held goes exactly where you pressed - into 3ds Max's floating windows and into other programs alike.
-- **Easier help when something goes wrong** - Event log and Configuration status open in a window, the last actions are kept on disk after a crash, and the bug report carries the numbers of the last gesture.
-- **Menu editor** - saving merges your edits with a change 3ds Max made meanwhile (a page switched, an option ticked); colour names and commands added during the session are recognised.
+- **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now about 3 ms, even right after you edit the mesh, and a quick press is never lost.
+- **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up. On by default; set it per menu in the editor (Default / On / Off).
+- **Deeper menus** - submenus can go four levels under a dial.
+- **Editable Mesh on the Modelling dial** - vertex, edge, face, polygon and element tools - Extrude, Bevel, Chamfer, Weld and more - in the same directions as on Editable Poly.
+- **Windows never waits for 3ds Max** - while a dial is held, typing and clicking in other programs stay instant, however busy 3ds Max is.
+- **Multiple picks run from the centre** - queue several commands, come back to the middle and let go - all of them run.
+- **Keeps up with heavy scenes** - a held dial no longer lags over a dense mesh in sub-object mode, and on a 120-180 Hz screen it draws as often as the screen can show.
 
 Before you buy: the [FAQ](FAQ.md) answers the usual questions - versions, safety, licence, uninstalling.
 <!-- whatsnew:end -->

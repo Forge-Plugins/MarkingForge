@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.100** - Submenus five levels deep (2026-10-19)
+Current version: **1.5.101** - Instant over heavy objects (2026-10-19)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.101 - Instant over heavy objects (2026-10-19)
+
+- The menu under the cursor (object under the cursor) finds the object with a hit test of its own. Until now it asked 3ds Max's PickNode, which tests every face of the object in software, every time: over an Editable Mesh of 690,000 faces under a TurboSmooth (2.76 million on screen) that was 280 ms on every press of a dial key - 600 ms the first time - and a key released in that wait came out as a tap that ran nothing ("the key is sometimes not registered"). The new test sends one ray through the pixel, skips every object whose box it misses, and reads the faces of the rest directly, spread over all processor cores: about 3 ms on that object, the same right after the mesh changes - it builds nothing that an edit would throw away. The dial shows at once and the feature no longer switches itself off on such a scene.
+- It answers what 3ds Max answered: checked against PickNode on boxes, Editable Poly and Mesh, helpers, lights, shapes, objects hidden, frozen, on a hidden layer or hidden by category, in perspective and top views. Lights, helpers and shapes are still asked of 3ds Max (they are light). A wireframe or bounding-box view keeps 3ds Max's own test: there a click hits an object's edges, not its faces.
+- MarkingForge.hoverBench() measures both tests side by side and says whether they name the same object.
 
 ## 1.5.100 - Submenus five levels deep (2026-10-19)
 
