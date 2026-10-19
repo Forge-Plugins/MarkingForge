@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.101** - Instant over heavy objects (2026-10-19)
+Current version: **1.5.102** - Chain submenus always on (2026-10-19)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.102 - Chain submenus always on (2026-10-19)
+
+- Chain submenus are ALWAYS on: a submenu opens under the cursor and every menu you came through stays as a small circle to go back to. The tick left MarkingForge \> Experimental features and the editor's Experimental features window; a menus.json that says "chainSubmenus": false is read and ignored. For a menu whose submenus should open in place, the editor's Chain submenus row still says Off for that menu.
+- A quick flick back to the circle of the menu above no longer opens a submenu instead. The circle sits just past the ring, in the direction the hand came from - where this menu's own tile in that direction is; a fast flick went from inside the ring to past the circle between two readings of the mouse, never landing on it, and if that tile was a submenu it opened. Now a move that passes within reach of a circle on its way into a submenu goes back to that circle's menu. A move past the circle onto a command still runs the command.
+- A circle farther away than the dial's window (three or four levels up) was not drawn at all, though it worked. It now shows as an arrow on the window's edge, pointing the way to it.
+- The mouse no longer stutters in the WHOLE of Windows when 3ds Max freezes. With a dial on a mouse button, MarkingForge watched the mouse through a global hook, and Windows makes every click and move of every program wait for such a hook: while 3ds Max was frozen (a crash being written to disk, a debugger, a hang on the way out) each one waited 310 ms. Now the mouse is watched on 3ds Max's own thread only - a dial opens on a click in 3ds Max as before, and nothing outside 3ds Max ever waits for it (measured: 3-15 ms with 3ds Max frozen, 310 ms before). A button let go over another program still ends the dial. The keyboard hooks' threads run at the highest priority.
 
 ## 1.5.101 - Instant over heavy objects (2026-10-19)
 

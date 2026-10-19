@@ -27,22 +27,22 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.101
+## Current version: 1.5.102
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.102 - Chain submenus always on (2026-10-19)](CHANGELOG.md#15102---chain-submenus-always-on-2026-10-19)
 - [1.5.101 - Instant over heavy objects (2026-10-19)](CHANGELOG.md#15101---instant-over-heavy-objects-2026-10-19)
 - [1.5.100 - Submenus five levels deep (2026-10-19)](CHANGELOG.md#15100---submenus-five-levels-deep-2026-10-19)
 - [1.5.99 - Chain submenus per menu (2026-10-19)](CHANGELOG.md#1599---chain-submenus-per-menu-2026-10-19)
 - [1.5.98 - Chain submenus, Maya's way (experimental) (2026-10-19)](CHANGELOG.md#1598---chain-submenus-mayas-way-experimental-2026-10-19)
-- [1.5.97 - Editable Mesh on the Modelling dial (2026-10-19)](CHANGELOG.md#1597---editable-mesh-on-the-modelling-dial-2026-10-19)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
 ## What's new
 
 - **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now a few milliseconds, even right after you edit the mesh, and a quick press is never lost.
-- **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up. On by default; set it per menu in the editor (Default / On / Off).
+- **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up, however deep you went. Always on; a menu can still open its submenus in place (the editor's Chain submenus row).
 - **Deeper menus** - submenus can go four levels under a dial.
 - **Editable Mesh on the Modelling dial** - vertex, edge, face, polygon and element tools - Extrude, Bevel, Chamfer, Weld and more - in the same directions as on Editable Poly.
 - **Windows never waits for 3ds Max** - while a dial is held, typing and clicking in other programs stay instant, however busy 3ds Max is.
