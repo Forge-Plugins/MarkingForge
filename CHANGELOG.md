@@ -1,8 +1,18 @@
 # Release notes
 
-Current version: **1.5.104** - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)
+Current version: **1.5.105** - Parameter wizard (beta): lights, cameras, soft selection (2026-10-21)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.105 - Parameter wizard (beta): lights, cameras, soft selection (2026-10-21)
+
+- Value... \> Choose parameter... (beta) offers more parameters, with the same safety as before (exactly one selected object of the right kind, Auto Key off, the parameter not animated, one Undo):
+  - a light's intensity: a Standard light's Multiplier (Omni, Spot, Directional, Skylight), a Photometric light's Intensity (in its own cd, lm or lx), a V-Ray light's Multiplier, a Corona light's Intensity, VRaySun's and CoronaSun's intensity;
+  - a camera's focal length in mm: Standard, Physical, V-Ray and Corona cameras - with Specify FOV on it changes nothing and says so;
+  - a Physical camera's exposure (EV), when its exposure is set by EV;
+  - Soft Selection - Falloff of the Editable Poly or Edit Poly open in the Modify panel, in the units you choose; with Use Soft Selection off it changes nothing and says so.
+- A class your 3ds Max does not have (no V-Ray, no Corona) is simply never matched: such a direction changes nothing there.
+- The window lists what fits the selection first; the rest is marked "(not on this object)".
 
 ## 1.5.104 - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)
 
