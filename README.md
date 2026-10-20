@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.103
+## Current version: 1.5.104
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.104 - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)](CHANGELOG.md#15104---fixes-from-a-review-of-15101---15103-2026-10-20)
 - [1.5.103 - Parameter wizard (beta) (2026-10-20)](CHANGELOG.md#15103---parameter-wizard-beta-2026-10-20)
 - [1.5.102 - Chain submenus always on (2026-10-19)](CHANGELOG.md#15102---chain-submenus-always-on-2026-10-19)
 - [1.5.101 - Instant over heavy objects (2026-10-19)](CHANGELOG.md#15101---instant-over-heavy-objects-2026-10-19)
 - [1.5.100 - Submenus five levels deep (2026-10-19)](CHANGELOG.md#15100---submenus-five-levels-deep-2026-10-19)
-- [1.5.99 - Chain submenus per menu (2026-10-19)](CHANGELOG.md#1599---chain-submenus-per-menu-2026-10-19)
 <!-- version:end -->
 
 <!-- whatsnew:start -->

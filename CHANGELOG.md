@@ -1,8 +1,16 @@
 # Release notes
 
-Current version: **1.5.103** - Parameter wizard (beta) (2026-10-20)
+Current version: **1.5.104** - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.104 - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)
+
+- A mouse button bound to a dial, pressed in 3ds Max and released over another program after the gesture had ended (Escape, another window in front), was still taken as held: other mouse bindings did nothing until the next gesture. Now such a hold is forgotten at the next press.
+- A queue ending in a direction made with the parameter wizard (beta) no longer selects the object under the cursor first: it changes the selected object, as the direction itself does.
+- The object under the cursor: a long spline, bone chain or large helper behind a wall no longer wins over the wall in front of it.
+- The wizard's refusals replace the text in 3ds Max's prompt line instead of piling up under it.
+- MarkingForge.experimentalSet "chainSubmenus" false says chain submenus are always on (since 1.5.102) instead of answering OFF.
 
 ## 1.5.103 - Parameter wizard (beta) (2026-10-20)
 
