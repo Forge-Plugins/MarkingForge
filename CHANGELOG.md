@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.102** - Chain submenus always on (2026-10-19)
+Current version: **1.5.103** - Parameter wizard (beta) (2026-10-20)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.103 - Parameter wizard (beta) (2026-10-20)
+
+- BETA: a direction that sets a value, without writing MAXScript. In the menu editor, Value... \> Choose parameter... (beta): pick a supported parameter - the Height, Length or Width of a Box, the Radius or Height of a Cylinder, TurboSmooth's Iterations, the Perspective view's field of view - give the range and the units, read the current value, and the wizard fills the window. In the gesture you drag through the direction: the distance sets the number, releasing the key applies it, the centre or Escape changes nothing - as with any value direction.
+- IT CHANGES THE SELECTED OBJECT - exactly one, of the parameter's class (one TurboSmooth on it) - never the object under the cursor, even with "Menu under the cursor" on. With two objects selected, Auto Key on or the parameter animated it changes nothing and says why in 3ds Max's prompt line. Sizes are in the units you choose, converted by 3ds Max: 10 cm is 10 cm in a scene in inches too. One Undo takes it back.
+- The code it makes stays visible in Value...; editing it by hand turns the direction into a plain value one (the old rules, the object under the cursor included). Plain value directions work exactly as before.
+- An older MarkingForge refuses such a direction instead of running it on another object (MarkingForge.wizardRuntime()).
 
 ## 1.5.102 - Chain submenus always on (2026-10-19)
 
