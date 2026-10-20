@@ -8,7 +8,7 @@ Newest first; every version has a heading of its own, so it can be linked.
 
 - A mouse button bound to a dial, pressed in 3ds Max and released over another program after the gesture had ended (Escape, another window in front), was still taken as held: other mouse bindings did nothing until the next gesture. Now such a hold is forgotten at the next press.
 - A queue ending in a direction made with the parameter wizard (beta) no longer selects the object under the cursor first: it changes the selected object, as the direction itself does.
-- The object under the cursor: a long spline, bone chain or large helper behind a wall no longer wins over the wall in front of it.
+- The object under the cursor: a long spline, bone chain or large helper behind a wall no longer wins over the wall in front of it, and a thin line a few pixels from the cursor is found as 3ds Max itself finds it (it was missed in a Top view when 5 pixels away).
 - The wizard's refusals replace the text in 3ds Max's prompt line instead of piling up under it.
 - MarkingForge.experimentalSet "chainSubmenus" false says chain submenus are always on (since 1.5.102) instead of answering OFF.
 
