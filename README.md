@@ -27,20 +27,21 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.106
+## Current version: 1.5.107
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.107 - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)](CHANGELOG.md#15107---your-own-maya-layout-beta-lines-and-gaps-in-the-list-2026-10-21)
 - [1.5.106 - Parameter wizard (beta): modifiers, depth of field, light size (2026-10-21)](CHANGELOG.md#15106---parameter-wizard-beta-modifiers-depth-of-field-light-size-2026-10-21)
 - [1.5.105 - Parameter wizard (beta): lights, cameras, soft selection (2026-10-21)](CHANGELOG.md#15105---parameter-wizard-beta-lights-cameras-soft-selection-2026-10-21)
 - [1.5.104 - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)](CHANGELOG.md#15104---fixes-from-a-review-of-15101---15103-2026-10-20)
 - [1.5.103 - Parameter wizard (beta) (2026-10-20)](CHANGELOG.md#15103---parameter-wizard-beta-2026-10-20)
-- [1.5.102 - Chain submenus always on (2026-10-19)](CHANGELOG.md#15102---chain-submenus-always-on-2026-10-19)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
 ## What's new
 
+- **Your own Maya layout (beta)** - in Maya's look, drag each menu's boxes where your hand expects them, leave places empty, make it asymmetric - and group the list under the dial with lines or gaps.
 - **Parameter wizard (beta)** - put a light's intensity, size or colour temperature (Standard, Photometric, V-Ray, Corona), a camera's focal length, f-number or focus, Shell / Chamfer / Bend and other modifiers, the Soft Selection falloff, Box or Cylinder sizes, TurboSmooth iterations or the field of view on a direction with no MAXScript - drag for the number, release to apply. It changes the selected object, never the one under the cursor.
 - **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now a few milliseconds, even right after you edit the mesh, and a quick press is never lost.
 - **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up, however deep you went. Always on; a menu can still open its submenus in place (the editor's Chain submenus row).
@@ -48,7 +49,6 @@ The latest changes ([all release notes](CHANGELOG.md)):
 - **Editable Mesh on the Modelling dial** - vertex, edge, face, polygon and element tools - Extrude, Bevel, Chamfer, Weld and more - in the same directions as on Editable Poly.
 - **Windows never waits for 3ds Max** - while a dial is held, typing and clicking in other programs stay instant, however busy 3ds Max is.
 - **Multiple picks run from the centre** - queue several commands, come back to the middle and let go - all of them run.
-- **Keeps up with heavy scenes** - a held dial no longer lags over a dense mesh in sub-object mode, and on a 120-180 Hz screen it draws as often as the screen can show.
 
 Before you buy: the [FAQ](FAQ.md) answers the usual questions - versions, safety, licence, uninstalling.
 <!-- whatsnew:end -->

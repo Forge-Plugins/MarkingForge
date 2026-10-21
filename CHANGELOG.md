@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.106** - Parameter wizard (beta): modifiers, depth of field, light size (2026-10-21)
+Current version: **1.5.107** - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.107 - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)
+
+- BETA, asked by a user: in Maya's look, place a menu's boxes where you want them. Editor \> "Maya layout... (beta)" (the row under the directions) shows the menu's boxes: drag one (Shift snaps its angle to 15 degrees), type its place or nudge it with the arrows; start from Maya's own, six with two on each side, a hexagon or eight on a circle. Asymmetric layouts are fine. Leave directions empty for fewer of them - an empty direction is not drawn.
+- Aiming: a box under the cursor wins, as in Maya's look so far; else the box nearest by angle, within 22.5 degrees - a move towards EMPTY SPACE cancels. A quick flick aims by the same rule, so it cannot disagree with the held dial. Menus without their own layout are unchanged.
+- The list under the dial can be grouped: "Separator above..." puts a line or an empty gap above the selected row. It moves with the row; the rows below it move down on the dial and are aimed where they are drawn.
 
 ## 1.5.106 - Parameter wizard (beta): modifiers, depth of field, light size (2026-10-21)
 
