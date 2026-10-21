@@ -1,8 +1,16 @@
 # Release notes
 
-Current version: **1.5.105** - Parameter wizard (beta): lights, cameras, soft selection (2026-10-21)
+Current version: **1.5.106** - Parameter wizard (beta): modifiers, depth of field, light size (2026-10-21)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.106 - Parameter wizard (beta): modifiers, depth of field, light size (2026-10-21)
+
+- Value... \> Choose parameter... (beta) offers more, with the same safety (exactly one selected object, Auto Key off, the parameter not animated, one Undo):
+  - modifiers on the selected object: Shell Outer / Inner Amount, Chamfer Amount (a Fixed amount) and Segments, Relax Value, Push Value (it may go below 0), Bend and Twist Angle, Noise Strength Z. The object needs exactly ONE modifier of that kind; sizes are in the units you choose, converted by 3ds Max;
+  - depth of field: a Physical, V-Ray or Corona camera's f-number and focus distance - the focus distance only when the camera uses a custom focus distance, not its target;
+  - an area light's Width and Length: a V-Ray Plane light, a Corona Rectangle light, a Photometric area light;
+  - a light's colour temperature in Kelvin: Photometric (with Kelvin on), V-Ray and Corona (set their colour to temperature to see it).
 
 ## 1.5.105 - Parameter wizard (beta): lights, cameras, soft selection (2026-10-21)
 
