@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.107** - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)
+Current version: **1.5.108** - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.108 - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)
+
+- The layout works ON THE DIAL too, not only in Maya's look: its caption tiles stand at your places and each wedge is drawn around its tile's direction - 22.5 degrees each side, or half way to a closer neighbour; between wedges is empty space, and a move there cancels, as in Maya's look. The editor's button is now "Layout... (beta)".
+- Boxes may stand further out: -1.3 to 1.3 ring radii (Maya's own boxes stay within 1). The window grows by what a layout needs - sized when 3ds Max starts, for every menu and submenu - and a box standing lower than S moves the list down below it.
+- Nudging in PIXELS: the arrows move the selected box by 1, 5 or 10 screen pixels at your Dial size, and the table shows each box's shift from Maya's place in pixels. The preview shows Maya's look or the dial.
+- A submenu's list with lines or gaps no longer risks ending past the window's edge.
 
 ## 1.5.107 - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)
 
