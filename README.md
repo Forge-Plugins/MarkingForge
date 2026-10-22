@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.108
+## Current version: 1.5.109
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.109 - Your own layout (beta): fixes from a review (2026-10-22)](CHANGELOG.md#15109---your-own-layout-beta-fixes-from-a-review-2026-10-22)
 - [1.5.108 - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)](CHANGELOG.md#15108---your-own-layout-beta-the-dial-too-further-out-by-pixels-2026-10-21)
 - [1.5.107 - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)](CHANGELOG.md#15107---your-own-maya-layout-beta-lines-and-gaps-in-the-list-2026-10-21)
 - [1.5.106 - Parameter wizard (beta): modifiers, depth of field, light size (2026-10-21)](CHANGELOG.md#15106---parameter-wizard-beta-modifiers-depth-of-field-light-size-2026-10-21)
 - [1.5.105 - Parameter wizard (beta): lights, cameras, soft selection (2026-10-21)](CHANGELOG.md#15105---parameter-wizard-beta-lights-cameras-soft-selection-2026-10-21)
-- [1.5.104 - Fixes from a review of 1.5.101 - 1.5.103 (2026-10-20)](CHANGELOG.md#15104---fixes-from-a-review-of-15101---15103-2026-10-20)
 <!-- version:end -->
 
 <!-- whatsnew:start -->

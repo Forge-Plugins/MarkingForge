@@ -1,8 +1,16 @@
 # Release notes
 
-Current version: **1.5.108** - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)
+Current version: **1.5.109** - Your own layout (beta): fixes from a review (2026-10-22)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.109 - Your own layout (beta): fixes from a review (2026-10-22)
+
+- A flick on a dial with its own layout measured the settings rim from the layout of the menu opened before it, so a flick could open a command's settings where the held dial would have run it (or the other way round).
+- Live dials (undo, recent, modifiers, selection sets) keep the layout their menu has, and the window has room for it from the start.
+- On the dial, a layout written by hand for some directions only moves those directions; the others stay on the ring. "mayaLayout": {} changes nothing. A place past 1.3 ring radii is clamped with a warning.
+- The search draws its results in the plain places, not in the layout of the menu it was opened from. The queue row stays above a box pushed higher than N. A flick into empty space counts as a cancel.
+- Editor: "Assign to selected row" keeps the row's line or gap; a box dragged or typed near the centre stays where the plugin can aim at it; the X / Y fields show the stored place and select the box you type in; a hand-written "Line" in capitals is read as a line.
 
 ## 1.5.108 - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)
 
