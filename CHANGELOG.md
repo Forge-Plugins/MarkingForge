@@ -10,6 +10,7 @@ Newest first; every version has a heading of its own, so it can be linked.
 - A value typed into X or Y counts on Enter or when you leave the field. Typing 0.5 used to pass through 0 and move the other coordinate.
 - A box dragged just past the centre limit is no longer rounded back under it. The window's title names a submenu too.
 - The hotbox does not aim by the layout of the dial opened before it; a flick treats a box with no caption as empty space, as the held dial does; saved points are written to 0.001.
+- A live variant (undo, recent...) with its own layout gets the window's room at start-up, not when it first opens; a flick never changes the layout of a dial already on screen.
 
 ## 1.5.109 - Your own layout (beta): fixes from a review (2026-10-22)
 
