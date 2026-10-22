@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.113** - The selected object wins under the cursor (2026-10-22)
+Current version: **1.5.114** - A line under the cursor in 3ds Max 2025 (2026-10-22)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.114 - A line under the cursor in 3ds Max 2025 (2026-10-22)
+
+- In 3ds Max 2025 a line (or another shape, a light or a helper) a few pixels from the cursor could be missed by the menu of the object under the cursor, although 3ds Max itself would pick it. Measured in 2025, 2026 and 2027: MarkingForge now offers 3ds Max every such object it could pick, and 3ds Max decides, as before.
 
 ## 1.5.113 - The selected object wins under the cursor (2026-10-22)
 
