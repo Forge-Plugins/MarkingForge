@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.112
+## Current version: 1.5.113
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.113 - The selected object wins under the cursor (2026-10-22)](CHANGELOG.md#15113---the-selected-object-wins-under-the-cursor-2026-10-22)
 - [1.5.112 - Pivots the Maya way (2026-10-22)](CHANGELOG.md#15112---pivots-the-maya-way-2026-10-22)
 - [1.5.111 - The hotbox's boxes for scripts (2026-10-22)](CHANGELOG.md#15111---the-hotboxs-boxes-for-scripts-2026-10-22)
 - [1.5.110 - Your own layout (beta): final review (2026-10-22)](CHANGELOG.md#15110---your-own-layout-beta-final-review-2026-10-22)
 - [1.5.109 - Your own layout (beta): fixes from a review (2026-10-22)](CHANGELOG.md#15109---your-own-layout-beta-fixes-from-a-review-2026-10-22)
-- [1.5.108 - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)](CHANGELOG.md#15108---your-own-layout-beta-the-dial-too-further-out-by-pixels-2026-10-21)
 <!-- version:end -->
 
 <!-- whatsnew:start -->

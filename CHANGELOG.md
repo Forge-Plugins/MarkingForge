@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.112** - Pivots the Maya way (2026-10-22)
+Current version: **1.5.113** - The selected object wins under the cursor (2026-10-22)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.113 - The selected object wins under the cursor (2026-10-22)
+
+- Reported by a user: with a cylinder selected and the cursor on it, the dial was the one of a plane (Editable Poly) standing in front of it in the Front view - 3ds Max draws a selected object's wireframe on top, so the cylinder looked as if it was under the cursor. Now a SELECTED object the cursor is over wins, even with another object in front of it. With nothing selected there, the nearest object decides, as before. The same in a wireframe view.
 
 ## 1.5.112 - Pivots the Maya way (2026-10-22)
 
