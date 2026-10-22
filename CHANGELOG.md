@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.109** - Your own layout (beta): fixes from a review (2026-10-22)
+Current version: **1.5.110** - Your own layout (beta): final review (2026-10-22)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.110 - Your own layout (beta): final review (2026-10-22)
+
+- The layout window saves only the boxes you move. The others keep each look's own place - Maya's in Maya's look, the ring on the dial - so on the classic dial nudging one box no longer pulls the diagonals off the ring. "Own place" gives a box back to it, and the dial preview shows the ring.
+- A value typed into X or Y counts on Enter or when you leave the field. Typing 0.5 used to pass through 0 and move the other coordinate.
+- A box dragged just past the centre limit is no longer rounded back under it. The window's title names a submenu too.
+- The hotbox does not aim by the layout of the dial opened before it; a flick treats a box with no caption as empty space, as the held dial does; saved points are written to 0.001.
 
 ## 1.5.109 - Your own layout (beta): fixes from a review (2026-10-22)
 
