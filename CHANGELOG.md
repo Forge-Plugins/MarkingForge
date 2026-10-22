@@ -1,8 +1,12 @@
 # Release notes
 
-Current version: **1.5.110** - Your own layout (beta): final review (2026-10-22)
+Current version: **1.5.111** - The hotbox's boxes for scripts (2026-10-22)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.111 - The hotbox's boxes for scripts (2026-10-22)
+
+- MarkingForge.dialInfo() names the open hotbox's menus and listed commands with their places (hbTitles=, hbEntries=), so a script or a test finds "Edit \> Select None" by its name. The hotbox lays out each 3ds Max's own menu bar, so the places differ between 3ds Max versions and between installs - pixels taken from one of them miss in another. Nothing changes in how the hotbox works.
 
 ## 1.5.110 - Your own layout (beta): final review (2026-10-22)
 
