@@ -1,8 +1,18 @@
 # Release notes
 
-Current version: **1.5.111** - The hotbox's boxes for scripts (2026-10-22)
+Current version: **1.5.112** - Pivots the Maya way (2026-10-22)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.112 - Pivots the Maya way (2026-10-22)
+
+- Asked by a user: Maya's pivot tools. A new extra dial, Pivot (Maya style) - put it on a key with Editor \> Dial library... - and fifteen scripts in the Script library's new group "Pivots (Maya style)":
+  - Pivot here: open the dial over a spot and the pivot goes there - Maya's D and a click in one move. Pivot here + normal turns the pivot's Z along the surface; Pivot to vertex here snaps onto the nearest corner (Maya's D + V).
+  - Pivot to selected parts: the centre of the selected vertices, edges or polygons of an Editable Poly or an Edit Poly; Pivot to parts + normal turns Z along their polygons' average normal.
+  - Match pivot: the selected objects take the pivot of the one selected last (Maya's Match Pivots); Copy pivot / Paste pivot.
+  - Pivot to top, to each side, to the min and max corner of the box.
+  - Edit pivot on the dial is 3ds Max's own Affect Pivot Only toggle.
+- Nothing moves but the pivot: the mesh and any children stay where they are. A script that would turn the pivot of an animated object, with Auto Key on or on an object scaled unevenly leaves it alone and says why in the MAXScript Listener.
 
 ## 1.5.111 - The hotbox's boxes for scripts (2026-10-22)
 

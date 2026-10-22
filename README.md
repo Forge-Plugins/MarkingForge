@@ -27,20 +27,21 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.111
+## Current version: 1.5.112
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.112 - Pivots the Maya way (2026-10-22)](CHANGELOG.md#15112---pivots-the-maya-way-2026-10-22)
 - [1.5.111 - The hotbox's boxes for scripts (2026-10-22)](CHANGELOG.md#15111---the-hotboxs-boxes-for-scripts-2026-10-22)
 - [1.5.110 - Your own layout (beta): final review (2026-10-22)](CHANGELOG.md#15110---your-own-layout-beta-final-review-2026-10-22)
 - [1.5.109 - Your own layout (beta): fixes from a review (2026-10-22)](CHANGELOG.md#15109---your-own-layout-beta-fixes-from-a-review-2026-10-22)
 - [1.5.108 - Your own layout (beta): the dial too, further out, by pixels (2026-10-21)](CHANGELOG.md#15108---your-own-layout-beta-the-dial-too-further-out-by-pixels-2026-10-21)
-- [1.5.107 - Your own Maya layout (beta), lines and gaps in the list (2026-10-21)](CHANGELOG.md#15107---your-own-maya-layout-beta-lines-and-gaps-in-the-list-2026-10-21)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
 ## What's new
 
+- **Pivots the Maya way** - open a dial over a spot and the pivot goes there - onto the surface, along its normal or onto a vertex; to the selected vertices, edges or polygons; matched or copied from another object; to any side or corner of the box. Fifteen new scripts and a ready dial, Pivot (Maya style); the mesh never moves.
 - **Your own layout (beta)** - in Maya's look and on the dial, drag each menu's boxes where your hand expects them, nudge them by pixels, leave places empty, make it asymmetric - and group the list under the dial with lines or gaps.
 - **Parameter wizard (beta)** - put a light's intensity, size or colour temperature (Standard, Photometric, V-Ray, Corona), a camera's focal length, f-number or focus, Shell / Chamfer / Bend and other modifiers, the Soft Selection falloff, Box or Cylinder sizes, TurboSmooth iterations or the field of view on a direction with no MAXScript - drag for the number, release to apply. It changes the selected object, never the one under the cursor.
 - **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now a few milliseconds, even right after you edit the mesh, and a quick press is never lost.
