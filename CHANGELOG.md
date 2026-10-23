@@ -11,6 +11,8 @@ Newest first; every version has a heading of its own, so it can be linked.
 - The line between the rows of the list under the dial (Separator above...) has a colour of its own: Colours... \> list \> "line between list rows". Not set, it stays as it was.
 - The editor's previews follow the look the dials are drawn in. With "Maya marking menu look" ticked in Experimental features, the preview in Colours... shows Maya's look; "Preview:" above it can show the colours being edited in either shape. Layout... (beta) opens in the dial's own look.
 - The editor's drawing of the dial is bigger, has a "Preview:" switch (as 3ds Max draws it - Maya's look when it is ticked - the dial, or Maya's look), and its boxes can be dragged a little up, down or sideways: the menu's own layout, as Layout... (beta) sets it.
+- Your own layout reaches the variants: reported - the boxes placed on Modelling showed in the editor but often not in the viewport, because the layout sat on the dial's base menu and a variant (Poly: vertex..., Nothing selected) was showing. A variant with no layout of its own now uses its dial's; one with its own keeps it. Over the editor's drawing: "Assign to all variants" gives the whole dial the layout shown, and "Drag in every variant" moves a box everywhere at once - unticked, each variant is changed on its own.
+- Save in the editor takes effect at once - the plugin no longer waits the 150 ms its file watcher gives a burst of writes.
 
 ## 1.5.116 - Final review of 1.5.111-1.5.115 (2026-10-23)
 
