@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.114** - A line under the cursor in 3ds Max 2025 (2026-10-22)
+Current version: **1.5.115** - Chained submenus open clear of the way back (2026-10-23)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.115 - Chained submenus open clear of the way back (2026-10-23)
+
+- Asked by a user (AJ), with videos of Maya: a chained submenu opened where the hand crossed the ring, so the small circle back to the menu above stood among the new menu's boxes - going back caught one. Now, as in Maya, the submenu opens a little further out, where that circle is well clear of its boxes - or right where you stop. With nothing in the way back it opens at once, as before.
+- Going back, a submenu lying on the way to the circle no longer opens as the hand passes it; rest on it and it opens.
+- MarkingForge \> About MarkingForge thanks AJ for many of MarkingForge's ideas and for excellent, precise feedback - with a way to reach AJ for feature ideas.
 
 ## 1.5.114 - A line under the cursor in 3ds Max 2025 (2026-10-22)
 
