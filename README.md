@@ -41,11 +41,12 @@ The latest changes ([all release notes](CHANGELOG.md)):
 <!-- whatsnew:start -->
 ## What's new
 
+- **Chain distance, scene dials, a bigger editor drawing (1.5.117)** - a chained submenu opens farther away, as far as you set (the cursor stays put); every dial goes into a scene with one button; the editor's drawing shows Maya's look and lets you drag its boxes; the line between list rows has a colour of its own.
 - **Pivots the Maya way** - open a dial over a spot and the pivot goes there - onto the surface, along its normal or onto a vertex; to the selected vertices, edges or polygons; matched or copied from another object; to any side or corner of the box. Fifteen new scripts and a ready dial, Pivot (Maya style); the mesh never moves.
 - **Your own layout (beta)** - in Maya's look and on the dial, drag each menu's boxes where your hand expects them, nudge them by pixels, leave places empty, make it asymmetric - and group the list under the dial with lines or gaps.
 - **Parameter wizard (beta)** - put a light's intensity, size or colour temperature (Standard, Photometric, V-Ray, Corona), a camera's focal length, f-number or focus, Shell / Chamfer / Bend and other modifiers, the Soft Selection falloff, Box or Cylinder sizes, TurboSmooth iterations or the field of view on a direction with no MAXScript - drag for the number, release to apply. It changes the selected object, never the one under the cursor.
 - **Instant over heavy objects** - with the menu under the cursor on, a dial over a mesh of millions of faces waited for 3ds Max to find the object - 280 ms on every press. Now a few milliseconds, even right after you edit the mesh, and a quick press is never lost.
-- **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up, however deep you went. Always on; a menu can still open its submenus in place (the editor's Chain submenus row).
+- **Chain submenus, the Maya and PieMaster way** - a submenu opens right under the cursor and leaves a small circle behind - slide back onto it to go up, however deep you went - clear of that circle, and as far on as Chain distance says. Always on; a menu can still open its submenus in place (the editor's Chain submenus row).
 - **Deeper menus** - submenus can go four levels under a dial.
 - **Editable Mesh on the Modelling dial** - vertex, edge, face, polygon and element tools - Extrude, Bevel, Chamfer, Weld and more - in the same directions as on Editable Poly.
 - **Windows never waits for 3ds Max** - while a dial is held, typing and clicking in other programs stay instant, however busy 3ds Max is.

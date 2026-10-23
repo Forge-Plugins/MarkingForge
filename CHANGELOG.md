@@ -7,9 +7,10 @@ Newest first; every version has a heading of its own, so it can be linked.
 ## 1.5.117 - Chain distance, the list's separator colour (2026-10-23)
 
 - Menus from the scene file: reported by a user - the option was on and the scene saved, yet the scene carried no menus. The editor's Save writes your configuration, never the scene, and only a MAXScript command put a dial into one. Experimental features... now has "Store all my dials in this scene" and "Remove the dials from this scene": every dial goes in at once, with its pages (the mouse wheel turns them in the scene too). Save the scene afterwards.
-- A chained submenu now opens a little farther out: 40 px past the point where the circle back is clear of its boxes. Editor \> Chain distance... sets how much farther, 0 to 300 px (0 = as in 1.5.115). Stop moving and it still opens right where you stopped.
+- A chained submenu now opens a little farther away: at the same moment as before, 40 px farther on in your direction. Editor \> Chain distance... sets it, 0 to 300 px (0 = on the hand, as in 1.5.115). The cursor does not jump - the new menu waits until your hand reaches its centre.
 - The line between the rows of the list under the dial (Separator above...) has a colour of its own: Colours... \> list \> "line between list rows". Not set, it stays as it was.
 - The editor's previews follow the look the dials are drawn in. With "Maya marking menu look" ticked in Experimental features, the preview in Colours... shows Maya's look; "Preview:" above it can show the colours being edited in either shape. Layout... (beta) opens in the dial's own look.
+- The editor's drawing of the dial is bigger, has a "Preview:" switch (as 3ds Max draws it - Maya's look when it is ticked - the dial, or Maya's look), and its boxes can be dragged a little up, down or sideways: the menu's own layout, as Layout... (beta) sets it.
 
 ## 1.5.116 - Final review of 1.5.111-1.5.115 (2026-10-23)
 
