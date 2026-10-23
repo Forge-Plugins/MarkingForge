@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.115** - Chained submenus open clear of the way back (2026-10-23)
+Current version: **1.5.116** - Final review of 1.5.111-1.5.115 (2026-10-23)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.116 - Final review of 1.5.111-1.5.115 (2026-10-23)
+
+- Pivots (Maya style): the scripts that turn a pivot leave alone an object with an animated child (the child would have moved on every other frame), a light, a camera or a helper (their pivot is where they point), and name a mirrored object as mirrored. "Pivot here" finds the surface you see from either side - the inside of a room, flipped normals. "Pivot to selected parts" on a heavy Edit Poly no longer walks the whole mesh.
+- Chained submenus with their own layout (beta) open clear of the way back by their own boxes, not the menu above's.
+- About names AJ's address in the About window only.
 
 ## 1.5.115 - Chained submenus open clear of the way back (2026-10-23)
 

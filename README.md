@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.115
+## Current version: 1.5.116
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.116 - Final review of 1.5.111-1.5.115 (2026-10-23)](CHANGELOG.md#15116---final-review-of-15111-15115-2026-10-23)
 - [1.5.115 - Chained submenus open clear of the way back (2026-10-23)](CHANGELOG.md#15115---chained-submenus-open-clear-of-the-way-back-2026-10-23)
 - [1.5.114 - A line under the cursor in 3ds Max 2025 (2026-10-22)](CHANGELOG.md#15114---a-line-under-the-cursor-in-3ds-max-2025-2026-10-22)
 - [1.5.113 - The selected object wins under the cursor (2026-10-22)](CHANGELOG.md#15113---the-selected-object-wins-under-the-cursor-2026-10-22)
 - [1.5.112 - Pivots the Maya way (2026-10-22)](CHANGELOG.md#15112---pivots-the-maya-way-2026-10-22)
-- [1.5.111 - The hotbox's boxes for scripts (2026-10-22)](CHANGELOG.md#15111---the-hotboxs-boxes-for-scripts-2026-10-22)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
