@@ -1,8 +1,14 @@
 # Release notes
 
-Current version: **1.5.117** - Chain distance, the list's separator colour (2026-10-23)
+Current version: **1.5.118** - A chained submenu answers at once (2026-10-24)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.118 - A chained submenu answers at once (2026-10-24)
+
+- Reported by a user (AJ): Alt+2, Modifiers \> Geometry, and moving near OpenSubdiv did not activate it - twice the menu had to be opened again. The first 1.5.117 builds waited for the hand to reach the submenu's centre, which Chain distance had moved on; now the direction is read from where your hand is until then, and a box under the cursor wins. Checked in 3ds Max on that very way, near OpenSubdiv's box and on it.
+- Getting out of a chained submenu: a move over its circle, or a hand beyond it close to its line, goes back too.
+- The version number tells the builds apart: everything from 2026-10-24 on is 1.5.118.
 
 ## 1.5.117 - Chain distance, the list's separator colour (2026-10-23)
 

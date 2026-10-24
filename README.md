@@ -27,15 +27,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.117
+## Current version: 1.5.118
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.118 - A chained submenu answers at once (2026-10-24)](CHANGELOG.md#15118---a-chained-submenu-answers-at-once-2026-10-24)
 - [1.5.117 - Chain distance, the list's separator colour (2026-10-23)](CHANGELOG.md#15117---chain-distance-the-lists-separator-colour-2026-10-23)
 - [1.5.116 - Final review of 1.5.111-1.5.115 (2026-10-23)](CHANGELOG.md#15116---final-review-of-15111-15115-2026-10-23)
 - [1.5.115 - Chained submenus open clear of the way back (2026-10-23)](CHANGELOG.md#15115---chained-submenus-open-clear-of-the-way-back-2026-10-23)
 - [1.5.114 - A line under the cursor in 3ds Max 2025 (2026-10-22)](CHANGELOG.md#15114---a-line-under-the-cursor-in-3ds-max-2025-2026-10-22)
-- [1.5.113 - The selected object wins under the cursor (2026-10-22)](CHANGELOG.md#15113---the-selected-object-wins-under-the-cursor-2026-10-22)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
