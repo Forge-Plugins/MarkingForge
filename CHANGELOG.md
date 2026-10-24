@@ -1,8 +1,13 @@
 # Release notes
 
-Current version: **1.5.118** - A chained submenu answers at once (2026-10-24)
+Current version: **1.5.119** - No "Overriding" left on the status line (2026-10-24)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.119 - No "Overriding" left on the status line (2026-10-24)
+
+- Reported by a user (AJ): after the Modelling dial on an Editable Poly with Symmetry and OpenSubdiv, 3ds Max's status line kept saying "MarkingForge: Menu 1 - Modelling Overriding". 3ds Max shows that text while a dial is held and takes the newest message off when the key comes up; a dial command that changes the sub-object level (Object level, Vertex, Edge...) adds one of its own at that very moment, so 3ds Max took that one off and its "Overriding" stayed. Reproduced in 3ds Max 2027 and fixed: the status line is put back as it should be.
+- Should the text ever stay again, MarkingForge \> Diagnostics \> Event log says so - useful in a report.
 
 ## 1.5.118 - A chained submenu answers at once (2026-10-24)
 
