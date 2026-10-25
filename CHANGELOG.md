@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.119** - No "Overriding" left on the status line (2026-10-24)
+Current version: **1.5.120** - The dial keys work in every hotkey set (2026-10-25)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.120 - The dial keys work in every hotkey set (2026-10-25)
+
+- Reported by a user (AJ): after choosing another hotkey set in 3ds Max's Hotkey Editor ("3ds Max Default") and restarting, the MarkingForge set was gone from the list, and opening the MarkingForge editor brought it back without a single MarkingForge shortcut.
+- The dial keys now live in a file of their own, plugcfg\\MarkingForge\\hotkeys\\MarkingForge\_DialKeys.json and MarkingForge gives them to 3ds Max as its actions' default keys. They come with EVERY hotkey set - 3ds Max Default, Maya, any set of yours - and choosing another set no longer takes them away. "Apply shortcuts" works at once, without a restart, and never switches your hotkey set.
+- The first start of 1.5.120 moves the dial keys out of the "MarkingForge\_Hotkeys" set; your own shortcuts stay in it. A key you give a dial in the Hotkey Editor stays in that set only - the editor shows it beside the dial's key, and a change made in the editor replaces it.
+- Opening the editor no longer writes the hotkey set in use into MarkingForge's own, and nothing in MarkingForge exports, loads another or deletes a hotkey file any more. When 3ds Max uses another set while your own shortcuts wait in "MarkingForge\_Hotkeys", the editor says so and offers "Use the MarkingForge\_Hotkeys set".
 
 ## 1.5.119 - No "Overriding" left on the status line (2026-10-24)
 
