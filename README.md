@@ -2,6 +2,24 @@
 
 **Marking menus for Autodesk 3ds Max 2025-2027.** Hold a key, flick the mouse, done.
 
+## Maya's marking menu - in 3ds Max
+
+![Maya's look in 3ds Max: the Modelling dial at polygon level, Extrude aimed](images/maya_marking_menu.png)
+
+One tick - **MarkingForge > Experimental features > Maya marking menu look** - and every dial is
+drawn as Maya's marking menu: grey boxes round a small centre dot, a line to the cursor, Maya's blue
+on the box you aim at, no disc. Clear the tick and your own colours are back.
+
+| Maya's option box | The same dial in both looks |
+|:---:|:---:|
+| ![Maya's option box beside Extrude](images/maya_option_box.png) | ![The MarkingForge dial and Maya's look side by side](images/maya_two_looks.png) |
+| A command with a settings window gets Maya's **option box**: release on the small square to open its settings, anywhere else to run it. | The MarkingForge dial (left) and Maya's look (right) - one setting for every dial, or a look for one dial only. |
+
+In Maya's look, too: **submenus open under the cursor** and leave a small circle to slide back to
+(Chain distance sets how far), **your own layout** (beta) puts each menu's boxes where your hand
+expects them, and the dial's **context** follows what you edit - polygons, edges, a modifier.
+For Maya's own size set **Dial size...** to 60 %; for its instant opening, **Dial speed...** to 0 ms.
+
 > [!IMPORTANT]
 > $${\color{red}\textsf{REAL MARKING MENUS - A QUICK GESTURE NEEDS NO DIAL}}$$
 >
