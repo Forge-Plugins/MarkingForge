@@ -1,8 +1,15 @@
 # Release notes
 
-Current version: **1.5.120** - The dial keys work in every hotkey set (2026-10-25)
+Current version: **1.5.121** - A dial key works while the keyboard is in a field (2026-10-25)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.121 - A dial key works while the keyboard is in a field (2026-10-25)
+
+- Reported by a user (AJ): after typing OpenSubdiv's iterations, the 2 key did not switch to edge mode and the Alt+1 dial did not open - edge mode had to be clicked on the toolbar. While the keyboard is in a field of a panel (a number you typed, a name), 3ds Max switches EVERY shortcut off until Esc or a click in a viewport. Reproduced in 3ds Max 2027.
+- Now a dial key with Alt (Alt+1, Shift+Alt+1 - and Ctrl+Alt+1 from a number field) is handed to the viewport: the dial opens, and the keyboard leaves the field, so 3ds Max's own keys (2 for edge mode) work again too. Ctrl+Alt from a text field stays the field's: on many keyboards it is AltGr and types letters.
+- A dial key without Alt (Space, for one) stays the field's - it may type there. 3ds Max's status line then says for a few seconds that shortcuts are off and how to get them back.
+- Fields of a dialog (a settings window, the Hotkey Editor, the MarkingForge editor) are left alone. Each hand-over is written to the event log.
 
 ## 1.5.120 - The dial keys work in every hotkey set (2026-10-25)
 

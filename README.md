@@ -45,15 +45,15 @@ The plugin itself is sold separately; there is no source code here.
 **Discord:** questions, tips and news with other users and the author - https://discord.gg/HsakZWQZAw
 
 <!-- version:start -->
-## Current version: 1.5.120
+## Current version: 1.5.121
 
 The latest changes ([all release notes](CHANGELOG.md)):
 
+- [1.5.121 - A dial key works while the keyboard is in a field (2026-10-25)](CHANGELOG.md#15121---a-dial-key-works-while-the-keyboard-is-in-a-field-2026-10-25)
 - [1.5.120 - The dial keys work in every hotkey set (2026-10-25)](CHANGELOG.md#15120---the-dial-keys-work-in-every-hotkey-set-2026-10-25)
 - [1.5.119 - No "Overriding" left on the status line (2026-10-24)](CHANGELOG.md#15119---no-overriding-left-on-the-status-line-2026-10-24)
 - [1.5.118 - A chained submenu answers at once (2026-10-24)](CHANGELOG.md#15118---a-chained-submenu-answers-at-once-2026-10-24)
 - [1.5.117 - Chain distance, the list's separator colour (2026-10-23)](CHANGELOG.md#15117---chain-distance-the-lists-separator-colour-2026-10-23)
-- [1.5.116 - Final review of 1.5.111-1.5.115 (2026-10-23)](CHANGELOG.md#15116---final-review-of-15111-15115-2026-10-23)
 <!-- version:end -->
 
 <!-- whatsnew:start -->
