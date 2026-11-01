@@ -1,8 +1,19 @@
 # Release notes
 
-Current version: **1.5.121** - A dial key works while the keyboard is in a field (2026-10-25)
+Current version: **1.5.122** - The rest of Maya's pivot tools (2026-11-01)
 
 Newest first; every version has a heading of its own, so it can be linked.
+
+## 1.5.122 - The rest of Maya's pivot tools (2026-11-01)
+
+- Eleven new scripts in the Script library's group "Pivots (Maya style)" - 26 in all - and a new extra dial, Pivot snapping (Maya style), for the snapping Maya does while the pivot is edited. Open it over a spot:
+  - Pivot to edge here: onto the nearest point of the nearest edge you see there (Maya's D + C) - never a diagonal hidden inside a quad.
+  - Pivot to polygon here: the middle of the polygon there.
+  - Pivot to grid: the nearest point of the home grid (Maya's D + X).
+  - Orient pivot here: Z along the surface there (Maya's Ctrl+Shift click); Aim pivot here: X pointed at the spot (Maya's Ctrl click). The pivot stays where it is.
+- The list under Pivot (Maya style) is full: Reset pivot (the object's own origin and axes - the same as 3ds Max's Reset Pivot), Pivot axes to object, Pivot along edge (X along the selected edges, Z along their polygons), Pivot to selection (one pivot for every selected object), Match pivot place and Match pivot axes, Pivot to grid. Its eight directions are as they were.
+- Pivot to selected parts (and + normal, and along edge) read an Editable Mesh and a bare Editable Spline too - its knots, segments or splines.
+- Every script that moves a pivot now refuses with Auto Key on and on an object that turns or scales in its animation (the pivot set on this frame would be off on every other), and says so in the MAXScript Listener. An object that only moves keeps its animation. This covers the older Pivot to bottom, Pivot to world origin and the box points too.
 
 ## 1.5.121 - A dial key works while the keyboard is in a field (2026-10-25)
 
